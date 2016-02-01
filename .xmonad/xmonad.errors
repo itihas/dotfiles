@@ -1,0 +1,49 @@
+
+xmonad.hs:13:15: Warning:
+    In the use of ‘defaultConfig’
+    (imported from XMonad, but defined in XMonad.Config):
+    Deprecated: "Use def (from Data.Default, and re-exported by XMonad and XMonad.Config) instead."
+
+xmonad.hs:13:71: Warning:
+    In the use of ‘defaultConfig’
+    (imported from XMonad, but defined in XMonad.Config):
+    Deprecated: "Use def (from Data.Default, and re-exported by XMonad and XMonad.Config) instead."
+
+xmonad.hs:14:6: Warning: Tab character
+
+xmonad.hs:14:18: Warning: Tab character
+
+xmonad.hs:14:88: Warning:
+    In the use of ‘defaultConfig’
+    (imported from XMonad, but defined in XMonad.Config):
+    Deprecated: "Use def (from Data.Default, and re-exported by XMonad and XMonad.Config) instead."
+
+xmonad.hs:15:1: Warning: Tab character
+
+xmonad.hs:17:1: Warning: Tab character
+
+xmonad.hs:20:9: Warning: Tab character
+
+xmonad.hs:20:45: Warning: Tab character
+
+xmonad.hs:21:1: Warning: Tab character
+
+xmonad.hs:21:41: Warning: Tab character
+
+xmonad.hs:22:1: Warning: Tab character
+
+xmonad.hs:22:42: Warning: Tab character
+
+xmonad.hs:23:1: Warning: Tab character
+
+xmonad.hs:23:51: Warning: Tab character
+
+xmonad.hs:24:1: Warning: Tab character
+
+xmonad.hs:24:52: Warning: Tab character
+
+xmonad.hs:26:1: Warning: Tab character
+
+xmonad.hs:27:1: Warning: Tab character
+
+xmonad.hs:29:1: Warning: Tab character

@@ -1,0 +1,20 @@
+Config {  bgColor = "#002b36"
+       , fgColor = "#657b83"
+       , position = TopSize L 100 4
+       , lowerOnStart = True
+       , commands = [ Run DynNetwork     [ "--template" , "<dev>: down <rx>kB/s| up <tx>kB/s"] 10
+       	 	    , Run Cpu ["-L","3","-H","50","--high","#dc322f"] 10
+                    , Run Memory ["-t","Mem: <usedratio>%"] 10
+                    , Run Date "%a %b %_d %l:%M" "date" 10
+		    , Run BatteryP ["BAT0"]
+		                      ["-t", "<acstatus>"
+                  		      , "-L", "10", "-H", "80"
+                  		      , "-l", "#cb4b16"
+                  		      , "--", "-O", "Charging: <left>%", "-o", "Battery: <left>%"
+                  		      ] 10
+                    , Run StdinReader
+                    ]
+       , sepChar = "%"
+       , alignSep = "}{"
+       , template = "%StdinReader% }{ %dynnetwork% | %cpu% | %memory% | %battery% | <fc=#b58900>%date%</fc>"
+       }
