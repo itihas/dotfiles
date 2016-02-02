@@ -6214,3 +6214,123 @@ X11 error 3 detected at kde_tray.c:153:kde_tray_find_icon
 (pcmanfm:8870): GLib-CRITICAL **: Source ID 13315 was not found when attempting to remove it
 
 (pcmanfm:8870): GLib-CRITICAL **: Source ID 14120 was not found when attempting to remove it
+
+(pcmanfm:8870): GLib-CRITICAL **: Source ID 14979 was not found when attempting to remove it
+xscreensaver-command: activating and locking.
+
+X11 error: BadWindow (invalid Window parameter) (request: X_ConfigureWindow, resource 0xc)
+X11 error: BadWindow (invalid Window parameter) (request: X_MapWindow, resource 0x8)
+X11 error: BadWindow (invalid Window parameter) (request: X_GetWindowAttributes, resource 0x3)
+X11 error 3 detected at debug.c:140:print_icon_data
+X11 error: BadWindow (invalid Window parameter) (request: X_ChangeWindowAttributes, resource 0x2)
+X11 error: BadWindow (invalid Window parameter) (request: X_UnmapWindow, resource 0xa)
+X11 error: BadWindow (invalid Window parameter) (request: X_ReparentWindow, resource 0x7)
+X11 error: BadWindow (invalid Window parameter) (request: X_ConfigureWindow, resource 0xc)
+X11 error: BadWindow (invalid Window parameter) (request: X_MapWindow, resource 0x8)
+X11 error 3 detected at xutils.c:115:x11_get_server_timestamp
+X11 error: BadWindow (invalid Window parameter) (request: X_SendEvent, resource 0x19)
+X11 error 3 detected at xutils.c:259:x11_get_window_size
+X11 error: BadWindow (invalid Window parameter) (request: X_ConfigureWindow, resource 0xc)
+X11 error: BadWindow (invalid Window parameter) (request: X_MapWindow, resource 0x8)
+X11 error: BadWindow (invalid Window parameter) (request: X_GetWindowAttributes, resource 0x3)
+X11 error 3 detected at debug.c:140:print_icon_data
+X11 error: BadWindow (invalid Window parameter) (request: X_ChangeWindowAttributes, resource 0x2)
+X11 error: BadWindow (invalid Window parameter) (request: X_UnmapWindow, resource 0xa)
+X11 error: BadWindow (invalid Window parameter) (request: X_ReparentWindow, resource 0x7)
+X11 error: BadWindow (invalid Window parameter) (request: X_ConfigureWindow, resource 0xc)
+X11 error: BadWindow (invalid Window parameter) (request: X_MapWindow, resource 0x8)
+X11 error 3 detected at xutils.c:115:x11_get_server_timestamp
+X11 error: BadWindow (invalid Window parameter) (request: X_SendEvent, resource 0x19)
+X11 error 3 detected at xutils.c:259:x11_get_window_size
+X11 error: BadWindow (invalid Window parameter) (request: X_ConfigureWindow, resource 0xc)
+X11 error: BadWindow (invalid Window parameter) (request: X_MapWindow, resource 0x8)
+X11 error: BadWindow (invalid Window parameter) (request: X_GetWindowAttributes, resource 0x3)
+X11 error 3 detected at debug.c:140:print_icon_data
+X11 error: BadWindow (invalid Window parameter) (request: X_ChangeWindowAttributes, resource 0x2)
+X11 error: BadWindow (invalid Window parameter) (request: X_UnmapWindow, resource 0xa)
+X11 error: BadWindow (invalid Window parameter) (request: X_ReparentWindow, resource 0x7)
+X11 error: BadWindow (invalid Window parameter) (request: X_ConfigureWindow, resource 0xc)
+X11 error: BadWindow (invalid Window parameter) (request: X_MapWindow, resource 0x8)
+X11 error 3 detected at xutils.c:115:x11_get_server_timestamp
+X11 error: BadWindow (invalid Window parameter) (request: X_SendEvent, resource 0x19)
+X11 error 3 detected at xutils.c:259:x11_get_window_size
+X11 error: BadWindow (invalid Window parameter) (request: X_ConfigureWindow, resource 0xc)
+X11 error: BadWindow (invalid Window parameter) (request: X_MapWindow, resource 0x8)
+X11 error: BadWindow (invalid Window parameter) (request: X_GetWindowAttributes, resource 0x3)
+X11 error 3 detected at debug.c:140:print_icon_data
+X11 error: BadWindow (invalid Window parameter) (request: X_ChangeWindowAttributes, resource 0x2)
+X11 error: BadWindow (invalid Window parameter) (request: X_UnmapWindow, resource 0xa)
+X11 error: BadWindow (invalid Window parameter) (request: X_ReparentWindow, resource 0x7)
+X11 error: BadWindow (invalid Window parameter) (request: X_ConfigureWindow, resource 0xc)
+X11 error: BadWindow (invalid Window parameter) (request: X_MapWindow, resource 0x8)
+X11 error 3 detected at xutils.c:115:x11_get_server_timestamp
+X11 error: BadWindow (invalid Window parameter) (request: X_SendEvent, resource 0x19)
+X11 error 3 detected at xutils.c:259:x11_get_window_size
+console.error: ghostery: 
+  Message: TypeError: viewsFor.get(...) is undefined
+  Stack:
+    Tab<.initialize/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/tabs/tab-firefox.js:67:30
+dispatch@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/method/core.js:119:12
+dispatcher/dispatch@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/util/dispatcher.js:35:24
+Ghostery.BlockingPolicy.shouldLoad/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://firefox-at-ghostery-dot-com/ghostery/lib/background.js:285:38
+notify@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/timers.js:40:9
+
+console.error: ghostery: 
+  Message: TypeError: viewsFor.get(...) is undefined
+  Stack:
+    Tab<.initialize/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/tabs/tab-firefox.js:67:30
+dispatch@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/method/core.js:119:12
+dispatcher/dispatch@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/util/dispatcher.js:35:24
+Ghostery.BlockingPolicy.shouldLoad/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://firefox-at-ghostery-dot-com/ghostery/lib/background.js:285:38
+notify@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/timers.js:40:9
+
+console.error: ghostery: 
+  Message: TypeError: viewsFor.get(...) is undefined
+  Stack:
+    Tab<.initialize/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/tabs/tab-firefox.js:67:30
+dispatch@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/method/core.js:119:12
+dispatcher/dispatch@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/util/dispatcher.js:35:24
+Ghostery.BlockingPolicy.shouldLoad/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://firefox-at-ghostery-dot-com/ghostery/lib/background.js:285:38
+notify@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/timers.js:40:9
+
+[0000000000cb0158] core libvlc: Running vlc with the default interface. Use 'cvlc' to use vlc without interface.
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+[00007fe5b80100e8] equalizer audio filter error: No preset selected
+[0000000000dd4248] core audio output error: cannot add user audio filter "equalizer" (skipped)
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+1454352414946	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+X11 error: BadWindow (invalid Window parameter) (request: X_ConfigureWindow, resource 0xc)
+X11 error: BadWindow (invalid Window parameter) (request: X_MapWindow, resource 0x8)
+X11 error 3 detected at debug.c:140:print_icon_data
+X11 error: BadWindow (invalid Window parameter) (request: X_GetWindowAttributes, resource 0x3)
+X11 error 3 detected at debug.c:140:print_icon_data
+X11 error: BadWindow (invalid Window parameter) (request: X_ChangeWindowAttributes, resource 0x2)
+X11 error: BadWindow (invalid Window parameter) (request: X_UnmapWindow, resource 0xa)
+X11 error: BadWindow (invalid Window parameter) (request: X_ReparentWindow, resource 0x7)
+X11 error: BadWindow (invalid Window parameter) (request: X_ConfigureWindow, resource 0xc)
+X11 error: BadWindow (invalid Window parameter) (request: X_MapWindow, resource 0x8)
+X11 error 3 detected at xutils.c:115:x11_get_server_timestamp
+[0000000001e80158] core libvlc: Running vlc with the default interface. Use 'cvlc' to use vlc without interface.
+[00007f826c0100e8] equalizer audio filter error: No preset selected
+[0000000001fa4248] core audio output error: cannot add user audio filter "equalizer" (skipped)
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+X11 error: BadWindow (invalid Window parameter) (request: X_ConfigureWindow, resource 0xc)
+X11 error: BadWindow (invalid Window parameter) (request: X_MapWindow, resource 0x8)
+X11 error 3 detected at debug.c:140:print_icon_data
+X11 error: BadWindow (invalid Window parameter) (request: X_GetWindowAttributes, resource 0x3)
+X11 error 3 detected at debug.c:140:print_icon_data
+X11 error: BadWindow (invalid Window parameter) (request: X_ChangeWindowAttributes, resource 0x2)
+X11 error: BadWindow (invalid Window parameter) (request: X_UnmapWindow, resource 0xa)
+X11 error: BadWindow (invalid Window parameter) (request: X_ReparentWindow, resource 0x7)
+X11 error: BadWindow (invalid Window parameter) (request: X_ConfigureWindow, resource 0xc)
+X11 error: BadWindow (invalid Window parameter) (request: X_MapWindow, resource 0x8)
+X11 error 3 detected at xutils.c:115:x11_get_server_timestamp
+xscreensaver-command: activating and locking.
+
+/bin/sh: xsel: command not found
+xmonad is /usr/bin/xmonad
+xmonad is /usr/bin/xmonad
+xmonad is /usr/bin/xmonad
+Terminated
+xmonad is /usr/bin/xmonad

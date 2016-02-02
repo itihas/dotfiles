@@ -1,6 +1,6 @@
 Config {  bgColor = "#002b36"
        , fgColor = "#657b83"
-       , position = TopSize L 100 4
+       , position = BottomSize L 100 4
        , lowerOnStart = True
        , commands = [ Run DynNetwork     [ "--template" , "<dev>: down <rx>kB/s| up <tx>kB/s"] 10
        	 	    , Run Cpu ["-L","3","-H","50","--high","#dc322f"] 10
