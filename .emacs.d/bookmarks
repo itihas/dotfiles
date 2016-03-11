@@ -4,12 +4,12 @@
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored"
  (filename . "~/notebook/capture.org")
- (front-context-string . "** TODO Evaluate")
- (rear-context-string)
- (position . 9))
+ (front-context-string . "** TODO create o")
+ (rear-context-string . "script writing.\n")
+ (position . 1526))
 ("org-refile-last-stored"
- (filename . "~/notebook/reading.org")
- (front-context-string . "** REREAD Small ")
- (rear-context-string . "e - Amartya Sen\n")
- (position . 5571))
+ (filename . "~/notebook/capture.org")
+ (front-context-string . "** TODO Talk to ")
+ (rear-context-string . "9958db\n   :END:\n")
+ (position . 563))
 )

@@ -15,7 +15,7 @@ main = do
 			       , logHook = dynamicLogWithPP xmobarPP
                         { ppOutput = hPutStrLn xmproc
 			, ppCurrent = xmobarColor "#b58900" ""
-                        , ppTitle = xmobarColor "#b58900" "" . shorten 50
+                        , ppTitle = xmobarColor "#b58900" "" . shorten 100
                         }
         		       , borderWidth		= 0
 			       , modMask			= mod4Mask
