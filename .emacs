@@ -12,21 +12,34 @@
 
 ;; orgmode
 
+;; basics
 (setq org-directory "~/notebook")
-(setq org-mobile-inbox-for-pull "~/notebook/mobile_capture.org") ;; new mobile notes go here
-(setq org-mobile-directory "~/Dropbox/MobileOrg");; mobile org
 (setq org-enforce-todo-dependencies t) ;; block parent todos from being marked done until children are done.
-(setq org-todo-keywords '((sequence "TODO(t)" "STARTED(s)" "WAITING(w)" "HIATUS(h)" "|" "DONE(d)")
-			  (sequence "|" "CANCELED(c)"))) ;; todo keywords
+
+;; org todo
+(setq org-todo-keywords
+      (quote ((sequence "TODO(t!)"  "NEXT(n!)" "|" "DONE(d!)")
+	      (sequence "REPEAT(r)"  "WAIT(w!)"  "|" "LATER(l!)" "PAUSED(p@/!)" "CANCELLED(c@/!)" )
+	      (sequence "IDEA(i!)" "MAYBE(y!)" "STAGED(s!)" "WORKING(k!)" "|" "USED(u!/@)")
+	      )))
 (setq org-log-done 'note)
-;;(setq org-tags-alist
+
+;; appearances
+
+(setq org-hide-emphasis-markers t)	;hide font styles markup
+(setq org-pretty-entities t)		;pretty-print symbols, super/subscript, etc.
+(require 'org-bullets)			;pretty bullets in orgmode
+(setq org-bullets-bullet-list '("○" "॰" "•" "჻"))
+(add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+
+
 ;; org capture
 (setq org-default-notes-file (concat org-directory "/notes.org"))
 (setq org-capture-templates
-      '(("t" "Todo" entry (file+headline "~/notebook/capture.org" "Tasks")
-	 "* TODO %?\n  %i\n  %a")
-	("m" "Misc" entry (file+headline "~/notebook/capture.org" "Misc")
-	 "* TODO %?\n  %i\n  %a")
+      '(("i" "Inbox" entry (file+headline "~/notebook/capture.org" "Inbox")
+	 "* %?\n  %i\n  %a")
+        ("q" "Quote" entry (file+headline "~/notebook/capture.org" "Quotes")
+	 "* %?\nEntered on %U\n  %i\n")
         ("j" "Journal" entry (file+datetree "~/notebook/journal.org")
 	 "* %?\nEntered on %U\n  %i\n  %a")))
 (setq org-refile-targets
@@ -36,13 +49,13 @@
       '((auto-mode . emacs)
 	("\\.mm\\'" . default)
 	("\\.x?html?\\'" . default)
-	("pdf" . "mupdf %s")))
+	("pdf" . "llpp %s")))
 
 
 ;; openwith - defaults applications for some file types
 (require 'openwith)
 (openwith-mode t)
-(setq openwith-associations '(("\\.pdf\\'" "mupdf" (file))))
+(setq openwith-associations '(("\\.pdf\\'" "llpp" (file))))
 
 ;; jedi setup.
 (add-hook 'python-mode-hook 'jedi:setup)
@@ -81,23 +94,30 @@
 (global-set-key (kbd "<C-right>") 'next-buffer) ; go to next buffer
 (global-set-key (kbd "C-b") 'ibuffer) ; open ibuffer instead of emacs buffer list
 
-;; counts
-(global-set-key (kbd "<f8>") 'count-words) ; count words
-
-;; neotree
-(global-set-key (kbd "<f6>") 'neotree-toggle) ; show/hide neotree
-
-;; see toggle-theme-solarized above. this is to make it easy to switch between "day" and "night" modes.
-(global-set-key (kbd "<f7>") 'cycle-themes) ; switch between themes
 
 ;; orgmode shortcuts
 (global-set-key (kbd "<f5> t") 'org-todo-list) ; open org todo list
 (global-set-key (kbd "<f5> a") 'org-agenda-list) ; open org agenda
 (global-set-key (kbd "<f5> s") 'org-store-link) ; store an org link
 (global-set-key (kbd "<f5> c")  'org-capture) ; org capture
+(global-set-key (kbd "<f5> x")  'org-toggle-latex-fragment) ; latex preview in org
+;; neotree
+(global-set-key (kbd "<f6>") 'neotree-toggle) ; show/hide neotree
 
-
+;; appearance things
 (global-set-key (kbd "M-o") 'olivetti-mode) ; toggle olivetti mode
+(global-set-key (kbd "M-v") 'variable-pitch-mode) ; toggle monospace
+(global-set-key (kbd "<f7>") 'cycle-themes) ; switch between themes; see cycle-themes definition below
+
+;; counts
+(global-set-key (kbd "<f8>") 'count-words) ; count words
+
+
+
+;; aliases and miscellany from interesting places
+;; below from http://tonyballantyne.com/tech/transposition/ - potentially awesome
+(defalias 'ts 'transpose-sentences)
+(defalias 'tp 'transpose-paragraphs)
 
 
 (custom-set-variables
@@ -116,7 +136,7 @@
  '(cua-read-only-cursor-color "#859900")
  '(custom-safe-themes
    (quote
-    ("708df3cbb25425ccbf077a6e6f014dc3588faba968c90b74097d11177b711ad1" "d606ac41cdd7054841941455c0151c54f8bff7e4e050255dbd4ae4d60ab640c1" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "ff52e9e329c5a66eae3570e3f17288d0a9f96403ce1ac7cbca5a193ebc500936" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default)))
+    ("75da6010c2ad42c75ae3c24ba37d820b01e828361c4920aec6485a09d6c6a2ee" "28ec8ccf6190f6a73812df9bc91df54ce1d6132f18b4c8fcc85d45298569eb53" "ac2b1fed9c0f0190045359327e963ddad250e131fbf332e80d371b2e1dbc1dc4" "708df3cbb25425ccbf077a6e6f014dc3588faba968c90b74097d11177b711ad1" "d606ac41cdd7054841941455c0151c54f8bff7e4e050255dbd4ae4d60ab640c1" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "ff52e9e329c5a66eae3570e3f17288d0a9f96403ce1ac7cbca5a193ebc500936" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default)))
  '(fci-rule-color "#eee8d5")
  '(highlight-changes-colors (quote ("#d33682" "#6c71c4")))
  '(highlight-symbol-colors
@@ -151,7 +171,7 @@
     ("#dc322f" "#cb4b16" "#b58900" "#546E00" "#B4C342" "#00629D" "#2aa198" "#d33682" "#6c71c4")))
  '(org-agenda-files
    (quote
-    ("~/notebook/Sem10/classes_sem10.org" "/home/sahiti/notebook/capture.org" "/home/sahiti/notebook/journal.org" "/home/sahiti/notebook/org.org" "/home/sahiti/notebook/project.org" "/home/sahiti/notebook/reading.org" "/home/sahiti/notebook/someday.org" "/home/sahiti/notebook/todo.org" "/home/sahiti/notebook/whiteboard-2016-jan.org")))
+    ("~/notebook/Sem10/classes_sem10.org" "/home/sahiti/notebook/capture.org" "/home/sahiti/notebook/journal.org" "/home/sahiti/notebook/project.org" "/home/sahiti/notebook/reading.org" "/home/sahiti/notebook/bucket.org" "/home/sahiti/notebook/someday.org"  "/home/sahiti/notebook/organization.org")))
  '(pos-tip-background-color "#eee8d5")
  '(pos-tip-foreground-color "#586e75")
  '(smartrep-mode-line-active-bg (solarized-color-blend "#859900" "#eee8d5" 0.2))

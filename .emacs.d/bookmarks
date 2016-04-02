@@ -4,12 +4,12 @@
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored"
  (filename . "~/notebook/capture.org")
- (front-context-string . "** TODO create o")
- (rear-context-string . "script writing.\n")
- (position . 1526))
+ (front-context-string . "** emacs-git int")
+ (rear-context-string . "auto capitalize\n")
+ (position . 647))
 ("org-refile-last-stored"
- (filename . "~/notebook/capture.org")
- (front-context-string . "** TODO Talk to ")
- (rear-context-string . "9958db\n   :END:\n")
- (position . 563))
+ (filename . "~/notebook/organization.org")
+ (front-context-string . "** TODO look int")
+ (rear-context-string . "one something?\n\n")
+ (position . 3727))
 )
