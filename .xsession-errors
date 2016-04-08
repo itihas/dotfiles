@@ -1,149 +1,281 @@
-X11 error: BadWindow (invalid Window parameter) (request: X_ConfigureWindow, resource 0xc)
-X11 error: BadWindow (invalid Window parameter) (request: X_MapWindow, resource 0x8)
-X11 error: BadWindow (invalid Window parameter) (request: X_GetWindowAttributes, resource 0x3)
-X11 error 3 detected at debug.c:140:print_icon_data
-X11 error: BadWindow (invalid Window parameter) (request: X_ChangeWindowAttributes, resource 0x2)
-X11 error: BadWindow (invalid Window parameter) (request: X_UnmapWindow, resource 0xa)
-X11 error: BadWindow (invalid Window parameter) (request: X_ReparentWindow, resource 0x7)
-X11 error: BadWindow (invalid Window parameter) (request: X_ConfigureWindow, resource 0xc)
-X11 error: BadWindow (invalid Window parameter) (request: X_MapWindow, resource 0x8)
-X11 error 3 detected at xutils.c:115:x11_get_server_timestamp
-X11 error: BadWindow (invalid Window parameter) (request: X_SendEvent, resource 0x19)
-X11 error 3 detected at xutils.c:259:x11_get_window_size
-1459590969094	addons.manager	WARN	Exception calling callback: TypeError: addon is null (chrome://mdownmanager/content/browserOverlay.js:32:1) JS Stack trace: mdbOverlay.load/<@browserOverlay.js:32:1 < safeCall@AddonManager.jsm:179:5 < makeSafe/<@AddonManager.jsm:195:25 < Handler.prototype.process@Promise-backend.js:933:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:812:7 < this.PromiseWalker.scheduleWalkerLoop/<@Promise-backend.js:746:1
-1459590973645	FirefoxAccounts	ERROR	Could not retrieve profile data: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_NET_RESET\"  nsresult: \"0x804b0014 (NS_ERROR_NET_RESET)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]"}
-1459590973646	FirefoxAccounts	ERROR	FxA rejecting with error NETWORK_ERROR, details: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_NET_RESET\"  nsresult: \"0x804b0014 (NS_ERROR_NET_RESET)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]"}
-1459590974736	FirefoxAccounts	ERROR	Could not retrieve profile data: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_NET_RESET\"  nsresult: \"0x804b0014 (NS_ERROR_NET_RESET)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]"}
-1459590974736	FirefoxAccounts	ERROR	Could not retrieve profile data: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_NET_RESET\"  nsresult: \"0x804b0014 (NS_ERROR_NET_RESET)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]"}
-1459590974737	FirefoxAccounts	ERROR	FxA rejecting with error NETWORK_ERROR, details: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_NET_RESET\"  nsresult: \"0x804b0014 (NS_ERROR_NET_RESET)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]"}
-1459590974737	FirefoxAccounts	ERROR	FxA rejecting with error NETWORK_ERROR, details: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_NET_RESET\"  nsresult: \"0x804b0014 (NS_ERROR_NET_RESET)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]"}
-xterm: No absolute path found for shell: /home/sahiti/Downloads
-1459591206858	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
-1459591208346	addons.xpi	ERROR	Failed to clean updated system add-ons directories.: Unix error 2 during operation DirectoryIterator.prototype.next on file /home/sahiti/.mozilla/firefox/z34vv1ce.default-1450983266842/features (No such file or directory) ((unknown module)) No traceback available
-/bin/sh: -c: line 0: syntax error near unexpected token `('
-/bin/sh: -c: line 0: `echo SyncTex /home/sahiti/Downloads/Arrangement(1).pdf 0 655 391'
-error: Could not find thumbnail in zip file
-error: The metadata does not have a thumbnail property
-error: Could not find thumbnail in zip file
-calling convert '/tmp/gsf-thumbnailer-RFC0EY' +matte -thumbnail 128x128 png:'/home/sahiti/.thumbnails/normal/e41803406e6dbf34fb5cb7d0293fada6.png'
-
-(gsf-office-thumbnailer:1943): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
-calling convert '/tmp/gsf-thumbnailer-7MQZEY' +matte -thumbnail 128x128 png:'/home/sahiti/.thumbnails/normal/f25beea95f454ac05e7a27bb260d3883.png'
-
-(gsf-office-thumbnailer:1950): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
-calling convert '/tmp/gsf-thumbnailer-1TIAFY' +matte -thumbnail 128x128 png:'/home/sahiti/.thumbnails/normal/d34bf165341f065a7e8ad694d1a906cc.png'
-
-(gsf-office-thumbnailer:1957): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
-error: Could not find thumbnail in zip file
-error: Could not find thumbnail in zip file
-calling convert '/tmp/gsf-thumbnailer-L2NUEY' +matte -thumbnail 128x128 png:'/home/sahiti/.thumbnails/normal/4c20a0cb2521445f96aa5ed8db67510c.png'
-
-(gsf-office-thumbnailer:1969): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
-Vector smash protection is enabled.
-Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
-console.error: ghostery: 
-  Message: TypeError: tabInfo.get(...).worker.port is undefined
-  Stack:
-    updateBox@resource://gre/modules/commonjs/toolkit/loader.js -> resource://firefox-at-ghostery-dot-com/lib/background.js:2800:2
-processBug@resource://gre/modules/commonjs/toolkit/loader.js -> resource://firefox-at-ghostery-dot-com/lib/background.js:2698:5
-Ghostery.BlockingPolicy.shouldLoad/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://firefox-at-ghostery-dot-com/lib/background.js:302:1
-notify@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/timers.js:40:9
-
-console.error: ghostery: 
-  Message: TypeError: tabInfo.get(...).worker.port is undefined
-  Stack:
-    updateBox@resource://gre/modules/commonjs/toolkit/loader.js -> resource://firefox-at-ghostery-dot-com/lib/background.js:2800:2
-processBug@resource://gre/modules/commonjs/toolkit/loader.js -> resource://firefox-at-ghostery-dot-com/lib/background.js:2698:5
-Ghostery.BlockingPolicy.shouldLoad/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://firefox-at-ghostery-dot-com/lib/background.js:302:1
-notify@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/timers.js:40:9
-
-console.error: ghostery: 
-  Message: TypeError: tabInfo.get(...).worker.port is undefined
-  Stack:
-    updateBox@resource://gre/modules/commonjs/toolkit/loader.js -> resource://firefox-at-ghostery-dot-com/lib/background.js:2800:2
-processBug@resource://gre/modules/commonjs/toolkit/loader.js -> resource://firefox-at-ghostery-dot-com/lib/background.js:2698:5
-Ghostery.BlockingPolicy.shouldLoad/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://firefox-at-ghostery-dot-com/lib/background.js:302:1
-notify@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/timers.js:40:9
-
-console.error: ghostery: 
-  Message: TypeError: tabInfo.get(...).worker.port is undefined
-  Stack:
-    updateBox@resource://gre/modules/commonjs/toolkit/loader.js -> resource://firefox-at-ghostery-dot-com/lib/background.js:2800:2
-processBug@resource://gre/modules/commonjs/toolkit/loader.js -> resource://firefox-at-ghostery-dot-com/lib/background.js:2698:5
-Ghostery.BlockingPolicy.shouldLoad/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://firefox-at-ghostery-dot-com/lib/background.js:302:1
-notify@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/timers.js:40:9
-
-console.error: ghostery: 
-  Message: TypeError: tabInfo.get(...).worker.port is undefined
-  Stack:
-    updateBox@resource://gre/modules/commonjs/toolkit/loader.js -> resource://firefox-at-ghostery-dot-com/lib/background.js:2800:2
-processBug@resource://gre/modules/commonjs/toolkit/loader.js -> resource://firefox-at-ghostery-dot-com/lib/background.js:2698:5
-Ghostery.BlockingPolicy.shouldLoad/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://firefox-at-ghostery-dot-com/lib/background.js:302:1
-notify@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/timers.js:40:9
-
-console.error: ghostery: 
-  Message: TypeError: tabInfo.get(...).worker.port is undefined
-  Stack:
-    updateBox@resource://gre/modules/commonjs/toolkit/loader.js -> resource://firefox-at-ghostery-dot-com/lib/background.js:2800:2
-processBug@resource://gre/modules/commonjs/toolkit/loader.js -> resource://firefox-at-ghostery-dot-com/lib/background.js:2698:5
-Ghostery.BlockingPolicy.shouldLoad/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://firefox-at-ghostery-dot-com/lib/background.js:302:1
-notify@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/timers.js:40:9
-
+1460051681424	addons.manager	WARN	Exception calling callback: TypeError: addon is null (chrome://mdownmanager/content/browserOverlay.js:32:1) JS Stack trace: mdbOverlay.load/<@browserOverlay.js:32:1 < safeCall@AddonManager.jsm:179:5 < makeSafe/<@AddonManager.jsm:195:25 < Handler.prototype.process@Promise-backend.js:933:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:812:7 < this.PromiseWalker.scheduleWalkerLoop/<@Promise-backend.js:746:1
 xscreensaver-command: activating and locking.
 
-1459594724752	FirefoxAccounts	ERROR	error POSTing /certificate/sign: {"error":{},"errorString":"[Exception... \"NS_ERROR_CONNECTION_REFUSED\"  nsresult: \"0x804b000d (NS_ERROR_CONNECTION_REFUSED)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]","message":"Redirect","code":302,"errno":302}
-1459594724752	FirefoxAccounts	ERROR	error POSTing /certificate/sign: {"error":{},"errorString":"[Exception... \"NS_ERROR_CONNECTION_REFUSED\"  nsresult: \"0x804b000d (NS_ERROR_CONNECTION_REFUSED)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]","message":"Redirect","code":302,"errno":302}
-1459594724753	FirefoxAccounts	ERROR	HAWK.signCertificate error: {"error":{},"errorString":"[Exception... \"NS_ERROR_CONNECTION_REFUSED\"  nsresult: \"0x804b000d (NS_ERROR_CONNECTION_REFUSED)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]","message":"Redirect","code":302,"errno":302}
-1459594724753	FirefoxAccounts	ERROR	HAWK.signCertificate error: {"error":{},"errorString":"[Exception... \"NS_ERROR_CONNECTION_REFUSED\"  nsresult: \"0x804b000d (NS_ERROR_CONNECTION_REFUSED)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]","message":"Redirect","code":302,"errno":302}
-1459594724753	Sync.BrowserIDManager	ERROR	Non-authentication error in _fetchTokenForUser: {"error":{},"errorString":"[Exception... \"NS_ERROR_CONNECTION_REFUSED\"  nsresult: \"0x804b000d (NS_ERROR_CONNECTION_REFUSED)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]","message":"Redirect","code":302,"errno":302}
-1459594724753	Sync.BrowserIDManager	ERROR	Background fetch for key bundle failed: {"error":{},"errorString":"[Exception... \"NS_ERROR_CONNECTION_REFUSED\"  nsresult: \"0x804b000d (NS_ERROR_CONNECTION_REFUSED)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]","message":"Redirect","code":302,"errno":302}
-1459594724873	FirefoxAccounts	ERROR	error GETing /account/status?uid=dd1e43a626c447f69b8e95cb74c9537e: {"error":{},"errorString":"[Exception... \"NS_ERROR_CONNECTION_REFUSED\"  nsresult: \"0x804b000d (NS_ERROR_CONNECTION_REFUSED)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]","message":"Redirect","code":302,"errno":302}
-1459594724873	FirefoxAccounts	ERROR	error GETing /account/status?uid=dd1e43a626c447f69b8e95cb74c9537e: {"error":{},"errorString":"[Exception... \"NS_ERROR_CONNECTION_REFUSED\"  nsresult: \"0x804b000d (NS_ERROR_CONNECTION_REFUSED)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]","message":"Redirect","code":302,"errno":302}
-1459594724873	FirefoxAccounts	ERROR	accountStatus failed with: 302: Redirect
-1459594724873	FirefoxAccounts	ERROR	accountStatus failed with: 302: Redirect
-1459594724874	Sync.BrowserIDManager	ERROR	Error while trying to determine FXA existence: {"error":{},"errorString":"[Exception... \"NS_ERROR_CONNECTION_REFUSED\"  nsresult: \"0x804b000d (NS_ERROR_CONNECTION_REFUSED)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]","message":"Redirect","code":302,"errno":302}
-1459594724874	Sync.BrowserIDManager	ERROR	Could not authenticate: {"error":{},"errorString":"[Exception... \"NS_ERROR_CONNECTION_REFUSED\"  nsresult: \"0x804b000d (NS_ERROR_CONNECTION_REFUSED)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]","message":"Redirect","code":302,"errno":302}
-1459594724876	Sync.ErrorHandler	ERROR	Sync encountered a login error
-1459594724916	FirefoxAccounts	ERROR	Could not retrieve profile data: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_CONNECTION_REFUSED\"  nsresult: \"0x804b000d (NS_ERROR_CONNECTION_REFUSED)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]"}
-1459594724916	FirefoxAccounts	ERROR	Could not retrieve profile data: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_CONNECTION_REFUSED\"  nsresult: \"0x804b000d (NS_ERROR_CONNECTION_REFUSED)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]"}
-1459594724917	FirefoxAccounts	ERROR	FxA rejecting with error NETWORK_ERROR, details: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_CONNECTION_REFUSED\"  nsresult: \"0x804b000d (NS_ERROR_CONNECTION_REFUSED)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]"}
-1459594724917	FirefoxAccounts	ERROR	FxA rejecting with error NETWORK_ERROR, details: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_CONNECTION_REFUSED\"  nsresult: \"0x804b000d (NS_ERROR_CONNECTION_REFUSED)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]"}
-warning: freetype could not find any cmaps
-error: invalid page object
-error: invalid page object
-error: invalid page object
-error: invalid page object
-error: invalid page object
-error: invalid page object
-/bin/sh: xsel: command not found
-/bin/sh: xsel: command not found
-error: invalid page object
-error: invalid page object
-error: invalid page object
-error: invalid page object
-error: invalid page object
-error: invalid page object
-error: invalid page object
-/bin/sh: xsel: command not found
-/bin/sh: xsel: command not found
-/bin/sh: xsel: command not found
-/bin/sh: xsel: command not found
-1459598324893	FirefoxAccounts	ERROR	error POSTing /certificate/sign: {"error":{},"errorString":"[Exception... \"NS_ERROR_CONNECTION_REFUSED\"  nsresult: \"0x804b000d (NS_ERROR_CONNECTION_REFUSED)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]","message":"Redirect","code":302,"errno":302}
-1459598324893	FirefoxAccounts	ERROR	error POSTing /certificate/sign: {"error":{},"errorString":"[Exception... \"NS_ERROR_CONNECTION_REFUSED\"  nsresult: \"0x804b000d (NS_ERROR_CONNECTION_REFUSED)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]","message":"Redirect","code":302,"errno":302}
-1459598324893	FirefoxAccounts	ERROR	HAWK.signCertificate error: {"error":{},"errorString":"[Exception... \"NS_ERROR_CONNECTION_REFUSED\"  nsresult: \"0x804b000d (NS_ERROR_CONNECTION_REFUSED)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]","message":"Redirect","code":302,"errno":302}
-1459598324893	FirefoxAccounts	ERROR	HAWK.signCertificate error: {"error":{},"errorString":"[Exception... \"NS_ERROR_CONNECTION_REFUSED\"  nsresult: \"0x804b000d (NS_ERROR_CONNECTION_REFUSED)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]","message":"Redirect","code":302,"errno":302}
-1459598324893	Sync.BrowserIDManager	ERROR	Non-authentication error in _fetchTokenForUser: {"error":{},"errorString":"[Exception... \"NS_ERROR_CONNECTION_REFUSED\"  nsresult: \"0x804b000d (NS_ERROR_CONNECTION_REFUSED)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]","message":"Redirect","code":302,"errno":302}
-1459598324894	Sync.BrowserIDManager	ERROR	Background fetch for key bundle failed: {"error":{},"errorString":"[Exception... \"NS_ERROR_CONNECTION_REFUSED\"  nsresult: \"0x804b000d (NS_ERROR_CONNECTION_REFUSED)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]","message":"Redirect","code":302,"errno":302}
-1459598324911	FirefoxAccounts	ERROR	error GETing /account/status?uid=dd1e43a626c447f69b8e95cb74c9537e: {"error":{},"errorString":"[Exception... \"NS_ERROR_CONNECTION_REFUSED\"  nsresult: \"0x804b000d (NS_ERROR_CONNECTION_REFUSED)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]","message":"Redirect","code":302,"errno":302}
-1459598324911	FirefoxAccounts	ERROR	error GETing /account/status?uid=dd1e43a626c447f69b8e95cb74c9537e: {"error":{},"errorString":"[Exception... \"NS_ERROR_CONNECTION_REFUSED\"  nsresult: \"0x804b000d (NS_ERROR_CONNECTION_REFUSED)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]","message":"Redirect","code":302,"errno":302}
-1459598324912	FirefoxAccounts	ERROR	accountStatus failed with: 302: Redirect
-1459598324912	FirefoxAccounts	ERROR	accountStatus failed with: 302: Redirect
-1459598324912	Sync.BrowserIDManager	ERROR	Error while trying to determine FXA existence: {"error":{},"errorString":"[Exception... \"NS_ERROR_CONNECTION_REFUSED\"  nsresult: \"0x804b000d (NS_ERROR_CONNECTION_REFUSED)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]","message":"Redirect","code":302,"errno":302}
-1459598324912	Sync.BrowserIDManager	ERROR	Could not authenticate: {"error":{},"errorString":"[Exception... \"NS_ERROR_CONNECTION_REFUSED\"  nsresult: \"0x804b000d (NS_ERROR_CONNECTION_REFUSED)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]","message":"Redirect","code":302,"errno":302}
-1459598324914	Sync.ErrorHandler	ERROR	Sync encountered a login error
-1459598324924	FirefoxAccounts	ERROR	Could not retrieve profile data: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_CONNECTION_REFUSED\"  nsresult: \"0x804b000d (NS_ERROR_CONNECTION_REFUSED)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]"}
-1459598324924	FirefoxAccounts	ERROR	Could not retrieve profile data: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_CONNECTION_REFUSED\"  nsresult: \"0x804b000d (NS_ERROR_CONNECTION_REFUSED)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]"}
-1459598324925	FirefoxAccounts	ERROR	FxA rejecting with error NETWORK_ERROR, details: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_CONNECTION_REFUSED\"  nsresult: \"0x804b000d (NS_ERROR_CONNECTION_REFUSED)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]"}
-1459598324925	FirefoxAccounts	ERROR	FxA rejecting with error NETWORK_ERROR, details: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_CONNECTION_REFUSED\"  nsresult: \"0x804b000d (NS_ERROR_CONNECTION_REFUSED)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]"}
+1460098868382	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+1460098871515	addons.xpi	ERROR	Failed to clean updated system add-ons directories.: Unix error 2 during operation DirectoryIterator.prototype.next on file /home/sahiti/.mozilla/firefox/z34vv1ce.default-1450983266842/features (No such file or directory) ((unknown module)) No traceback available
 xscreensaver-command: activating and locking.
 
+1460123142304	addons.manager	WARN	Exception calling callback: TypeError: addon is null (chrome://mdownmanager/content/browserOverlay.js:32:1) JS Stack trace: mdbOverlay.load/<@browserOverlay.js:32:1 < safeCall@AddonManager.jsm:179:5 < makeSafe/<@AddonManager.jsm:195:25 < Handler.prototype.process@Promise-backend.js:933:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:812:7 < this.PromiseWalker.scheduleWalkerLoop/<@Promise-backend.js:746:1
+xmonad is /usr/bin/xmonad
+xmonad is /usr/bin/xmonad
+Error detected while loading xmonad configuration file: /home/sahiti/.xmonad/xmonad.hs
+
+xmonad.hs:21:50: parse error on input ‘defaultConfig’
+
+Please check the file for errors.
+
+Error detected while loading xmonad configuration file: /home/sahiti/.xmonad/xmonad.hs
+
+xmonad.hs:21:50: parse error on input ‘defaultConfig’
+
+Please check the file for errors.
+
+xmonad is /usr/bin/xmonad
+Error detected while loading xmonad configuration file: /home/sahiti/.xmonad/xmonad.hs
+
+xmonad.hs:20:15:
+    Couldn't match expected type ‘XConfig
+                                    (XMonad.Layout.LayoutModifier.ModifiedLayout
+                                       SmartBorder
+                                       (XMonad.Layout.LayoutModifier.ModifiedLayout
+                                          AvoidStruts (Choose Tall (Choose (Mirror Tall) Full))))
+                                  -> XConfig l0’
+                with actual type ‘XConfig l1’
+    The function ‘withUrgencyHook’ is applied to three arguments,
+    but its type ‘NoUrgencyHook -> XConfig l1 -> XConfig l1’
+    has only two
+    In the first argument of ‘additionalKeys’, namely
+      ‘withUrgencyHook
+         NoUrgencyHook
+         ewmh
+         (defaultConfig
+            {manageHook = manageDocks <+> manageHook defaultConfig,
+             handleEventHook = handleEventHook defaultConfig
+                               <+> fullscreenEventHook,
+             layoutHook = smartBorders $ avoidStruts $ layoutHook defaultConfig,
+             logHook = myLogHook
+                       <+>
+                         dynamicLogWithPP
+                           (xmobarPP
+                              {ppOutput = hPutStrLn xmproc, ppCurrent = xmobarColor "#b58900" "",
+                               ppTitle = xmobarColor "#b58900" "" . shorten 100,
+                               ppUrgent = xmobarColor "yellow" "red" . xmobarStrip}),
+             borderWidth = 0, modMask = mod4Mask, terminal = "xterm",
+             normalBorderColor = "#002b36", focusedBorderColor = "#586e75"})’
+    In the second argument of ‘($)’, namely
+      ‘withUrgencyHook
+         NoUrgencyHook
+         ewmh
+         (defaultConfig
+            {manageHook = manageDocks <+> manageHook defaultConfig,
+             handleEventHook = handleEventHook defaultConfig
+                               <+> fullscreenEventHook,
+             layoutHook = smartBorders $ avoidStruts $ layoutHook defaultConfig,
+             logHook = myLogHook
+                       <+>
+                         dynamicLogWithPP
+                           (xmobarPP
+                              {ppOutput = hPutStrLn xmproc, ppCurrent = xmobarColor "#b58900" "",
+                               ppTitle = xmobarColor "#b58900" "" . shorten 100,
+                               ppUrgent = xmobarColor "yellow" "red" . xmobarStrip}),
+             borderWidth = 0, modMask = mod4Mask, terminal = "xterm",
+             normalBorderColor = "#002b36", focusedBorderColor = "#586e75"})
+       `additionalKeys`
+         [((mod4Mask .|. shiftMask, xK_z), 
+           spawn "xscreensaver-command -lock"),
+          ((mod4Mask, xK_b), sendMessage ToggleStruts),
+          ((controlMask, xK_Print), 
+           spawn
+             "sleep 0.2; scrot -s ~/Screenshots/%Y-%m-%d-%T-screenshot.png"),
+          ((0, xK_Print), spawn "scrot")]’
+
+xmonad.hs:20:45:
+    Couldn't match expected type ‘XConfig l1’
+                with actual type ‘XConfig a0 -> XConfig a0’
+    Probable cause: ‘ewmh’ is applied to too few arguments
+    In the second argument of ‘withUrgencyHook’, namely ‘ewmh’
+    In the first argument of ‘additionalKeys’, namely
+      ‘withUrgencyHook
+         NoUrgencyHook
+         ewmh
+         (defaultConfig
+            {manageHook = manageDocks <+> manageHook defaultConfig,
+             handleEventHook = handleEventHook defaultConfig
+                               <+> fullscreenEventHook,
+             layoutHook = smartBorders $ avoidStruts $ layoutHook defaultConfig,
+             logHook = myLogHook
+                       <+>
+                         dynamicLogWithPP
+                           (xmobarPP
+                              {ppOutput = hPutStrLn xmproc, ppCurrent = xmobarColor "#b58900" "",
+                               ppTitle = xmobarColor "#b58900" "" . shorten 100,
+                               ppUrgent = xmobarColor "yellow" "red" . xmobarStrip}),
+             borderWidth = 0, modMask = mod4Mask, terminal = "xterm",
+             normalBorderColor = "#002b36", focusedBorderColor = "#586e75"})’
+
+Please check the file for errors.
+
+xmonad is /usr/bin/xmonad
+Error detected while loading xmonad configuration file: /home/sahiti/.xmonad/xmonad.hs
+
+xmonad.hs:20:15:
+    Couldn't match expected type ‘NoUrgencyHook
+                                  -> XConfig
+                                       (XMonad.Layout.LayoutModifier.ModifiedLayout
+                                          SmartBorder
+                                          (XMonad.Layout.LayoutModifier.ModifiedLayout
+                                             AvoidStruts (Choose Tall (Choose (Mirror Tall) Full))))
+                                  -> XConfig l0’
+                with actual type ‘XConfig a0’
+    The function ‘ewmh’ is applied to three arguments,
+    but its type ‘XConfig a0 -> XConfig a0’ has only one
+    In the first argument of ‘additionalKeys’, namely
+      ‘ewmh
+         withUrgencyHook
+         NoUrgencyHook
+         (defaultConfig
+            {manageHook = manageDocks <+> manageHook defaultConfig,
+             handleEventHook = handleEventHook defaultConfig
+                               <+> fullscreenEventHook,
+             layoutHook = smartBorders $ avoidStruts $ layoutHook defaultConfig,
+             logHook = myLogHook
+                       <+>
+                         dynamicLogWithPP
+                           (xmobarPP
+                              {ppOutput = hPutStrLn xmproc, ppCurrent = xmobarColor "#b58900" "",
+                               ppTitle = xmobarColor "#b58900" "" . shorten 100,
+                               ppUrgent = xmobarColor "yellow" "red" . xmobarStrip}),
+             borderWidth = 0, modMask = mod4Mask, terminal = "xterm",
+             normalBorderColor = "#002b36", focusedBorderColor = "#586e75"})’
+    In the second argument of ‘($)’, namely
+      ‘ewmh
+         withUrgencyHook
+         NoUrgencyHook
+         (defaultConfig
+            {manageHook = manageDocks <+> manageHook defaultConfig,
+             handleEventHook = handleEventHook defaultConfig
+                               <+> fullscreenEventHook,
+             layoutHook = smartBorders $ avoidStruts $ layoutHook defaultConfig,
+             logHook = myLogHook
+                       <+>
+                         dynamicLogWithPP
+                           (xmobarPP
+                              {ppOutput = hPutStrLn xmproc, ppCurrent = xmobarColor "#b58900" "",
+                               ppTitle = xmobarColor "#b58900" "" . shorten 100,
+                               ppUrgent = xmobarColor "yellow" "red" . xmobarStrip}),
+             borderWidth = 0, modMask = mod4Mask, terminal = "xterm",
+             normalBorderColor = "#002b36", focusedBorderColor = "#586e75"})
+       `additionalKeys`
+         [((mod4Mask .|. shiftMask, xK_z), 
+           spawn "xscreensaver-command -lock"),
+          ((mod4Mask, xK_b), sendMessage ToggleStruts),
+          ((controlMask, xK_Print), 
+           spawn
+             "sleep 0.2; scrot -s ~/Screenshots/%Y-%m-%d-%T-screenshot.png"),
+          ((0, xK_Print), spawn "scrot")]’
+
+xmonad.hs:20:20:
+    Couldn't match expected type ‘XConfig a0’
+                with actual type ‘h0 -> XConfig l1 -> XConfig l1’
+    Probable cause: ‘withUrgencyHook’ is applied to too few arguments
+    In the first argument of ‘ewmh’, namely ‘withUrgencyHook’
+    In the first argument of ‘additionalKeys’, namely
+      ‘ewmh
+         withUrgencyHook
+         NoUrgencyHook
+         (defaultConfig
+            {manageHook = manageDocks <+> manageHook defaultConfig,
+             handleEventHook = handleEventHook defaultConfig
+                               <+> fullscreenEventHook,
+             layoutHook = smartBorders $ avoidStruts $ layoutHook defaultConfig,
+             logHook = myLogHook
+                       <+>
+                         dynamicLogWithPP
+                           (xmobarPP
+                              {ppOutput = hPutStrLn xmproc, ppCurrent = xmobarColor "#b58900" "",
+                               ppTitle = xmobarColor "#b58900" "" . shorten 100,
+                               ppUrgent = xmobarColor "yellow" "red" . xmobarStrip}),
+             borderWidth = 0, modMask = mod4Mask, terminal = "xterm",
+             normalBorderColor = "#002b36", focusedBorderColor = "#586e75"})’
+
+Please check the file for errors.
+
+xmonad is /usr/bin/xmonad
+Error detected while loading xmonad configuration file: /home/sahiti/.xmonad/xmonad.hs
+
+xmonad.hs:20:15:
+    Couldn't match expected type ‘NoUrgencyHook
+                                  -> XConfig
+                                       (XMonad.Layout.LayoutModifier.ModifiedLayout
+                                          SmartBorder
+                                          (XMonad.Layout.LayoutModifier.ModifiedLayout
+                                             AvoidStruts (Choose Tall (Choose (Mirror Tall) Full))))
+                                  -> XConfig l0’
+                with actual type ‘XConfig a0’
+    The function ‘ewmh’ is applied to three arguments,
+    but its type ‘XConfig a0 -> XConfig a0’ has only one
+    In the first argument of ‘additionalKeys’, namely
+      ‘ewmh
+         withUrgencyHook
+         NoUrgencyHook
+         (defaultConfig
+            {manageHook = manageDocks <+> manageHook defaultConfig,
+             handleEventHook = handleEventHook defaultConfig
+                               <+> fullscreenEventHook,
+             layoutHook = smartBorders $ avoidStruts $ layoutHook defaultConfig,
+             logHook = myLogHook
+                       <+>
+                         dynamicLogWithPP
+                           (xmobarPP
+                              {ppOutput = hPutStrLn xmproc, ppCurrent = xmobarColor "#b58900" "",
+                               ppTitle = xmobarColor "#b58900" "" . shorten 100,
+                               ppUrgent = xmobarColor "yellow" "red" . xmobarStrip}),
+             borderWidth = 0, modMask = mod4Mask, terminal = "xterm",
+             normalBorderColor = "#002b36", focusedBorderColor = "#586e75"})’
+    In the second argument of ‘($)’, namely
+      ‘ewmh
+         withUrgencyHook
+         NoUrgencyHook
+         (defaultConfig
+            {manageHook = manageDocks <+> manageHook defaultConfig,
+             handleEventHook = handleEventHook defaultConfig
+                               <+> fullscreenEventHook,
+             layoutHook = smartBorders $ avoidStruts $ layoutHook defaultConfig,
+             logHook = myLogHook
+                       <+>
+                         dynamicLogWithPP
+                           (xmobarPP
+                              {ppOutput = hPutStrLn xmproc, ppCurrent = xmobarColor "#b58900" "",
+                               ppTitle = xmobarColor "#b58900" "" . shorten 100,
+                               ppUrgent = xmobarColor "yellow" "red" . xmobarStrip}),
+             borderWidth = 0, modMask = mod4Mask, terminal = "xterm",
+             normalBorderColor = "#002b36", focusedBorderColor = "#586e75"})
+       `additionalKeys`
+         [((mod4Mask .|. shiftMask, xK_z), 
+           spawn "xscreensaver-command -lock"),
+          ((mod4Mask, xK_b), sendMessage ToggleStruts),
+          ((controlMask, xK_Print), 
+           spawn
+             "sleep 0.2; scrot -s ~/Screenshots/%Y-%m-%d-%T-screenshot.png"),
+          ((0, xK_Print), spawn "scrot")]’
+
+xmonad.hs:20:20:
+    Couldn't match expected type ‘XConfig a0’
+                with actual type ‘h0 -> XConfig l1 -> XConfig l1’
+    Probable cause: ‘withUrgencyHook’ is applied to too few arguments
+    In the first argument of ‘ewmh’, namely ‘withUrgencyHook’
+    In the first argument of ‘additionalKeys’, namely
+      ‘ewmh
+         withUrgencyHook
+         NoUrgencyHook
+         (defaultConfig
+            {manageHook = manageDocks <+> manageHook defaultConfig,
+             handleEventHook = handleEventHook defaultConfig
+                               <+> fullscreenEventHook,
+             layoutHook = smartBorders $ avoidStruts $ layoutHook defaultConfig,
+             logHook = myLogHook
+                       <+>
+                         dynamicLogWithPP
+                           (xmobarPP
+                              {ppOutput = hPutStrLn xmproc, ppCurrent = xmobarColor "#b58900" "",
+                               ppTitle = xmobarColor "#b58900" "" . shorten 100,
+                               ppUrgent = xmobarColor "yellow" "red" . xmobarStrip}),
+             borderWidth = 0, modMask = mod4Mask, terminal = "xterm",
+             normalBorderColor = "#002b36", focusedBorderColor = "#586e75"})’
+
+Please check the file for errors.
+
+xmonad is /usr/bin/xmonad
+Bad _NET_DESKTOP with data[0]=-1
+[3080:3080:0408/193203:ERROR:logging.h(813)] Failed to call method: org.freedesktop.DBus.ObjectManager.GetManagedObjects: object_path= /: org.freedesktop.systemd1.NoSuchUnit: Unit dbus-org.bluez.service not found.
+[3080:3080:0408/193203:ERROR:logging.h(813)] Failed to call method: org.freedesktop.DBus.ObjectManager.GetManagedObjects: object_path= /: org.freedesktop.systemd1.NoSuchUnit: Unit dbus-org.bluez.service not found.

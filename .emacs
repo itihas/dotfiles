@@ -18,20 +18,26 @@
 
 ;; org todo
 (setq org-todo-keywords
-      (quote ((sequence "TODO(t!)"  "NEXT(n!)" "|" "DONE(d!)")
-	      (sequence "REPEAT(r)"  "WAIT(w!)"  "|" "LATER(l!)" "PAUSED(p@/!)" "CANCELLED(c@/!)" )
-	      (sequence "IDEA(i!)" "MAYBE(y!)" "STAGED(s!)" "WORKING(k!)" "|" "USED(u!/@)")
+      (quote ((sequence "TODO(t!)" "|" "DONE(d@!)")
+	      (sequence  "WAIT(w@/!)"  "|"  "PAUSED(p@/!)" "CANCELLED(c@/!)" )
+	      (sequence "IDEA(i!)" "MAYBE(y!)" "WORKING(k!)" "|" "USED(u/@!)")
 	      )))
 (setq org-log-done 'note)
+(setq org-log-into-drawer t)
+(setq org-log-reschedule 'note)
 
 ;; appearances
 
+(setq org-tags-column 0)
 (setq org-hide-emphasis-markers t)	;hide font styles markup
 (setq org-pretty-entities t)		;pretty-print symbols, super/subscript, etc.
 (require 'org-bullets)			;pretty bullets in orgmode
 (setq org-bullets-bullet-list '("○" "॰" "•" "჻"))
+(setq org-startup-indented t)
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 
+;; org tagging
+(setq org-complete-tags-always-offer-all-agenda-tags t)
 
 ;; org capture
 (setq org-default-notes-file (concat org-directory "/notes.org"))
@@ -119,6 +125,8 @@
 (defalias 'ts 'transpose-sentences)
 (defalias 'tp 'transpose-paragraphs)
 
+;; aliases of my own
+(defalias 'os 'olivetti-set-width)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -136,7 +144,7 @@
  '(cua-read-only-cursor-color "#859900")
  '(custom-safe-themes
    (quote
-    ("75da6010c2ad42c75ae3c24ba37d820b01e828361c4920aec6485a09d6c6a2ee" "28ec8ccf6190f6a73812df9bc91df54ce1d6132f18b4c8fcc85d45298569eb53" "ac2b1fed9c0f0190045359327e963ddad250e131fbf332e80d371b2e1dbc1dc4" "708df3cbb25425ccbf077a6e6f014dc3588faba968c90b74097d11177b711ad1" "d606ac41cdd7054841941455c0151c54f8bff7e4e050255dbd4ae4d60ab640c1" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "ff52e9e329c5a66eae3570e3f17288d0a9f96403ce1ac7cbca5a193ebc500936" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default)))
+    ("f3d6a49e3f4491373028eda655231ec371d79d6d2a628f08d5aa38739340540b" "9f3dd1d7b46e99b94bb53506c44b651c811b3552100898842bdd22ce63ab8b55" "75da6010c2ad42c75ae3c24ba37d820b01e828361c4920aec6485a09d6c6a2ee" "28ec8ccf6190f6a73812df9bc91df54ce1d6132f18b4c8fcc85d45298569eb53" "ac2b1fed9c0f0190045359327e963ddad250e131fbf332e80d371b2e1dbc1dc4" "708df3cbb25425ccbf077a6e6f014dc3588faba968c90b74097d11177b711ad1" "d606ac41cdd7054841941455c0151c54f8bff7e4e050255dbd4ae4d60ab640c1" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "ff52e9e329c5a66eae3570e3f17288d0a9f96403ce1ac7cbca5a193ebc500936" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default)))
  '(fci-rule-color "#eee8d5")
  '(highlight-changes-colors (quote ("#d33682" "#6c71c4")))
  '(highlight-symbol-colors
@@ -171,7 +179,7 @@
     ("#dc322f" "#cb4b16" "#b58900" "#546E00" "#B4C342" "#00629D" "#2aa198" "#d33682" "#6c71c4")))
  '(org-agenda-files
    (quote
-    ("~/notebook/Sem10/classes_sem10.org" "/home/sahiti/notebook/capture.org" "/home/sahiti/notebook/journal.org" "/home/sahiti/notebook/project.org" "/home/sahiti/notebook/reading.org" "/home/sahiti/notebook/bucket.org" "/home/sahiti/notebook/someday.org"  "/home/sahiti/notebook/organization.org")))
+    ("~/notebook/Sem10/classes_sem10.org" "/home/sahiti/notebook/capture.org" "/home/sahiti/notebook/journal.org" "/home/sahiti/notebook/project.org" "/home/sahiti/notebook/reading.org" "/home/sahiti/notebook/bucket.org" "/home/sahiti/notebook/someday.org" "/home/sahiti/notebook/organization.org")))
  '(pos-tip-background-color "#eee8d5")
  '(pos-tip-foreground-color "#586e75")
  '(smartrep-mode-line-active-bg (solarized-color-blend "#859900" "#eee8d5" 0.2))
@@ -211,7 +219,8 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 108 :width normal :foundry "1ASC" :family "Liberation Mono")))))
+ '(default ((t (:inherit nil :stipple nil :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 108 :width normal :foundry "1ASC" :family "Liberation Mono"))))
+ '(org-tag ((t (:weight bold :height 0.6)))))
 
 
 ;; theme cycling
