@@ -13,7 +13,7 @@ import System.IO
 
 myLogHook :: X ()
 myLogHook = fadeInactiveLogHook fadeAmount
-where fadeAmount = 0.8
+	  where fadeAmount = 0.8
 
 main = do
 xmproc <- spawnPipe "xmobar /home/sahiti/.xmobarcc"

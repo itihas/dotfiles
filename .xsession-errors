@@ -279,3 +279,19 @@ xmonad is /usr/bin/xmonad
 Bad _NET_DESKTOP with data[0]=-1
 [3080:3080:0408/193203:ERROR:logging.h(813)] Failed to call method: org.freedesktop.DBus.ObjectManager.GetManagedObjects: object_path= /: org.freedesktop.systemd1.NoSuchUnit: Unit dbus-org.bluez.service not found.
 [3080:3080:0408/193203:ERROR:logging.h(813)] Failed to call method: org.freedesktop.DBus.ObjectManager.GetManagedObjects: object_path= /: org.freedesktop.systemd1.NoSuchUnit: Unit dbus-org.bluez.service not found.
+xmonad is /usr/bin/xmonad
+Error detected while loading xmonad configuration file: /home/sahiti/.xmonad/xmonad.hs
+
+xmonad.hs:16:1: parse error on input ‘where’
+
+Please check the file for errors.
+
+xmonad is /usr/bin/xmonad
+Error detected while loading xmonad configuration file: /home/sahiti/.xmonad/xmonad.hs
+
+xmonad.hs:16:1: parse error on input ‘where’
+
+Please check the file for errors.
+
+xmonad is /usr/bin/xmonad
+Bad _NET_DESKTOP with data[0]=-1
