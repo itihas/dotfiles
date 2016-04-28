@@ -2,14 +2,19 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("org-capture-last-stored"
+(("org-capture-last-stored-marker"
+ (filename . "~/notebook/organization.org")
+ (front-context-string . "** TODO install ")
+ (rear-context-string . "y calculation]]\n")
+ (position . 2621))
+("org-capture-last-stored"
  (filename . "~/notebook/capture.org")
- (front-context-string . "** switch to usi")
- (rear-context-string . " graph models]]\n")
- (position . 1505))
+ (front-context-string . "* capture  \n #+B")
+ (rear-context-string . "e to Blogging]]\n")
+ (position . 3016))
 ("org-refile-last-stored"
  (filename . "~/notebook/organization.org")
- (front-context-string . "** TODO look int")
- (rear-context-string . "one something?\n\n")
- (position . 3727))
+ (front-context-string . "** TODO think ab")
+ (rear-context-string . "nbow delimiters\n")
+ (position . 2656))
 )

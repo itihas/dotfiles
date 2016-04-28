@@ -10,12 +10,23 @@
 (byte-compile-file "/home/sahiti/.emacs.d/writer-typewriter.el")
 (load "/home/sahiti/.emacs.d/writer-typewriter.elc")
 
+
+;; general
+
+;; appearances
+
+(add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
+
+
+
+
 ;; orgmode
 
 ;; basics
+(require 'org-protocol)
 (setq org-directory "~/notebook")
 (setq org-enforce-todo-dependencies t) ;; block parent todos from being marked done until children are done.
-
+(setq org-agenda-todo-list-sublevels nil) ;don't list child todos in the agenda view
 ;; org todo
 (setq org-todo-keywords
       (quote ((sequence "TODO(t!)" "|" "DONE(d@!)")
@@ -34,6 +45,7 @@
 (require 'org-bullets)			;pretty bullets in orgmode
 (setq org-bullets-bullet-list '("○" "॰" "•" "჻"))
 (setq org-startup-indented t)
+(setq org-indent-indentation-per-level 1)
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 
 ;; org tagging
@@ -42,12 +54,16 @@
 ;; org capture
 (setq org-default-notes-file (concat org-directory "/notes.org"))
 (setq org-capture-templates
-      '(("i" "Inbox" entry (file+headline "~/notebook/capture.org" "Inbox")
-	 "* %?\n  %i\n  %a")
-        ("q" "Quote" entry (file+headline "~/notebook/capture.org" "Quotes")
-	 "* %?\nEntered on %U\n  %i\n")
+      '(("i" "Inbox" entry (file "~/notebook/capture.org")
+	 "* %?\n  %i\n")
+	("b" "Bookmark" entry (file "~/notebook/capture.org")
+	 "* %c %^G \n %? \n #+BEGIN_QUOTE \n%i\n #+END_QUOTE\n\n Created on: %U\n")
+	("q" "Quote" entry (file "~/notebook/quotes.org")
+	 "* #+BEGIN_QUOTE %i\n%?\n #+END_QUOTE\n \nEntered on %U\n")
         ("j" "Journal" entry (file+datetree "~/notebook/journal.org")
-	 "* %?\nEntered on %U\n  %i\n  %a")))
+	 "* %?\nEntered on %U\n  %i\n")
+	("p" "Prediction" entry (file "~/notebook/predictions.org")
+	 "* %^{Prediction} \n %^{ODDS}p \n DEADLINE:%^t \n Entered on %U\n")))
 (setq org-refile-targets
       '((org-agenda-files . (:level . 1))))
 
@@ -90,6 +106,7 @@
 (global-set-key (kbd "C-:") 'shrink-window-horizontally) ; split pane top/bottom
 
 (global-set-key (kbd "C-f") 'find-file) ; open file
+(global-set-key (kbd "<f12>") 'save-buffer) ; save
 
 (global-set-key (kbd "C-d") 'delete-window) ; close current pane
 (global-set-key (kbd "C-z") 'other-window) ; cursor to other pane
@@ -106,7 +123,7 @@
 (global-set-key (kbd "<f5> a") 'org-agenda-list) ; open org agenda
 (global-set-key (kbd "<f5> s") 'org-store-link) ; store an org link
 (global-set-key (kbd "<f5> c")  'org-capture) ; org capture
-(global-set-key (kbd "<f5> x")  'org-toggle-latex-fragment) ; latex preview in org
+(global-set-key (kbd "<f5> x")  'org-toggle-pretty-entities) ; pretty printing in org
 ;; neotree
 (global-set-key (kbd "<f6>") 'neotree-toggle) ; show/hide neotree
 
@@ -118,15 +135,16 @@
 ;; counts
 (global-set-key (kbd "<f8>") 'count-words) ; count words
 
+;; aliases
+(defalias 'os 'olivetti-set-width)
 
+;; miscellany from interesting places
 
-;; aliases and miscellany from interesting places
-;; below from http://tonyballantyne.com/tech/transposition/ - potentially awesome
+;; below from http://tonyballantyne.com/tech/transposition/ - potentially awesome aliases
 (defalias 'ts 'transpose-sentences)
 (defalias 'tp 'transpose-paragraphs)
 
-;; aliases of my own
-(defalias 'os 'olivetti-set-width)
+;; Custom
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -145,6 +163,7 @@
  '(custom-safe-themes
    (quote
     ("f3d6a49e3f4491373028eda655231ec371d79d6d2a628f08d5aa38739340540b" "9f3dd1d7b46e99b94bb53506c44b651c811b3552100898842bdd22ce63ab8b55" "75da6010c2ad42c75ae3c24ba37d820b01e828361c4920aec6485a09d6c6a2ee" "28ec8ccf6190f6a73812df9bc91df54ce1d6132f18b4c8fcc85d45298569eb53" "ac2b1fed9c0f0190045359327e963ddad250e131fbf332e80d371b2e1dbc1dc4" "708df3cbb25425ccbf077a6e6f014dc3588faba968c90b74097d11177b711ad1" "d606ac41cdd7054841941455c0151c54f8bff7e4e050255dbd4ae4d60ab640c1" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "ff52e9e329c5a66eae3570e3f17288d0a9f96403ce1ac7cbca5a193ebc500936" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default)))
+ '(desktop-save-mode t)
  '(fci-rule-color "#eee8d5")
  '(highlight-changes-colors (quote ("#d33682" "#6c71c4")))
  '(highlight-symbol-colors
@@ -179,7 +198,8 @@
     ("#dc322f" "#cb4b16" "#b58900" "#546E00" "#B4C342" "#00629D" "#2aa198" "#d33682" "#6c71c4")))
  '(org-agenda-files
    (quote
-    ("~/notebook/Sem10/classes_sem10.org" "/home/sahiti/notebook/capture.org" "/home/sahiti/notebook/journal.org" "/home/sahiti/notebook/project.org" "/home/sahiti/notebook/reading.org" "/home/sahiti/notebook/bucket.org" "/home/sahiti/notebook/someday.org" "/home/sahiti/notebook/organization.org")))
+    ("~/notebook/Sem10/classes_sem10.org" "/home/sahiti/notebook/capture.org" "/home/sahiti/notebook/journal.org" "/home/sahiti/notebook/project.org" "/home/sahiti/notebook/reading.org" "/home/sahiti/notebook/bucket.org" "/home/sahiti/notebook/someday.org" "/home/sahiti/notebook/organization.org" "/home/sahiti/notebook/quotes.org")))
+ '(org-archive-location "./archives/%s_archive::")
  '(pos-tip-background-color "#eee8d5")
  '(pos-tip-foreground-color "#586e75")
  '(smartrep-mode-line-active-bg (solarized-color-blend "#859900" "#eee8d5" 0.2))

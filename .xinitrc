@@ -41,8 +41,8 @@ fi
 
 
 
-# # compositing
-# xcompmgr -c &
+# compositing
+compton -CGb
 
 # systray
 stalonetray &

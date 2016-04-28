@@ -1,297 +1,388 @@
-1460051681424	addons.manager	WARN	Exception calling callback: TypeError: addon is null (chrome://mdownmanager/content/browserOverlay.js:32:1) JS Stack trace: mdbOverlay.load/<@browserOverlay.js:32:1 < safeCall@AddonManager.jsm:179:5 < makeSafe/<@AddonManager.jsm:195:25 < Handler.prototype.process@Promise-backend.js:933:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:812:7 < this.PromiseWalker.scheduleWalkerLoop/<@Promise-backend.js:746:1
+Bad _NET_DESKTOP with data[0]=-1
+1461561923130	addons.manager	WARN	Exception calling callback: TypeError: addon is null (chrome://mdownmanager/content/browserOverlay.js:32:1) JS Stack trace: mdbOverlay.load/<@browserOverlay.js:32:1 < safeCall@AddonManager.jsm:179:5 < makeSafe/<@AddonManager.jsm:195:25 < Handler.prototype.process@Promise-backend.js:933:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:812:7 < this.PromiseWalker.scheduleWalkerLoop/<@Promise-backend.js:746:1
+1461561930552	FirefoxAccounts	ERROR	Could not retrieve profile data: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"<no message>\"  nsresult: \"0x805a2fe7 (<unknown>)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]"}
+1461561930552	FirefoxAccounts	ERROR	Could not retrieve profile data: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"<no message>\"  nsresult: \"0x805a2fe7 (<unknown>)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]"}
+1461561930553	FirefoxAccounts	ERROR	Could not retrieve profile data: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"<no message>\"  nsresult: \"0x805a2fe7 (<unknown>)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]"}
+1461561930553	FirefoxAccounts	ERROR	Could not retrieve profile data: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"<no message>\"  nsresult: \"0x805a2fe7 (<unknown>)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]"}
+1461561930554	FirefoxAccounts	ERROR	FxA rejecting with error NETWORK_ERROR, details: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"<no message>\"  nsresult: \"0x805a2fe7 (<unknown>)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]"}
+1461561930554	FirefoxAccounts	ERROR	FxA rejecting with error NETWORK_ERROR, details: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"<no message>\"  nsresult: \"0x805a2fe7 (<unknown>)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]"}
+1461561930554	FirefoxAccounts	ERROR	FxA rejecting with error NETWORK_ERROR, details: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"<no message>\"  nsresult: \"0x805a2fe7 (<unknown>)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]"}
+1461561930554	FirefoxAccounts	ERROR	FxA rejecting with error NETWORK_ERROR, details: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"<no message>\"  nsresult: \"0x805a2fe7 (<unknown>)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]"}
+/bin/bash: line 1:  1364 Killed                  dropbox
 xscreensaver-command: activating and locking.
 
-1460098868382	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
-1460098871515	addons.xpi	ERROR	Failed to clean updated system add-ons directories.: Unix error 2 during operation DirectoryIterator.prototype.next on file /home/sahiti/.mozilla/firefox/z34vv1ce.default-1450983266842/features (No such file or directory) ((unknown module)) No traceback available
+1461672524262	addons.manager	WARN	Exception calling callback: TypeError: addon is null (chrome://mdownmanager/content/browserOverlay.js:32:1) JS Stack trace: mdbOverlay.load/<@browserOverlay.js:32:1 < safeCall@AddonManager.jsm:179:5 < makeSafe/<@AddonManager.jsm:195:25 < Handler.prototype.process@Promise-backend.js:933:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:812:7 < this.PromiseWalker.scheduleWalkerLoop/<@Promise-backend.js:746:1
+1461672525158	FirefoxAccounts	ERROR	Could not retrieve profile data: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_PROXY_HOST\"  nsresult: \"0x804b002a (NS_ERROR_UNKNOWN_PROXY_HOST)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]"}
+1461672525158	FirefoxAccounts	ERROR	Could not retrieve profile data: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_PROXY_HOST\"  nsresult: \"0x804b002a (NS_ERROR_UNKNOWN_PROXY_HOST)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]"}
+1461672525159	FirefoxAccounts	ERROR	FxA rejecting with error NETWORK_ERROR, details: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_PROXY_HOST\"  nsresult: \"0x804b002a (NS_ERROR_UNKNOWN_PROXY_HOST)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]"}
+1461672525159	FirefoxAccounts	ERROR	FxA rejecting with error NETWORK_ERROR, details: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_PROXY_HOST\"  nsresult: \"0x804b002a (NS_ERROR_UNKNOWN_PROXY_HOST)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 465\"  data: no]"}
+1461672531882	addons.repository	WARN	Search failed when repopulating cache
+1461672532869	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+1461672532871	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+1461672532871	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+1461672533181	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+1461672533492	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+1461672534115	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+1461672534427	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+1461672534795	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+1461672535363	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+1461672535676	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+1461672535988	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+1461672536615	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+1461672536929	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+1461672537241	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+1461672537865	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+1461672538175	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+1461672538487	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+1461672539109	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+1461672539467	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+1461672540426	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+1461672548223	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1461672548224	addons.manager	WARN	Failed to update system addons: Error: Failed downloading XML, status: 0, reason: error (resource://gre/modules/addons/ProductAddonChecker.jsm:103:16) JS Stack trace: downloadXML/</fail@ProductAddonChecker.jsm:103:16
+1461672551976	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+Vector smash protection is enabled.
 xscreensaver-command: activating and locking.
 
-1460123142304	addons.manager	WARN	Exception calling callback: TypeError: addon is null (chrome://mdownmanager/content/browserOverlay.js:32:1) JS Stack trace: mdbOverlay.load/<@browserOverlay.js:32:1 < safeCall@AddonManager.jsm:179:5 < makeSafe/<@AddonManager.jsm:195:25 < Handler.prototype.process@Promise-backend.js:933:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:812:7 < this.PromiseWalker.scheduleWalkerLoop/<@Promise-backend.js:746:1
-xmonad is /usr/bin/xmonad
-xmonad is /usr/bin/xmonad
-Error detected while loading xmonad configuration file: /home/sahiti/.xmonad/xmonad.hs
+Vector smash protection is enabled.
+Vector smash protection is enabled.
+xscreensaver-command: activating and locking.
 
-xmonad.hs:21:50: parse error on input ‘defaultConfig’
+1461814597834	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+1461814599409	addons.xpi	ERROR	Failed to clean updated system add-ons directories.: Unix error 2 during operation DirectoryIterator.prototype.next on file /home/sahiti/.mozilla/firefox/z34vv1ce.default-1450983266842/features (No such file or directory) ((unknown module)) No traceback available
+Waiting for Emacs...
+Waiting for Emacs...
+Waiting for Emacs...
+Waiting for Emacs...
+Vector smash protection is enabled.
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+Waiting for Emacs...
+Waiting for Emacs...
+Waiting for Emacs...
+Waiting for Emacs...*ERROR*: Capture abort: (quit)
 
-Please check the file for errors.
+Waiting for Emacs...
+Waiting for Emacs...
+xscreensaver-command: activating and locking.
 
-Error detected while loading xmonad configuration file: /home/sahiti/.xmonad/xmonad.hs
+/usr/bin/emacsclient: can't find socket; have you started the server?
+To start the server in Emacs, type "M-x server-start".
+/usr/bin/emacsclient: No socket or alternate editor.  Please use:
 
-xmonad.hs:21:50: parse error on input ‘defaultConfig’
+	--socket-name
+	--server-file      (or environment variable EMACS_SERVER_FILE)
+	--alternate-editor (or environment variable ALTERNATE_EDITOR)
+/usr/bin/emacsclient: can't find socket; have you started the server?
+To start the server in Emacs, type "M-x server-start".
+/usr/bin/emacsclient: No socket or alternate editor.  Please use:
 
-Please check the file for errors.
+	--socket-name
+	--server-file      (or environment variable EMACS_SERVER_FILE)
+	--alternate-editor (or environment variable ALTERNATE_EDITOR)
+Waiting for Emacs...
+GEGL-geglmodule.c-Message: Module '/usr/lib/gegl-0.2/openraw.so' load error: libopenraw.so.1: cannot open shared object file: No such file or directory
+/usr/lib/gimp/2.0/plug-ins/help-browser: error while loading shared libraries: libwebkitgtk-1.0.so.0: cannot open shared object file: No such file or directory
 
-xmonad is /usr/bin/xmonad
-Error detected while loading xmonad configuration file: /home/sahiti/.xmonad/xmonad.hs
+(gimp-2.8:4066): LibGimpBase-WARNING **: gimp-2.8: gimp_wire_read(): error
+/usr/lib/gimp/2.0/plug-ins/web-page: error while loading shared libraries: libwebkitgtk-1.0.so.0: cannot open shared object file: No such file or directory
 
-xmonad.hs:20:15:
-    Couldn't match expected type ‘XConfig
-                                    (XMonad.Layout.LayoutModifier.ModifiedLayout
-                                       SmartBorder
-                                       (XMonad.Layout.LayoutModifier.ModifiedLayout
-                                          AvoidStruts (Choose Tall (Choose (Mirror Tall) Full))))
-                                  -> XConfig l0’
-                with actual type ‘XConfig l1’
-    The function ‘withUrgencyHook’ is applied to three arguments,
-    but its type ‘NoUrgencyHook -> XConfig l1 -> XConfig l1’
-    has only two
-    In the first argument of ‘additionalKeys’, namely
-      ‘withUrgencyHook
-         NoUrgencyHook
-         ewmh
-         (defaultConfig
-            {manageHook = manageDocks <+> manageHook defaultConfig,
-             handleEventHook = handleEventHook defaultConfig
-                               <+> fullscreenEventHook,
-             layoutHook = smartBorders $ avoidStruts $ layoutHook defaultConfig,
-             logHook = myLogHook
-                       <+>
-                         dynamicLogWithPP
-                           (xmobarPP
-                              {ppOutput = hPutStrLn xmproc, ppCurrent = xmobarColor "#b58900" "",
-                               ppTitle = xmobarColor "#b58900" "" . shorten 100,
-                               ppUrgent = xmobarColor "yellow" "red" . xmobarStrip}),
-             borderWidth = 0, modMask = mod4Mask, terminal = "xterm",
-             normalBorderColor = "#002b36", focusedBorderColor = "#586e75"})’
-    In the second argument of ‘($)’, namely
-      ‘withUrgencyHook
-         NoUrgencyHook
-         ewmh
-         (defaultConfig
-            {manageHook = manageDocks <+> manageHook defaultConfig,
-             handleEventHook = handleEventHook defaultConfig
-                               <+> fullscreenEventHook,
-             layoutHook = smartBorders $ avoidStruts $ layoutHook defaultConfig,
-             logHook = myLogHook
-                       <+>
-                         dynamicLogWithPP
-                           (xmobarPP
-                              {ppOutput = hPutStrLn xmproc, ppCurrent = xmobarColor "#b58900" "",
-                               ppTitle = xmobarColor "#b58900" "" . shorten 100,
-                               ppUrgent = xmobarColor "yellow" "red" . xmobarStrip}),
-             borderWidth = 0, modMask = mod4Mask, terminal = "xterm",
-             normalBorderColor = "#002b36", focusedBorderColor = "#586e75"})
-       `additionalKeys`
-         [((mod4Mask .|. shiftMask, xK_z), 
-           spawn "xscreensaver-command -lock"),
-          ((mod4Mask, xK_b), sendMessage ToggleStruts),
-          ((controlMask, xK_Print), 
-           spawn
-             "sleep 0.2; scrot -s ~/Screenshots/%Y-%m-%d-%T-screenshot.png"),
-          ((0, xK_Print), spawn "scrot")]’
+(gimp-2.8:4066): LibGimpBase-WARNING **: gimp-2.8: gimp_wire_read(): error
 
-xmonad.hs:20:45:
-    Couldn't match expected type ‘XConfig l1’
-                with actual type ‘XConfig a0 -> XConfig a0’
-    Probable cause: ‘ewmh’ is applied to too few arguments
-    In the second argument of ‘withUrgencyHook’, namely ‘ewmh’
-    In the first argument of ‘additionalKeys’, namely
-      ‘withUrgencyHook
-         NoUrgencyHook
-         ewmh
-         (defaultConfig
-            {manageHook = manageDocks <+> manageHook defaultConfig,
-             handleEventHook = handleEventHook defaultConfig
-                               <+> fullscreenEventHook,
-             layoutHook = smartBorders $ avoidStruts $ layoutHook defaultConfig,
-             logHook = myLogHook
-                       <+>
-                         dynamicLogWithPP
-                           (xmobarPP
-                              {ppOutput = hPutStrLn xmproc, ppCurrent = xmobarColor "#b58900" "",
-                               ppTitle = xmobarColor "#b58900" "" . shorten 100,
-                               ppUrgent = xmobarColor "yellow" "red" . xmobarStrip}),
-             borderWidth = 0, modMask = mod4Mask, terminal = "xterm",
-             normalBorderColor = "#002b36", focusedBorderColor = "#586e75"})’
+(pcmanfm:3886): GLib-CRITICAL **: Source ID 46 was not found when attempting to remove it
 
-Please check the file for errors.
+(pcmanfm:3886): GLib-CRITICAL **: Source ID 2173 was not found when attempting to remove it
 
-xmonad is /usr/bin/xmonad
-Error detected while loading xmonad configuration file: /home/sahiti/.xmonad/xmonad.hs
+(pcmanfm:3886): GLib-CRITICAL **: Source ID 162634 was not found when attempting to remove it
 
-xmonad.hs:20:15:
-    Couldn't match expected type ‘NoUrgencyHook
-                                  -> XConfig
-                                       (XMonad.Layout.LayoutModifier.ModifiedLayout
-                                          SmartBorder
-                                          (XMonad.Layout.LayoutModifier.ModifiedLayout
-                                             AvoidStruts (Choose Tall (Choose (Mirror Tall) Full))))
-                                  -> XConfig l0’
-                with actual type ‘XConfig a0’
-    The function ‘ewmh’ is applied to three arguments,
-    but its type ‘XConfig a0 -> XConfig a0’ has only one
-    In the first argument of ‘additionalKeys’, namely
-      ‘ewmh
-         withUrgencyHook
-         NoUrgencyHook
-         (defaultConfig
-            {manageHook = manageDocks <+> manageHook defaultConfig,
-             handleEventHook = handleEventHook defaultConfig
-                               <+> fullscreenEventHook,
-             layoutHook = smartBorders $ avoidStruts $ layoutHook defaultConfig,
-             logHook = myLogHook
-                       <+>
-                         dynamicLogWithPP
-                           (xmobarPP
-                              {ppOutput = hPutStrLn xmproc, ppCurrent = xmobarColor "#b58900" "",
-                               ppTitle = xmobarColor "#b58900" "" . shorten 100,
-                               ppUrgent = xmobarColor "yellow" "red" . xmobarStrip}),
-             borderWidth = 0, modMask = mod4Mask, terminal = "xterm",
-             normalBorderColor = "#002b36", focusedBorderColor = "#586e75"})’
-    In the second argument of ‘($)’, namely
-      ‘ewmh
-         withUrgencyHook
-         NoUrgencyHook
-         (defaultConfig
-            {manageHook = manageDocks <+> manageHook defaultConfig,
-             handleEventHook = handleEventHook defaultConfig
-                               <+> fullscreenEventHook,
-             layoutHook = smartBorders $ avoidStruts $ layoutHook defaultConfig,
-             logHook = myLogHook
-                       <+>
-                         dynamicLogWithPP
-                           (xmobarPP
-                              {ppOutput = hPutStrLn xmproc, ppCurrent = xmobarColor "#b58900" "",
-                               ppTitle = xmobarColor "#b58900" "" . shorten 100,
-                               ppUrgent = xmobarColor "yellow" "red" . xmobarStrip}),
-             borderWidth = 0, modMask = mod4Mask, terminal = "xterm",
-             normalBorderColor = "#002b36", focusedBorderColor = "#586e75"})
-       `additionalKeys`
-         [((mod4Mask .|. shiftMask, xK_z), 
-           spawn "xscreensaver-command -lock"),
-          ((mod4Mask, xK_b), sendMessage ToggleStruts),
-          ((controlMask, xK_Print), 
-           spawn
-             "sleep 0.2; scrot -s ~/Screenshots/%Y-%m-%d-%T-screenshot.png"),
-          ((0, xK_Print), spawn "scrot")]’
+(pcmanfm:3886): GLib-CRITICAL **: Source ID 413555 was not found when attempting to remove it
 
-xmonad.hs:20:20:
-    Couldn't match expected type ‘XConfig a0’
-                with actual type ‘h0 -> XConfig l1 -> XConfig l1’
-    Probable cause: ‘withUrgencyHook’ is applied to too few arguments
-    In the first argument of ‘ewmh’, namely ‘withUrgencyHook’
-    In the first argument of ‘additionalKeys’, namely
-      ‘ewmh
-         withUrgencyHook
-         NoUrgencyHook
-         (defaultConfig
-            {manageHook = manageDocks <+> manageHook defaultConfig,
-             handleEventHook = handleEventHook defaultConfig
-                               <+> fullscreenEventHook,
-             layoutHook = smartBorders $ avoidStruts $ layoutHook defaultConfig,
-             logHook = myLogHook
-                       <+>
-                         dynamicLogWithPP
-                           (xmobarPP
-                              {ppOutput = hPutStrLn xmproc, ppCurrent = xmobarColor "#b58900" "",
-                               ppTitle = xmobarColor "#b58900" "" . shorten 100,
-                               ppUrgent = xmobarColor "yellow" "red" . xmobarStrip}),
-             borderWidth = 0, modMask = mod4Mask, terminal = "xterm",
-             normalBorderColor = "#002b36", focusedBorderColor = "#586e75"})’
+(pcmanfm:3886): GLib-CRITICAL **: Source ID 413612 was not found when attempting to remove it
 
-Please check the file for errors.
+(pcmanfm:3886): GLib-CRITICAL **: Source ID 464161 was not found when attempting to remove it
+error: Could not find thumbnail in zip file
+error: The metadata does not have a thumbnail property
+error: Could not find thumbnail in zip file
+calling convert '/tmp/gsf-thumbnailer-GJ4TGY' +matte -thumbnail 128x128 png:'/home/sahiti/.thumbnails/normal/e41803406e6dbf34fb5cb7d0293fada6.png'
+NVIDIA: no NVIDIA devices found
 
-xmonad is /usr/bin/xmonad
-Error detected while loading xmonad configuration file: /home/sahiti/.xmonad/xmonad.hs
+(gsf-office-thumbnailer:4692): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+calling convert '/tmp/gsf-thumbnailer-6TPOGY' +matte -thumbnail 128x128 png:'/home/sahiti/.thumbnails/normal/f25beea95f454ac05e7a27bb260d3883.png'
 
-xmonad.hs:20:15:
-    Couldn't match expected type ‘NoUrgencyHook
-                                  -> XConfig
-                                       (XMonad.Layout.LayoutModifier.ModifiedLayout
-                                          SmartBorder
-                                          (XMonad.Layout.LayoutModifier.ModifiedLayout
-                                             AvoidStruts (Choose Tall (Choose (Mirror Tall) Full))))
-                                  -> XConfig l0’
-                with actual type ‘XConfig a0’
-    The function ‘ewmh’ is applied to three arguments,
-    but its type ‘XConfig a0 -> XConfig a0’ has only one
-    In the first argument of ‘additionalKeys’, namely
-      ‘ewmh
-         withUrgencyHook
-         NoUrgencyHook
-         (defaultConfig
-            {manageHook = manageDocks <+> manageHook defaultConfig,
-             handleEventHook = handleEventHook defaultConfig
-                               <+> fullscreenEventHook,
-             layoutHook = smartBorders $ avoidStruts $ layoutHook defaultConfig,
-             logHook = myLogHook
-                       <+>
-                         dynamicLogWithPP
-                           (xmobarPP
-                              {ppOutput = hPutStrLn xmproc, ppCurrent = xmobarColor "#b58900" "",
-                               ppTitle = xmobarColor "#b58900" "" . shorten 100,
-                               ppUrgent = xmobarColor "yellow" "red" . xmobarStrip}),
-             borderWidth = 0, modMask = mod4Mask, terminal = "xterm",
-             normalBorderColor = "#002b36", focusedBorderColor = "#586e75"})’
-    In the second argument of ‘($)’, namely
-      ‘ewmh
-         withUrgencyHook
-         NoUrgencyHook
-         (defaultConfig
-            {manageHook = manageDocks <+> manageHook defaultConfig,
-             handleEventHook = handleEventHook defaultConfig
-                               <+> fullscreenEventHook,
-             layoutHook = smartBorders $ avoidStruts $ layoutHook defaultConfig,
-             logHook = myLogHook
-                       <+>
-                         dynamicLogWithPP
-                           (xmobarPP
-                              {ppOutput = hPutStrLn xmproc, ppCurrent = xmobarColor "#b58900" "",
-                               ppTitle = xmobarColor "#b58900" "" . shorten 100,
-                               ppUrgent = xmobarColor "yellow" "red" . xmobarStrip}),
-             borderWidth = 0, modMask = mod4Mask, terminal = "xterm",
-             normalBorderColor = "#002b36", focusedBorderColor = "#586e75"})
-       `additionalKeys`
-         [((mod4Mask .|. shiftMask, xK_z), 
-           spawn "xscreensaver-command -lock"),
-          ((mod4Mask, xK_b), sendMessage ToggleStruts),
-          ((controlMask, xK_Print), 
-           spawn
-             "sleep 0.2; scrot -s ~/Screenshots/%Y-%m-%d-%T-screenshot.png"),
-          ((0, xK_Print), spawn "scrot")]’
+(gsf-office-thumbnailer:4715): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+calling convert '/tmp/gsf-thumbnailer-4SOYGY' +matte -thumbnail 128x128 png:'/home/sahiti/.thumbnails/normal/d34bf165341f065a7e8ad694d1a906cc.png'
 
-xmonad.hs:20:20:
-    Couldn't match expected type ‘XConfig a0’
-                with actual type ‘h0 -> XConfig l1 -> XConfig l1’
-    Probable cause: ‘withUrgencyHook’ is applied to too few arguments
-    In the first argument of ‘ewmh’, namely ‘withUrgencyHook’
-    In the first argument of ‘additionalKeys’, namely
-      ‘ewmh
-         withUrgencyHook
-         NoUrgencyHook
-         (defaultConfig
-            {manageHook = manageDocks <+> manageHook defaultConfig,
-             handleEventHook = handleEventHook defaultConfig
-                               <+> fullscreenEventHook,
-             layoutHook = smartBorders $ avoidStruts $ layoutHook defaultConfig,
-             logHook = myLogHook
-                       <+>
-                         dynamicLogWithPP
-                           (xmobarPP
-                              {ppOutput = hPutStrLn xmproc, ppCurrent = xmobarColor "#b58900" "",
-                               ppTitle = xmobarColor "#b58900" "" . shorten 100,
-                               ppUrgent = xmobarColor "yellow" "red" . xmobarStrip}),
-             borderWidth = 0, modMask = mod4Mask, terminal = "xterm",
-             normalBorderColor = "#002b36", focusedBorderColor = "#586e75"})’
+(gsf-office-thumbnailer:4722): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+error: Could not find thumbnail in zip file
+error: Could not find thumbnail in zip file
+calling convert '/tmp/gsf-thumbnailer-6X9QGY' +matte -thumbnail 128x128 png:'/home/sahiti/.thumbnails/normal/4c20a0cb2521445f96aa5ed8db67510c.png'
 
-Please check the file for errors.
+(gsf-office-thumbnailer:4734): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+error: Could not find thumbnail in zip file
+error: Could not find thumbnail in zip file
+error: Could not find thumbnail in zip file
+error: The metadata does not have a thumbnail property
+error: Could not find thumbnail in zip file
+error: Could not find thumbnail in zip file
+error: Could not find thumbnail in zip file
+error: Could not find thumbnail in zip file
+error: Could not find thumbnail in zip file
+error: Could not find thumbnail in zip file
+error: The metadata does not have a thumbnail property
+error: Could not find thumbnail in zip file
+console.error: ghostery: 
+  Message: TypeError: tabInfo.get(...).worker.port is undefined
+  Stack:
+    updateBox@resource://gre/modules/commonjs/toolkit/loader.js -> resource://firefox-at-ghostery-dot-com/lib/background.js:2800:2
+processBug@resource://gre/modules/commonjs/toolkit/loader.js -> resource://firefox-at-ghostery-dot-com/lib/background.js:2698:5
+Ghostery.BlockingPolicy.shouldLoad/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://firefox-at-ghostery-dot-com/lib/background.js:302:1
+notify@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/timers.js:40:9
 
-xmonad is /usr/bin/xmonad
-Bad _NET_DESKTOP with data[0]=-1
-[3080:3080:0408/193203:ERROR:logging.h(813)] Failed to call method: org.freedesktop.DBus.ObjectManager.GetManagedObjects: object_path= /: org.freedesktop.systemd1.NoSuchUnit: Unit dbus-org.bluez.service not found.
-[3080:3080:0408/193203:ERROR:logging.h(813)] Failed to call method: org.freedesktop.DBus.ObjectManager.GetManagedObjects: object_path= /: org.freedesktop.systemd1.NoSuchUnit: Unit dbus-org.bluez.service not found.
-xmonad is /usr/bin/xmonad
-Error detected while loading xmonad configuration file: /home/sahiti/.xmonad/xmonad.hs
+console.error: ghostery: 
+  Message: TypeError: tabInfo.get(...).worker.port is undefined
+  Stack:
+    updateBox@resource://gre/modules/commonjs/toolkit/loader.js -> resource://firefox-at-ghostery-dot-com/lib/background.js:2800:2
+processBug@resource://gre/modules/commonjs/toolkit/loader.js -> resource://firefox-at-ghostery-dot-com/lib/background.js:2698:5
+Ghostery.BlockingPolicy.shouldLoad/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://firefox-at-ghostery-dot-com/lib/background.js:302:1
+notify@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/timers.js:40:9
 
-xmonad.hs:16:1: parse error on input ‘where’
+console.error: ghostery: 
+  Message: TypeError: tabInfo.get(...).worker.port is undefined
+  Stack:
+    updateBox@resource://gre/modules/commonjs/toolkit/loader.js -> resource://firefox-at-ghostery-dot-com/lib/background.js:2800:2
+processBug@resource://gre/modules/commonjs/toolkit/loader.js -> resource://firefox-at-ghostery-dot-com/lib/background.js:2698:5
+Ghostery.BlockingPolicy.shouldLoad/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://firefox-at-ghostery-dot-com/lib/background.js:302:1
+notify@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/timers.js:40:9
 
-Please check the file for errors.
+xscreensaver-command: activating and locking.
 
-xmonad is /usr/bin/xmonad
-Error detected while loading xmonad configuration file: /home/sahiti/.xmonad/xmonad.hs
+Waiting for Emacs...
+Waiting for Emacs...
+Performance warning: Async animation disabled because frame size (861, 3344) is bigger than the viewport (1537, 848) or the visual rectangle (861, 3344) is larger than the max allowable value (17895698) [div]
+Vector smash protection is enabled.
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+Waiting for Emacs...
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+calling convert '/tmp/gsf-thumbnailer-EDNOGY' +matte -thumbnail 128x128 png:'/home/sahiti/.thumbnails/normal/e41803406e6dbf34fb5cb7d0293fada6.png'
 
-xmonad.hs:16:1: parse error on input ‘where’
+(gsf-office-thumbnailer:5912): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+calling convert '/tmp/gsf-thumbnailer-PIQ0GY' +matte -thumbnail 128x128 png:'/home/sahiti/.thumbnails/normal/f25beea95f454ac05e7a27bb260d3883.png'
 
-Please check the file for errors.
+(gsf-office-thumbnailer:5919): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+calling convert '/tmp/gsf-thumbnailer-G2UOGY' +matte -thumbnail 128x128 png:'/home/sahiti/.thumbnails/normal/d34bf165341f065a7e8ad694d1a906cc.png'
 
-xmonad is /usr/bin/xmonad
-Bad _NET_DESKTOP with data[0]=-1
+(gsf-office-thumbnailer:5926): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+error: Could not find thumbnail in zip file
+error: Could not find thumbnail in zip file
+calling convert '/tmp/gsf-thumbnailer-71WZGY' +matte -thumbnail 128x128 png:'/home/sahiti/.thumbnails/normal/4c20a0cb2521445f96aa5ed8db67510c.png'
+
+(gsf-office-thumbnailer:5938): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+error: Could not find thumbnail in zip file
+error: Could not find thumbnail in zip file
+error: Could not find thumbnail in zip file
+error: Could not find thumbnail in zip file
+error: Could not find thumbnail in zip file
+error: Could not find thumbnail in zip file
+error: Could not find thumbnail in zip file
+error: Could not find thumbnail in zip file
+error: Could not find thumbnail in zip file
+error: Could not find thumbnail in zip file
+error: Could not find thumbnail in zip file
+error: The metadata does not have a thumbnail property
+error: Could not find thumbnail in zip file
+calling convert '/tmp/gsf-thumbnailer-EROPGY' +matte -thumbnail 128x128 png:'/home/sahiti/.thumbnails/normal/cd5c7c91bde6c90a4a9f8c6c68cc4799.png'
+
+(gsf-office-thumbnailer:6041): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+calling convert '/tmp/gsf-thumbnailer-KDU0GY' +matte -thumbnail 128x128 png:'/home/sahiti/.thumbnails/normal/9bb60a9a257ac8ea141912f3dd9c016f.png'
+
+(gsf-office-thumbnailer:6049): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+calling convert '/tmp/gsf-thumbnailer-SZOPGY' +matte -thumbnail 128x128 png:'/home/sahiti/.thumbnails/normal/06103224effa04bb7fc66167ab49877e.png'
+
+(gsf-office-thumbnailer:6056): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+error: Could not find thumbnail in zip file
+error: Could not find thumbnail in zip file
+error: Could not find thumbnail in zip file
+error: Could not find thumbnail in zip file
+[00000000022a4148] core libvlc: Running vlc with the default interface. Use 'cvlc' to use vlc without interface.
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+[00007f4e8c00e038] equalizer audio filter error: No preset selected
+[0000000002393878] core audio output error: cannot add user audio filter "equalizer" (skipped)
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+[00007f4e7008c788] freetype spu text error: Breaking unbreakable line
+X11 error: BadWindow (invalid Window parameter) (request: X_ConfigureWindow, resource 0xc)
+X11 error: BadWindow (invalid Window parameter) (request: X_MapWindow, resource 0x8)
+X11 error 3 detected at debug.c:140:print_icon_data
+X11 error: BadWindow (invalid Window parameter) (request: X_GetWindowAttributes, resource 0x3)
+X11 error 3 detected at debug.c:140:print_icon_data
+X11 error: BadWindow (invalid Window parameter) (request: X_ChangeWindowAttributes, resource 0x2)
+X11 error: BadWindow (invalid Window parameter) (request: X_UnmapWindow, resource 0xa)
+X11 error: BadWindow (invalid Window parameter) (request: X_ReparentWindow, resource 0x7)
+X11 error: BadWindow (invalid Window parameter) (request: X_ConfigureWindow, resource 0xc)
+X11 error: BadWindow (invalid Window parameter) (request: X_MapWindow, resource 0x8)
+X11 error 3 detected at xutils.c:115:x11_get_server_timestamp
+/bin/sh: xsel: command not found
+
+(pcmanfm:5868): GLib-CRITICAL **: Source ID 43 was not found when attempting to remove it
+
+(pcmanfm:5868): GLib-CRITICAL **: Source ID 196459 was not found when attempting to remove it
+
+(pcmanfm:5868): GLib-CRITICAL **: Source ID 196540 was not found when attempting to remove it
+error: Could not find thumbnail in zip file
+
+(pcmanfm:5868): GLib-CRITICAL **: Source ID 295867 was not found when attempting to remove it
+
+(pcmanfm:5868): GLib-CRITICAL **: Source ID 377714 was not found when attempting to remove it
+
+(pcmanfm:5868): GLib-CRITICAL **: Source ID 474687 was not found when attempting to remove it
+
+(pcmanfm:5868): GLib-CRITICAL **: Source ID 474754 was not found when attempting to remove it
+
+(pcmanfm:5868): GLib-CRITICAL **: Source ID 474819 was not found when attempting to remove it
+error: Could not find thumbnail in zip file
+error: Could not find thumbnail in zip file
+
+(pcmanfm:5868): GLib-CRITICAL **: Source ID 512743 was not found when attempting to remove it
+
+(pcmanfm:5868): GLib-CRITICAL **: Source ID 558265 was not found when attempting to remove it
+
+(pcmanfm:5868): GLib-CRITICAL **: Source ID 558687 was not found when attempting to remove it
+calling convert '/tmp/gsf-thumbnailer-6IE0GY' +matte -thumbnail 128x128 png:'/home/sahiti/.thumbnails/normal/4c20a0cb2521445f96aa5ed8db67510c.png'
+
+(gsf-office-thumbnailer:7557): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+/bin/sh: xsel: command not found
+/bin/sh: xsel: command not found
+/bin/sh: xsel: command not found
+/bin/sh: xsel: command not found
+/bin/sh: xsel: command not found
+/bin/sh: xsel: command not found
+/bin/sh: xsel: command not found
+/bin/sh: xsel: command not found
+Waiting for Emacs...
+/usr/bin/emacsclient: can't find socket; have you started the server?
+To start the server in Emacs, type "M-x server-start".
+/usr/bin/emacsclient: No socket or alternate editor.  Please use:
+
+	--socket-name
+	--server-file      (or environment variable EMACS_SERVER_FILE)
+	--alternate-editor (or environment variable ALTERNATE_EDITOR)
+xscreensaver-command: activating and locking.
+
+Vector smash protection is enabled.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[1][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[1][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[2][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[1][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[2][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[3][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[1][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[2][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[3][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[4][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[1][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[2][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[3][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[4][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[5][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[6][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[2][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[3][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[4][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[5][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[6][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[7][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[3][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[4][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[5][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[6][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[7][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[8][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[4][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[5][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[6][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[7][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[8][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[9][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[5][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[6][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[7][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[8][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[9][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[10][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[11][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[7][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[8][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[9][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[10][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[11][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[12][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[8][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[9][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[10][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[11][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[12][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[13][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[9][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[10][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[11][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[12][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[13][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[14][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[10][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[11][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[12][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[13][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[14][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[15][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[16][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[12][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[13][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[14][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[15][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[16][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[17][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[13][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[14][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[15][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[16][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[17][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[18][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[14][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[15][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[16][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[17][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[18][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[19][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[15][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[16][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[17][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[18][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[19][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[20][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[21][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[17][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[18][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[19][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[20][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[21][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[22][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[18][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[19][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[20][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[21][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[22][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[23][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[19][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[20][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[21][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[22][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[23][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[24][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[20][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[21][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[22][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[23][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[24][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[25][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[26][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[22][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[23][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[24][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[25][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[26][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[27][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[23][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[24][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[25][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[26][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[27][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[28][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[24][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[25][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[26][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[27][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[28][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[29][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[25][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[26][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[27][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[28][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[29][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[30][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[31][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[27][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[28][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[29][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[30][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[31][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[32][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[28][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[29][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[30][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[31][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[32][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[33][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[29][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[30][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[31][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[32][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[33][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[34][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[30][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[31][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[32][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[33][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[34][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[35][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[36][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[32][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[33][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[34][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[35][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[36][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[37][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[33][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[34][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[35][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[36][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[37][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[38][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[34][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[35][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[36][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[37][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[38][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[39][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[35][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[36][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[37][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[38][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[39][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[40][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[41][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 254, 131264, 759|[37][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[38][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[39][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[40][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 254, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[41][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 254, 131264, 759|[42][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 256, 131264, 759|[38][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[39][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[40][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 256, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[41][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 254, 131264, 759|[42][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 256, 131264, 759|[43][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 264, 131264, 759|[39][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[40][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 264, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[41][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 254, 131264, 759|[42][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 256, 131264, 759|[43][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 264, 131264, 759|[44][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 279, 131264, 759|[40][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 279, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[41][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 254, 131264, 759|[42][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 256, 131264, 759|[43][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 264, 131264, 759|[44][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 279, 131264, 759|[45][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 298, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 298, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[46][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 321, 131264, 759|[42][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 256, 131264, 759|[43][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 264, 131264, 759|[44][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 279, 131264, 759|[45][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 298, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 321, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[46][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 321, 131264, 759|[47][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 347, 131264, 759|[43][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 264, 131264, 759|[44][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 279, 131264, 759|[45][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 298, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 347, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[46][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 321, 131264, 759|[47][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 347, 131264, 759|[48][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 377, 131264, 759|[44][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 279, 131264, 759|[45][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 298, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 377, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[46][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 321, 131264, 759|[47][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 347, 131264, 759|[48][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 377, 131264, 759|[49][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 410, 131264, 759|[45][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 298, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 410, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[46][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 321, 131264, 759|[47][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 347, 131264, 759|[48][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 377, 131264, 759|[49][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 410, 131264, 759|[50][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 443, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 443, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[51][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 479, 131264, 759|[47][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 347, 131264, 759|[48][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 377, 131264, 759|[49][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 410, 131264, 759|[50][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 443, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 479, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[51][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 479, 131264, 759|[52][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 545, 131264, 759|[48][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 377, 131264, 759|[49][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 410, 131264, 759|[50][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 443, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 545, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[51][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 479, 131264, 759|[52][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 545, 131264, 759|[53][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 584, 131264, 759|[49][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 410, 131264, 759|[50][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 443, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 584, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[51][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 479, 131264, 759|[52][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 545, 131264, 759|[53][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 584, 131264, 759|[54][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 606, 131264, 759|[50][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 443, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 606, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[51][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 479, 131264, 759|[52][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 545, 131264, 759|[53][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 584, 131264, 759|[54][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 606, 131264, 759|[55][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 637, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 637, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[56][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 664, 131264, 759|[52][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 545, 131264, 759|[53][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 584, 131264, 759|[54][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 606, 131264, 759|[55][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 637, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 664, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[56][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 664, 131264, 759|[57][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 692, 131264, 759|[53][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 584, 131264, 759|[54][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 606, 131264, 759|[55][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 637, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 692, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[56][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 664, 131264, 759|[57][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 692, 131264, 759|[58][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 716, 131264, 759|[54][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 606, 131264, 759|[55][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 637, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 716, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[56][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 664, 131264, 759|[57][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 692, 131264, 759|[58][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 716, 131264, 759|[59][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 740, 131264, 759|[55][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 637, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 740, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[56][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 664, 131264, 759|[57][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 692, 131264, 759|[58][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 716, 131264, 759|[59][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 740, 131264, 759|[60][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 763, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 763, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[61][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 783, 131264, 759|[57][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 692, 131264, 759|[58][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 716, 131264, 759|[59][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 740, 131264, 759|[60][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 763, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 783, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[61][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 783, 131264, 759|[62][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 803, 131264, 759|[58][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 716, 131264, 759|[59][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 740, 131264, 759|[60][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 763, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 803, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[61][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 783, 131264, 759|[62][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 803, 131264, 759|[63][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 820, 131264, 759|[59][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 740, 131264, 759|[60][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 763, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 820, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[61][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 783, 131264, 759|[62][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 803, 131264, 759|[63][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 820, 131264, 759|[64][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 836, 131264, 759|[60][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 763, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 836, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[61][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 783, 131264, 759|[62][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 803, 131264, 759|[63][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 820, 131264, 759|[64][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 836, 131264, 759|[65][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 849, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 849, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[66][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 860, 131264, 759|[62][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 803, 131264, 759|[63][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 820, 131264, 759|[64][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 836, 131264, 759|[65][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 849, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 860, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[66][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 860, 131264, 759|[67][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 869, 131264, 759|[63][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 820, 131264, 759|[64][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 836, 131264, 759|[65][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 849, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 869, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[66][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 860, 131264, 759|[67][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 869, 131264, 759|[68][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 874, 131264, 759|[64][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 836, 131264, 759|[65][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 849, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 874, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[66][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 860, 131264, 759|[67][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 869, 131264, 759|[68][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 874, 131264, 759|[69][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759|[65][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 849, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[66][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 860, 131264, 759|[67][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 869, 131264, 759|[68][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 874, 131264, 759|[69][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759|[70][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[71][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759|[67][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 869, 131264, 759|[68][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 874, 131264, 759|[69][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759|[70][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[71][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759|[72][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759|[68][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 874, 131264, 759|[69][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759|[70][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[71][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759|[72][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759|[73][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759|[69][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759|[70][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[71][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759|[72][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759|[73][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759|[74][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759|[70][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[71][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759|[72][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759|[73][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759|[74][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759|[75][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 864, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 864, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[76][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 842, 131264, 759|[72][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759|[73][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759|[74][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759|[75][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 864, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 842, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[76][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 842, 131264, 759|[77][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 805, 131264, 759|[73][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759|[74][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759|[75][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 864, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 805, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[76][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 842, 131264, 759|[77][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 805, 131264, 759|[78][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 747, 131264, 759|[74][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 876, 131264, 759|[75][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 864, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 747, 131264, 759
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[76][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 842, 131264, 759|[77][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 805, 131264, 759|[78][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 747, 131264, 759|[79][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 0, 131264, 675|[75][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 864, 131264, 759[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 0, 131264, 675
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 252, 131264, 759|[76][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 842, 131264, 759|[77][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 805, 131264, 759|[78][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 747, 131264, 759|[79][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 0, 131264, 675|[80][GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 0, 131264, 675[GFX1-]: Failed 2 buffer db=0x0 dw=0x0 for -129899, 0, 131264, 675
+console.error: ghostery: 
+  Message: TypeError: tabInfo.get(...).worker.port is undefined
+  Stack:
+    updateBox@resource://gre/modules/commonjs/toolkit/loader.js -> resource://firefox-at-ghostery-dot-com/lib/background.js:2800:2
+processBug@resource://gre/modules/commonjs/toolkit/loader.js -> resource://firefox-at-ghostery-dot-com/lib/background.js:2698:5
+Ghostery.BlockingPolicy.shouldLoad/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://firefox-at-ghostery-dot-com/lib/background.js:302:1
+notify@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/timers.js:40:9
+
+Waiting for Emacs...
+Vector smash protection is enabled.
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+Waiting for Emacs...
+Vector smash protection is enabled.
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+c++: fatal error: no input files
+compilation terminated.
+
+(pcmanfm:5868): GLib-CRITICAL **: Source ID 558933 was not found when attempting to remove it
+
+(pcmanfm:5868): GLib-CRITICAL **: Source ID 689947 was not found when attempting to remove it
+
+(pcmanfm:5868): GLib-CRITICAL **: Source ID 690017 was not found when attempting to remove it
+
+(pcmanfm:5868): GLib-CRITICAL **: Source ID 800213 was not found when attempting to remove it
+
+(pcmanfm:5868): GLib-CRITICAL **: Source ID 850566 was not found when attempting to remove it
+
+(pcmanfm:5868): GLib-CRITICAL **: Source ID 850621 was not found when attempting to remove it
+
+(pcmanfm:5868): GLib-CRITICAL **: Source ID 890938 was not found when attempting to remove it
