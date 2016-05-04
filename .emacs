@@ -18,7 +18,6 @@
 ;; appearances
 
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
-(global-linum-mode)
 (column-number-mode)
 
 (set-fontset-font
