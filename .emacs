@@ -45,6 +45,11 @@
 			  (name . "*Mingus*")))))))
 
 
+;; vc
+
+(add-hook 'after-save-hook (lambda () (vc-next-action nil)))
+
+
 ;; orgmode
 
 ;; basics
@@ -95,6 +100,14 @@
 	("\\.mm\\'" . default)
 	("\\.x?html?\\'" . default)
 	("pdf" . "llpp %s")))
+
+
+
+
+
+
+
+
 
 
 ;; openwith - defaults applications for some file types
