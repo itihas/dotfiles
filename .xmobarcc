@@ -2,7 +2,8 @@ Config {  bgColor = "#002b36"
        , fgColor = "#657b83"
        , position = BottomSize L 100 4
        , lowerOnStart = True
-       , commands = [ Run DynNetwork     [ "--template" , "<dev>: down <rx>kB/s| up <tx>kB/s"] 10
+       , commands = [ Run DynNetwork     [ "--template" ,"-m 4" , "<dev>: down <rx>kB/s| up <tx>kB/s"] 10
+       	 	    , Run MPD ["-t", "-M 60", "<statei> <artist> - <title> (<album>)", "--", "-P", ">>", "-Z", "|", "-S", "><"] 10
        	 	    , Run Cpu ["-L","3","-H","50","--high","#dc322f"] 10
                     , Run Memory ["-t","Mem: <usedratio>%"] 10
                     , Run Date "%a %b %_d %k:%M" "date" 10
@@ -16,5 +17,5 @@ Config {  bgColor = "#002b36"
                     ]
        , sepChar = "%"
        , alignSep = "}{"
-       , template = "%StdinReader% }{ %dynnetwork% | %cpu% | %memory% | %battery% |  <fc=#b58900>%date%</fc>"
+       , template = "%StdinReader% }{ %dynnetwork% | %cpu% | %memory% | %battery% |<fc=#2aa198>%mpd% </fc>|<fc=#b58900> %date%</fc>"
        }
