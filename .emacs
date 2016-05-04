@@ -16,8 +16,33 @@
 ;; appearances
 
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
+(global-linum-mode)
+(column-number-mode)
+
+(set-fontset-font
+ t 'symbol
+ (font-spec :family "Symbola") nil 'prepend)
 
 
+;; ibuffer
+
+(setq ibuffer-saved-filter-groups
+      (quote (("default"
+	       ("dired" (mode . dired-mode))
+	       ("orgmode" (or
+			   (mode . org-mode)
+			   (mode . org-agenda-mode)))
+	       ("emacs" (or
+			 (name . "^\\*scratch\\*$")
+			 (name . "^\\*Messages\\*$")
+			 (name . "^\\*Compile-Log\\*$")
+			 (name . "^\\*Backtrace\\*$")
+			 (name . "^\\*Packages\\*$")))
+	       ("elisp" (mode . emacs-lisp-mode))
+	       ("mingus" (or
+			  (name . "*Mingus Help*")
+			  (name . "*Mingus Browser")
+			  (name . "*Mingus*")))))))
 
 
 ;; orgmode
@@ -55,17 +80,15 @@
 (setq org-default-notes-file (concat org-directory "/notes.org"))
 (setq org-capture-templates
       '(("i" "Inbox" entry (file "~/notebook/capture.org")
-	 "* %?\n  %i\n")
+	 "* %? \n:PROPERTIES:\n :CREATED: %U\n :END:\n  %i\n")
 	("b" "Bookmark" entry (file "~/notebook/capture.org")
-	 "* %c %^G \n %? \n #+BEGIN_QUOTE \n%i\n #+END_QUOTE\n\n Created on: %U\n")
+	 "* %c %^G \n %? \n #+BEGIN_QUOTE \n%i\n #+END_QUOTE\n")
 	("q" "Quote" entry (file "~/notebook/quotes.org")
-	 "* #+BEGIN_QUOTE %i\n%?\n #+END_QUOTE\n \nEntered on %U\n")
+	 "*  \n:PROPERTIES:\n :CREATED: %U\n :END:\n#+BEGIN_QUOTE %i\n%?\n #+END_QUOTE\n \nEntered on %U\n")
         ("j" "Journal" entry (file+datetree "~/notebook/journal.org")
-	 "* %?\nEntered on %U\n  %i\n")
+	 "*%^{Title}  \n :PROPERTIES: \n :CREATED: %U\n :END:\n\n %?\n")
 	("p" "Prediction" entry (file "~/notebook/predictions.org")
-	 "* %^{Prediction} \n %^{ODDS}p \n DEADLINE:%^t \n Entered on %U\n")))
-(setq org-refile-targets
-      '((org-agenda-files . (:level . 1))))
+	 "* %^{Prediction} \n :PROPERTIES:\n :CREATED: %U\n :END:\n %^{ODDS}p \n DEADLINE:%^t \n ")))
 
 (setq org-file-apps
       '((auto-mode . emacs)
@@ -90,7 +113,6 @@
 (menu-bar-mode -1)
 (set-scroll-bar-mode nil)
 (setq show-paren-style 'mixed)
-;; (setq initial-buffer-choice "~/notebook")
 (setq backup-directory-alist `(("." . "~/.saves")))
 
 
@@ -124,8 +146,8 @@
 (global-set-key (kbd "<f5> s") 'org-store-link) ; store an org link
 (global-set-key (kbd "<f5> c")  'org-capture) ; org capture
 (global-set-key (kbd "<f5> x")  'org-toggle-pretty-entities) ; pretty printing in org
-;; neotree
-(global-set-key (kbd "<f6>") 'neotree-toggle) ; show/hide neotree
+(global-set-key (kbd "<f5> p")  'org-pomodoro) ; timeboxing yay
+(global-set-key (kbd "<f5> x")  'org-toggle-pretty-entities) ; pretty printing in org
 
 ;; appearance things
 (global-set-key (kbd "M-o") 'olivetti-mode) ; toggle olivetti mode
@@ -134,6 +156,9 @@
 
 ;; counts
 (global-set-key (kbd "<f8>") 'count-words) ; count words
+
+
+
 
 ;; aliases
 (defalias 'os 'olivetti-set-width)
@@ -163,7 +188,7 @@
  '(custom-safe-themes
    (quote
     ("f3d6a49e3f4491373028eda655231ec371d79d6d2a628f08d5aa38739340540b" "9f3dd1d7b46e99b94bb53506c44b651c811b3552100898842bdd22ce63ab8b55" "75da6010c2ad42c75ae3c24ba37d820b01e828361c4920aec6485a09d6c6a2ee" "28ec8ccf6190f6a73812df9bc91df54ce1d6132f18b4c8fcc85d45298569eb53" "ac2b1fed9c0f0190045359327e963ddad250e131fbf332e80d371b2e1dbc1dc4" "708df3cbb25425ccbf077a6e6f014dc3588faba968c90b74097d11177b711ad1" "d606ac41cdd7054841941455c0151c54f8bff7e4e050255dbd4ae4d60ab640c1" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "ff52e9e329c5a66eae3570e3f17288d0a9f96403ce1ac7cbca5a193ebc500936" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default)))
- '(desktop-save-mode t)
+ '(desktop-save-mode nil)
  '(fci-rule-color "#eee8d5")
  '(highlight-changes-colors (quote ("#d33682" "#6c71c4")))
  '(highlight-symbol-colors
@@ -193,13 +218,24 @@
     ("#00FF99" "#CCFF99" "#FFCC99" "#FF9999" "#FF99CC" "#CC99FF" "#9999FF" "#99CCFF" "#99FFCC" "#7FFF00")))
  '(hl-paren-colors (quote ("#326B6B")))
  '(magit-diff-use-overlays nil)
+ '(mouse-avoidance-banish-position
+   (quote
+    ((frame-or-window . frame)
+     (side . right)
+     (side-pos . 0)
+     (top-or-bottom . top)
+     (top-or-bottom-pos . 0))))
+ '(mouse-avoidance-mode (quote banish) nil (avoid))
  '(nrepl-message-colors
    (quote
     ("#dc322f" "#cb4b16" "#b58900" "#546E00" "#B4C342" "#00629D" "#2aa198" "#d33682" "#6c71c4")))
  '(org-agenda-files
    (quote
-    ("~/notebook/Sem10/classes_sem10.org" "/home/sahiti/notebook/capture.org" "/home/sahiti/notebook/journal.org" "/home/sahiti/notebook/project.org" "/home/sahiti/notebook/reading.org" "/home/sahiti/notebook/bucket.org" "/home/sahiti/notebook/someday.org" "/home/sahiti/notebook/organization.org" "/home/sahiti/notebook/quotes.org")))
+    ("~/notebook/Sem10/classes_sem10.org" "/home/sahiti/notebook/capture.org" "/home/sahiti/notebook/journal.org" "/home/sahiti/notebook/reading.org" "/home/sahiti/notebook/bucket.org" "/home/sahiti/notebook/quotes.org" "/home/sahiti/notebook/health.org")))
  '(org-archive-location "./archives/%s_archive::")
+ '(org-refile-targets (quote ((org-agenda-files :maxlevel . 4))))
+ '(org-refile-use-outline-path (quote file))
+ '(org-special-ctrl-a/e t)
  '(pos-tip-background-color "#eee8d5")
  '(pos-tip-foreground-color "#586e75")
  '(smartrep-mode-line-active-bg (solarized-color-blend "#859900" "#eee8d5" 0.2))
@@ -240,6 +276,8 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(default ((t (:inherit nil :stipple nil :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 108 :width normal :foundry "1ASC" :family "Liberation Mono"))))
+ '(org-drawer ((t (:foreground "#2aa198" :height 0.8))))
+ '(org-special-keyword ((t (:foreground "#93a1a1" :weight bold :height 0.8))))
  '(org-tag ((t (:weight bold :height 0.6)))))
 
 
