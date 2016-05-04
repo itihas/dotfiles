@@ -49,7 +49,6 @@
 
 (add-hook 'after-save-hook (lambda () (vc-next-action '())))
 
-
 ;; orgmode
 
 ;; basics
