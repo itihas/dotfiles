@@ -38,11 +38,7 @@
 			 (name . "^\\*Compile-Log\\*$")
 			 (name . "^\\*Backtrace\\*$")
 			 (name . "^\\*Packages\\*$")))
-	       ("elisp" (mode . emacs-lisp-mode))
-	       ("mingus" (or
-			  (name . "*Mingus Help*")
-			  (name . "*Mingus Browser")
-			  (name . "*Mingus*")))))))
+	       ("elisp" (mode . emacs-lisp-mode))))))
 
 
 ;; vc
