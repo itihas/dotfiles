@@ -47,7 +47,7 @@
 
 ;; vc
 
-(add-hook 'after-save-hook (lambda () (vc-next-action nil)))
+(add-hook 'after-save-hook (lambda () (vc-next-action '())))
 
 ;; orgmode
 
