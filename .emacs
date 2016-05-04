@@ -1,3 +1,6 @@
+;; -*- eval: (git-auto-commit-mode 1) -*-
+
+
 (require 'package) ;; You might already have this line
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.org/packages/"))
@@ -41,9 +44,6 @@
 	       ("elisp" (mode . emacs-lisp-mode))))))
 
 
-;; vc
-
-(add-hook 'after-save-hook (lambda () (vc-next-action '())))
 
 ;; orgmode
 

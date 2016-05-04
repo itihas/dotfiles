@@ -3,18 +3,18 @@
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored-marker"
- (filename . "~/notebook/organization.org")
- (front-context-string . "** TODO install ")
- (rear-context-string . "y calculation]]\n")
- (position . 2621))
+ (filename . "~/notebook/bucket.org")
+ (front-context-string . "**** TODO naviga")
+ (rear-context-string . "item categories\n")
+ (position . 42561))
 ("org-capture-last-stored"
  (filename . "~/notebook/capture.org")
- (front-context-string . "* capture  \n #+B")
- (rear-context-string . "e to Blogging]]\n")
- (position . 3016))
+ (front-context-string . "* [[http://orgmo")
+ (rear-context-string . "5-04 Wed 13:57]\n")
+ (position . 2346))
 ("org-refile-last-stored"
- (filename . "~/notebook/organization.org")
- (front-context-string . "** TODO think ab")
- (rear-context-string . "nbow delimiters\n")
- (position . 2656))
+ (filename . "~/notebook/bucket.org")
+ (front-context-string . "** TODO figure o")
+ (rear-context-string . " to its nature.\n")
+ (position . 582))
 )
