@@ -202,7 +202,7 @@
 (setq mouse-avoidance-mode (quote banish))
 (setq org-agenda-files
       (quote
-       ("~/notebook/Sem10/classes_sem10.org" "/home/sahiti/notebook/capture.org" "/home/sahiti/notebook/journal.org" "/home/sahiti/notebook/reading.org" "/home/sahiti/notebook/bucket.org" "/home/sahiti/notebook/quotes.org" "/home/sahiti/notebook/health.org")))
+       ("~/notebook/Sem10/classes_sem10.org" "/home/sahiti/notebook/capture.org" "/home/sahiti/notebook/journal.org" "/home/sahiti/notebook/reading.org" "/home/sahiti/notebook/bucket.org" "/home/sahiti/notebook/quotes.org" "/home/sahiti/notebook/health.org" "/home/sahiti/notebook/confluence2016.org")))
 (setq org-archive-location "./archives/%s_archive::")
 (setq org-default-notes-file "~/notebook/capture.org")
 (setq org-refile-targets (quote ((org-agenda-files :maxlevel . 4))))
