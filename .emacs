@@ -15,6 +15,11 @@
 
 ;; general
 
+
+;; helm
+
+(helm-mode 1)
+
 ;; appearances
 
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
