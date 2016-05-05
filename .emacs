@@ -189,25 +189,25 @@
 ;; leaving Custom
 ;; (at least for everything but theme because Custom themes rock)
 
- (setq gac-ask-for-summary-p nil)
- (setq magit-diff-use-overlays nil)
- (setq message-default-charset (quote iso-8859-1))
- (setq mouse-avoidance-banish-position
-   (quote
-    ((frame-or-window . frame)
-     (side . right)
-     (side-pos . 0)
-     (top-or-bottom . top)
-     (top-or-bottom-pos . 0))))
- (setq mouse-avoidance-mode (quote banish))
- (setq org-agenda-files
-   (quote
-    ("~/notebook/Sem10/classes_sem10.org" "/home/sahiti/notebook/capture.org" "/home/sahiti/notebook/journal.org" "/home/sahiti/notebook/reading.org" "/home/sahiti/notebook/bucket.org" "/home/sahiti/notebook/quotes.org" "/home/sahiti/notebook/health.org")))
- (setq org-archive-location "./archives/%s_archive::")
- (setq org-default-notes-file "~/notebook/capture.org")
- (setq org-refile-targets (quote ((org-agenda-files :maxlevel . 4))))
- (setq org-refile-use-outline-path (quote file))
- (setq org-special-ctrl-a/e t)
+(setq gac-ask-for-summary-p nil)
+(setq magit-diff-use-overlays nil)
+(setq message-default-charset (quote iso-8859-1))
+(setq mouse-avoidance-banish-position
+      (quote
+       ((frame-or-window . frame)
+	(side . right)
+	(side-pos . 0)
+	(top-or-bottom . top)
+	(top-or-bottom-pos . 0))))
+(setq mouse-avoidance-mode (quote banish))
+(setq org-agenda-files
+      (quote
+       ("~/notebook/Sem10/classes_sem10.org" "/home/sahiti/notebook/capture.org" "/home/sahiti/notebook/journal.org" "/home/sahiti/notebook/reading.org" "/home/sahiti/notebook/bucket.org" "/home/sahiti/notebook/quotes.org" "/home/sahiti/notebook/health.org")))
+(setq org-archive-location "./archives/%s_archive::")
+(setq org-default-notes-file "~/notebook/capture.org")
+(setq org-refile-targets (quote ((org-agenda-files :maxlevel . 4))))
+(setq org-refile-use-outline-path (quote file))
+(setq org-special-ctrl-a/e t)
 
 
 
