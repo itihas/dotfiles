@@ -6,7 +6,7 @@ import XMonad.Hooks.UrgencyHook
 import XMonad.Util.NamedWindows
 import XMonad.Hooks.FadeInactive
 import XMonad.Hooks.EwmhDesktops
-import XMonad.Util.Run(spawnPipe)
+import XMonad.Util.Run(spawnPipe, safeSpawn)
 import XMonad.Util.EZConfig(additionalKeys)
 import XMonad.Layout.NoBorders
 import System.IO
