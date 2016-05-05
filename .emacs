@@ -24,7 +24,6 @@
 
 ;; bibtex
 (setq bibtex-completion-bibliography '("~/notebook/misc.bib"))
-(setq bibtext-completion-library-path '("~/notebook/academic reading"))
 
 ;; appearances
 
