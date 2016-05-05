@@ -27,8 +27,9 @@ myLogHook = fadeInactiveLogHook fadeAmount
 	  where fadeAmount = 0.8
 
 main = do
-xmproc <- spawnPipe "xmobar /home/sahiti/.xmobarcc"
-xmonad $  ewmh
+  xmproc <- spawnPipe "xmobar /home/sahiti/.xmobarcc"
+  spawn "pkill dunst ; dunst -config ~/.dunstrc &"
+  xmonad $  ewmh
        $  withUrgencyHook LibNotifyUrgencyHook defaultConfig { manageHook = manageDocks <+> manageHook defaultConfig
        , handleEventHook = handleEventHook defaultConfig <+> fullscreenEventHook
        , layoutHook =  smartBorders $ avoidStruts $ layoutHook defaultConfig
