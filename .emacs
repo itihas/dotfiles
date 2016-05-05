@@ -95,7 +95,9 @@
 	("pdf" . "llpp %s")))
 
 
+;; org export
 
+(setq org-html-checkbox-type 'unicode)
 
 
 
