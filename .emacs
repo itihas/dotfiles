@@ -209,8 +209,8 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(default ((t (:inherit nil :stipple nil  :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 108 :width normal :foundry "1ASC" :family "Liberation Mono"))))
- '(org-drawer ((t (:foreground "#2aa198" :height 0.8))))
- '(org-special-keyword ((t (:foreground "#93a1a1" :weight bold :height 0.8))))
+ '(org-drawer ((t ( :height 0.8))))
+ '(org-special-keyword ((t ( :weight bold :height 0.8))))
  '(org-tag ((t (:weight bold :height 0.6)))))
 
 
