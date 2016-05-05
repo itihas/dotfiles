@@ -185,8 +185,7 @@
  (setq org-default-notes-file "~/notebook/notes.org")
  (setq org-refile-targets (quote ((org-agenda-files :maxlevel . 4))))
  (setq org-refile-use-outline-path (quote file))
- (setq org-special-ctrl-a/e t))
-
+ (setq org-special-ctrl-a/e t)
 
 
 
