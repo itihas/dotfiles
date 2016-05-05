@@ -3,6 +3,7 @@ import XMonad.Hooks.DynamicLog
 import XMonad.Hooks.ManageDocks
 import XMonad.Hooks.ManageHelpers
 import XMonad.Hooks.UrgencyHook
+import XMonad.Util.NamedWindows
 import XMonad.Hooks.FadeInactive
 import XMonad.Hooks.EwmhDesktops
 import XMonad.Util.Run(spawnPipe)
