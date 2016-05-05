@@ -136,6 +136,9 @@
 (global-set-key (kbd "M-y") 'helm-show-kill-ring)
 (global-set-key (kbd "C-b") 'helm-multi-files)
 (global-set-key (kbd "C-f") 'helm-find-files) ; open file
+(when (executable-find "ack-grep")
+  (setq helm-grep-default-command "ack-grep -Hn --no-group --no-color %e %p %f"
+        helm-grep-default-recurse-command "ack-grep -H --no-group --no-color %e %p %f"))
 
 ;; easy keys for window management. Key based on ErgoEmacs keybinding
 (global-set-key (kbd "C-1") 'delete-other-windows) ; expand current pane
