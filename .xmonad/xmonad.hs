@@ -11,6 +11,16 @@ import XMonad.Util.EZConfig(additionalKeys)
 import XMonad.Layout.NoBorders
 import System.IO
 
+import qualified XMonad.StackSet as W
+
+data LibNotifyUrgencyHook = LibNotifyUrgencyHook deriving (Read, Show)
+
+instance UrgencyHook LibNotifyUrgencyHook where
+    urgencyHook LibNotifyUrgencyHook w = do
+        name     <- getName w
+        Just idx <- fmap (W.findTag w) $ gets windowset
+
+        safeSpawn "notify-send" [show name, "workspace " ++ idx]
 
 myLogHook :: X ()
 myLogHook = fadeInactiveLogHook fadeAmount
@@ -19,7 +29,7 @@ myLogHook = fadeInactiveLogHook fadeAmount
 main = do
 xmproc <- spawnPipe "xmobar /home/sahiti/.xmobarcc"
 xmonad $  ewmh
-       $  withUrgencyHook NoUrgencyHook defaultConfig { manageHook = manageDocks <+> manageHook defaultConfig
+       $  withUrgencyHook LibNotifyUrgencyHook defaultConfig { manageHook = manageDocks <+> manageHook defaultConfig
        , handleEventHook = handleEventHook defaultConfig <+> fullscreenEventHook
        , layoutHook =  smartBorders $ avoidStruts $ layoutHook defaultConfig
        , logHook = myLogHook <+> dynamicLogWithPP xmobarPP { ppOutput = hPutStrLn xmproc
