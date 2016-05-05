@@ -202,16 +202,7 @@
  '(org-refile-targets (quote ((org-agenda-files :maxlevel . 4))))
  '(org-refile-use-outline-path (quote file))
  '(org-special-ctrl-a/e t)
- '(vc-annotate-background nil)
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil  :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 108 :width normal :foundry "1ASC" :family "Liberation Mono"))))
- '(org-drawer ((t ( :height 0.8))))
- '(org-special-keyword ((t ( :weight bold :height 0.8))))
- '(org-tag ((t (:weight bold :height 0.6)))))
+ '(vc-annotate-background nil))
 
 
 ;; theme cycling
