@@ -183,7 +183,7 @@
    (quote
     ("~/notebook/Sem10/classes_sem10.org" "/home/sahiti/notebook/capture.org" "/home/sahiti/notebook/journal.org" "/home/sahiti/notebook/reading.org" "/home/sahiti/notebook/bucket.org" "/home/sahiti/notebook/quotes.org" "/home/sahiti/notebook/health.org")))
  (setq org-archive-location "./archives/%s_archive::")
- (setq org-default-notes-file "~/notebook/notes.org")
+ (setq org-default-notes-file "~/notebook/capture.org")
  (setq org-refile-targets (quote ((org-agenda-files :maxlevel . 4))))
  (setq org-refile-use-outline-path (quote file))
  (setq org-special-ctrl-a/e t)
