@@ -1,5 +1,6 @@
 --  -*- eval: (git-auto-commit-mode 1) -*-
 
+
 Config {  bgColor = "#002b36"
        , fgColor = "#657b83"
        , position = BottomSize L 100 4
