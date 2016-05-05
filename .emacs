@@ -22,7 +22,9 @@
 (helm-mode 1)
 (add-to-list 'helm-sources-using-default-as-input 'helm-source-man-pages)
 
-
+;; bibtex
+(setq bibtex-completion-bibliography '("~/notebook/misc.bib"))
+(setq bibtext-completion-library-path '("~/notebook/academic reading"))
 
 ;; appearances
 
