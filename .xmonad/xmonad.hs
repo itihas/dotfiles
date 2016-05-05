@@ -1,3 +1,5 @@
+--  -*- eval: (git-auto-commit-mode 1) -*-
+
 import XMonad
 import XMonad.Hooks.DynamicLog
 import XMonad.Hooks.ManageDocks
