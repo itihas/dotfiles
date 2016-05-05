@@ -1,5 +1,7 @@
 ! xscreensaver
 
+! --  -*- eval: (git-auto-commit-mode 1) -*-
+
 
 xscreensaver.splash: false
 
@@ -39,6 +41,7 @@ xscreensaver.dateFormat:    %I:%M%P %a %b %d, %Y
 ! xterm
 
 XTerm*VT100.translations: #override <Btn1Up>: select-end(PRIMARY, CLIPBOARD, CUT_BUFFER0)
+
 
 !! drop in Solarized colorscheme for Xresources/Xdefaults
 
