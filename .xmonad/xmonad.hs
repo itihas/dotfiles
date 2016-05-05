@@ -24,8 +24,8 @@ instance UrgencyHook LibNotifyUrgencyHook where
         safeSpawn "notify-send" [show name, "workspace " ++ idx]
 
 myLogHook :: X ()
-myLogHook = fadeInactiveLogHook fadeAmount
-	  where fadeAmount = 0.8
+-- myLogHook = fadeInactiveLogHook fadeAmount
+-- 	  where fadeAmount = 0.8
 
 main = do
   xmproc <- spawnPipe "xmobar /home/sahiti/.xmobarcc"
