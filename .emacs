@@ -15,8 +15,12 @@
 
 ;; general
 
+;; semantic mode
+(semantic-mode 1)
+
 ;; helm
 (helm-mode 1)
+(add-to-list 'helm-sources-using-default-as-input 'helm-source-man-pages)
 
 
 
