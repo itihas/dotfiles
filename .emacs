@@ -21,6 +21,8 @@
 ;; helm
 (helm-mode 1)
 (add-to-list 'helm-sources-using-default-as-input 'helm-source-man-pages)
+(global-set-key (kbd "C-c h g") 'helm-google-suggest)
+
 
 ;; bibtex
 (setq bibtex-completion-bibliography '("~/notebook/misc.bib"))
