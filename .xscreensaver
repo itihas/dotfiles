@@ -2,7 +2,6 @@
 # Written by xscreensaver-demo 5.34 for sahiti on Mon Mar 14 19:53:11 2016.
 # http://www.jwz.org/xscreensaver/
 # -*- eval: (git-auto-commit-mode 1) -*-
-
 timeout:	0:16:00
 cycle:		0:01:00
 lock:		True
