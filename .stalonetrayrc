@@ -1,3 +1,4 @@
+#  -*- eval: (git-auto-commit-mode 1) -*-
 # vim:filetype=config:tw=80:et
 #
 # This is sample ~/.stalonetrayrc, resembling default configuration.
@@ -10,6 +11,7 @@
 # stalonetray understands following directives
 #
 ####################################################################
+
 
 # background <color>         # color can be specified as an HTML hex triplet or
                              # as a name from rgb.txt, note that '#' must be quoted
