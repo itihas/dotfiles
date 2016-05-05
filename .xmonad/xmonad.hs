@@ -24,8 +24,8 @@ instance UrgencyHook LibNotifyUrgencyHook where
         safeSpawn "notify-send" [show name, "workspace " ++ idx]
 
 myLogHook :: X ()
--- myLogHook = fadeInactiveLogHook fadeAmount
--- 	  where fadeAmount = 0.8
+myLogHook = fadeInactiveLogHook fadeAmount
+	  where fadeAmount = 0.8
 
 main = do
   xmproc <- spawnPipe "xmobar /home/sahiti/.xmobarcc"
@@ -34,7 +34,8 @@ main = do
        $  withUrgencyHook LibNotifyUrgencyHook defaultConfig { manageHook = manageDocks <+> manageHook defaultConfig
        , handleEventHook = handleEventHook defaultConfig <+> fullscreenEventHook
        , layoutHook =  smartBorders $ avoidStruts $ layoutHook defaultConfig
-       , logHook = myLogHook <+> dynamicLogWithPP xmobarPP { ppOutput = hPutStrLn xmproc
+       , logHook = -- myLogHook <+>
+         dynamicLogWithPP xmobarPP { ppOutput = hPutStrLn xmproc
        	 	   	     	 		           , ppCurrent = xmobarColor "#b58900" ""
        							   , ppTitle = xmobarColor "#b58900" "" . shorten 100
        							   , ppUrgent = xmobarColor "yellow" "red" . xmobarStrip 
