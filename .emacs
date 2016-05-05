@@ -225,6 +225,7 @@
     ("#00FF99" "#CCFF99" "#FFCC99" "#FF9999" "#FF99CC" "#CC99FF" "#9999FF" "#99CCFF" "#99FFCC" "#7FFF00")))
  '(hl-paren-colors (quote ("#326B6B")))
  '(magit-diff-use-overlays nil)
+ '(message-default-charset (quote iso-8859-1))
  '(mouse-avoidance-banish-position
    (quote
     ((frame-or-window . frame)
@@ -240,6 +241,7 @@
    (quote
     ("~/notebook/Sem10/classes_sem10.org" "/home/sahiti/notebook/capture.org" "/home/sahiti/notebook/journal.org" "/home/sahiti/notebook/reading.org" "/home/sahiti/notebook/bucket.org" "/home/sahiti/notebook/quotes.org" "/home/sahiti/notebook/health.org")))
  '(org-archive-location "./archives/%s_archive::")
+ '(org-default-notes-file "~/notebook/notes.org")
  '(org-refile-targets (quote ((org-agenda-files :maxlevel . 4))))
  '(org-refile-use-outline-path (quote file))
  '(org-special-ctrl-a/e t)
@@ -282,7 +284,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 108 :width normal :foundry "1ASC" :family "Liberation Mono"))))
+ '(default ((t (:inherit nil :stipple nil :background "#3F3F3F" :foreground "#DCDCCC" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 108 :width normal :foundry "1ASC" :family "Liberation Mono"))))
  '(org-drawer ((t (:foreground "#2aa198" :height 0.8))))
  '(org-special-keyword ((t (:foreground "#93a1a1" :weight bold :height 0.8))))
  '(org-tag ((t (:weight bold :height 0.6)))))
