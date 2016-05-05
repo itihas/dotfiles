@@ -134,8 +134,8 @@
 ;; helm bindings
 (global-set-key (kbd "M-x") 'helm-M-x)
 (global-set-key (kbd "M-y") 'helm-show-kill-ring)
-(global-set-key (kbd "C-x b") 'helm-mini)
-
+(global-set-key (kbd "C-b") 'helm-multi-files)
+(global-set-key (kbd "C-f") 'helm-find-files) ; open file
 
 ;; easy keys for window management. Key based on ErgoEmacs keybinding
 (global-set-key (kbd "C-1") 'delete-other-windows) ; expand current pane
@@ -146,7 +146,7 @@
 (global-set-key (kbd "C->") 'enlarge-window-horizontally) ; split pane top/bottom
 (global-set-key (kbd "C-:") 'shrink-window-horizontally) ; split pane top/bottom
 
-(global-set-key (kbd "C-f") 'find-file) ; open file
+
 (global-set-key (kbd "<f12>") 'save-buffer) ; save
 
 (global-set-key (kbd "C-d") 'delete-window) ; close current pane
@@ -156,7 +156,7 @@
 
 (global-set-key (kbd "<C-left>") 'previous-buffer) ; go to previous buffer
 (global-set-key (kbd "<C-right>") 'next-buffer) ; go to next buffer
-(global-set-key (kbd "C-b") 'ibuffer) ; open ibuffer instead of emacs buffer list
+(global-set-key (kbd "C-x C-b") 'ibuffer) ; open ibuffer instead of emacs buffer list
 
 
 ;; orgmode shortcuts
