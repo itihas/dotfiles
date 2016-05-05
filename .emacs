@@ -15,10 +15,10 @@
 
 ;; general
 
-
 ;; helm
-
 (helm-mode 1)
+
+
 
 ;; appearances
 
@@ -130,6 +130,12 @@
 
 
 ;; keybindings
+
+;; helm 
+(global-set-key (kbd "M-x") 'helm-M-x)
+(global-set-key (kbd "M-y") 'helm-show-kill-ring)
+(global-set-key (kbd "C-x b") 'helm-mini)
+
 
 ;; easy keys for window management. Key based on ErgoEmacs keybinding
 (global-set-key (kbd "C-1") 'delete-other-windows) ; expand current pane
