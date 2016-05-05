@@ -177,7 +177,7 @@
      (side-pos . 0)
      (top-or-bottom . top)
      (top-or-bottom-pos . 0))))
- (setq mouse-avoidance-mode (quote banish) nil (avoid))
+ (setq mouse-avoidance-mode (quote banish))
  (setq org-agenda-files
    (quote
     ("~/notebook/Sem10/classes_sem10.org" "/home/sahiti/notebook/capture.org" "/home/sahiti/notebook/journal.org" "/home/sahiti/notebook/reading.org" "/home/sahiti/notebook/bucket.org" "/home/sahiti/notebook/quotes.org" "/home/sahiti/notebook/health.org")))
