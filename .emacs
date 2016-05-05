@@ -166,6 +166,7 @@
 
 
 ;; leaving Custom
+;; (at least for everything but theme because Custom themes rock)
 
  (setq gac-ask-for-summary-p nil)
  (setq magit-diff-use-overlays nil)
