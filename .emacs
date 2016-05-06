@@ -52,7 +52,6 @@
       helm-recentf-fuzzy-match    t)
 (setq helm-M-x-fuzzy-match t) ;; optional fuzzy matching for helm-M-x
 (add-to-list 'helm-sources-using-default-as-input 'helm-source-man-pages)
-(global-set-key (kbd "<f6>") 'helm-google-suggest)
 
 
 ;; bibtex
@@ -175,6 +174,7 @@
 (global-set-key (kbd "M-y") 'helm-show-kill-ring)
 (global-set-key (kbd "C-b") 'helm-multi-files)
 (global-set-key (kbd "C-f") 'helm-find-files) ; open file
+(global-set-key (kbd "<f6>") 'helm-google-suggest)
 
 ;; easy keys for window management. Key based on ErgoEmacs keybinding
 (global-set-key (kbd "C-1") 'delete-other-windows) ; expand current pane
