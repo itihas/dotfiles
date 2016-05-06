@@ -146,13 +146,9 @@
 (global-set-key (kbd "C-f") 'helm-find-files) ; open file
 
 ;; easy keys for window management. Key based on ErgoEmacs keybinding
-(global-set-key (kbd "C-1") 'delete-other-windows) ; expand current pane
-(global-set-key (kbd "C-2") 'split-window-below) ; split pane top/bottom
-(global-set-key (kbd "C-3") 'split-window-horizontally) ; split pane top/bottom
-(global-set-key (kbd "C-.") 'enlarge-window) ; split pane top/bottom
-(global-set-key (kbd "C-;") 'shrink-window) ; split pane top/bottom
-(global-set-key (kbd "C->") 'enlarge-window-horizontally) ; split pane top/bottom
-(global-set-key (kbd "C-:") 'shrink-window-horizontally) ; split pane top/bottom
+(global-set-key (kbd "s-1") 'delete-other-windows) ; expand current pane
+(global-set-key (kbd "s-2") 'split-window-below) ; split pane top/bottom
+(global-set-key (kbd "s-3") 'split-window-horizontally) ; split pane top/bottom
 
 
 (global-set-key (kbd "<f12>") 'save-buffer) ; save
