@@ -2,6 +2,7 @@
 
 # -*- eval: (git-auto-commit-mode 1) -*-
 
+
 userresources=$HOME/.Xresources
 usermodmap=$HOME/.Xmodmap
 sysresources=/etc/X11/xinit/.Xresources
@@ -26,6 +27,7 @@ if [ -f "$userresources" ]; then
 
     xrdb -merge "$userresources"
 
+    
 fi
 
 if [ -f "$usermodmap" ]; then
@@ -44,7 +46,7 @@ fi
 
 
 # compositing
-compton -CGb
+# compton -CGb
 
 # systray
 stalonetray &
