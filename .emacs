@@ -9,11 +9,6 @@
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
 (package-initialize) ;; You might already have this line
 
-;; typewriter-noises!!!
-(byte-compile-file "/home/sahiti/.emacs.d/writer-typewriter.el")
-(load "/home/sahiti/.emacs.d/writer-typewriter.elc")
-
-
 ;; general
 
 ;; leaving Custom
