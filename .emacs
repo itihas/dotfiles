@@ -33,8 +33,12 @@
 
 (setq org-archive-location "./archives/%s_archive::")
 (setq org-default-notes-file "~/notebook/capture.org")
-(setq org-refile-targets '((org-agenda-files :maxlevel  4))))
-(setq org-refile-use-outline-path (quote file))
+
+(setq org-refile-targets '((nil :maxlevel . 9)
+                                (org-agenda-files :maxlevel . 9)))
+(setq org-outline-path-complete-in-steps nil)         ; Refile in a single go
+(setq org-refile-use-outline-path t)                  ; Show full paths for refiling
+
 (setq org-special-ctrl-a/e t)
 
 
