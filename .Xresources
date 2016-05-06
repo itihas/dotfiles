@@ -1,45 +1,5 @@
-! xscreensaver
+! xscreensaver  -*- eval: (git-auto-commit-mode 1); -*-
 
-! --  -*- eval: (git-auto-commit-mode 1) -*-
-
-xscreensaver.splash: false
-
-!font settings
-xscreensaver.Dialog.headingFont:        -*-dina-bold-r-*-*-12-*-*-*-*-*-*-*
-xscreensaver.Dialog.bodyFont:           -*-dina-medium-r-*-*-12-*-*-*-*-*-*-*
-xscreensaver.Dialog.labelFont:          -*-dina-medium-r-*-*-12-*-*-*-*-*-*-*
-xscreensaver.Dialog.unameFont:          -*-dina-medium-r-*-*-12-*-*-*-*-*-*-*
-xscreensaver.Dialog.buttonFont:         -*-dina-bold-r-*-*-12-*-*-*-*-*-*-*
-xscreensaver.Dialog.dateFont:           -*-dina-medium-r-*-*-12-*-*-*-*-*-*-*
-xscreensaver.passwd.passwdFont:         -*-dina-bold-r-*-*-12-*-*-*-*-*-*-*
-
-!general dialog box (affects main hostname, username, password text)
-xscreensaver.Dialog.foreground:         #ffffff
-xscreensaver.Dialog.background:         #111111
-xscreensaver.Dialog.topShadowColor:     #111111
-xscreensaver.Dialog.bottomShadowColor:  #111111
-xscreensaver.Dialog.Button.foreground:  #666666
-xscreensaver.Dialog.Button.background:  #ffffff
-
-!username/password input box and date text colour
-xscreensaver.Dialog.text.foreground:    #666666
-xscreensaver.Dialog.text.background:    #ffffff
-xscreensaver.Dialog.internalBorderWidth:24
-xscreensaver.Dialog.borderWidth:        20
-xscreensaver.Dialog.shadowThickness:    2
-
-!timeout bar (background is actually determined by Dialog.text.background)
-xscreensaver.passwd.thermometer.foreground:  #ff0000
-xscreensaver.passwd.thermometer.background:  #000000
-xscreensaver.passwd.thermometer.width:       8
-
-!datestamp format--see the strftime(3) manual page for details
-xscreensaver.dateFormat:    %I:%M%P %a %b %d, %Y
-
-
-! xterm
-
-XTerm*VT100.translations: #override <Btn1Up>: select-end(PRIMARY, CLIPBOARD, CUT_BUFFER0)
 
 
 !! drop in Solarized colorscheme for Xresources/Xdefaults
@@ -80,8 +40,8 @@ XTerm*VT100.translations: #override <Btn1Up>: select-end(PRIMARY, CLIPBOARD, CUT
 #define S_cyan          #2aa198
 #define S_green         #859900
 
-*background:            S_base03
-*foreground:            S_base00
+*background:            S_base2
+*foreground:            S_base0
 *cursorColor:           S_base1
 *pointerColorBackground:S_base01
 *pointerColorForeground:S_base1
@@ -117,3 +77,43 @@ XTerm*VT100.translations: #override <Btn1Up>: select-end(PRIMARY, CLIPBOARD, CUT
 !! white dark/light
 *color7:                S_base2
 *color15:               S_base3
+
+xscreensaver.splash: false
+
+!font settings
+xscreensaver.Dialog.headingFont:        -*-dina-bold-r-*-*-12-*-*-*-*-*-*-*
+xscreensaver.Dialog.bodyFont:           -*-dina-medium-r-*-*-12-*-*-*-*-*-*-*
+xscreensaver.Dialog.labelFont:          -*-dina-medium-r-*-*-12-*-*-*-*-*-*-*
+xscreensaver.Dialog.unameFont:          -*-dina-medium-r-*-*-12-*-*-*-*-*-*-*
+xscreensaver.Dialog.buttonFont:         -*-dina-bold-r-*-*-12-*-*-*-*-*-*-*
+xscreensaver.Dialog.dateFont:           -*-dina-medium-r-*-*-12-*-*-*-*-*-*-*
+xscreensaver.passwd.passwdFont:         -*-dina-bold-r-*-*-12-*-*-*-*-*-*-*
+
+!general dialog box (affects main hostname, username, password text)
+xscreensaver.Dialog.foreground:         S_base3
+xscreensaver.Dialog.background:         S_base02
+xscreensaver.Dialog.topShadowColor:     S_base02
+xscreensaver.Dialog.bottomShadowColor:  S_base02
+xscreensaver.Dialog.Button.foreground:  S_base00
+xscreensaver.Dialog.Button.background:  S_base3
+
+!username/password input box and date text colour
+xscreensaver.Dialog.text.foreground:    S_base00
+xscreensaver.Dialog.text.background:    S_base3
+xscreensaver.Dialog.internalBorderWidth:24
+xscreensaver.Dialog.borderWidth:        20
+xscreensaver.Dialog.shadowThickness:    2
+
+!timeout bar (background is actually determined by Dialog.text.background)
+xscreensaver.passwd.thermometer.foreground:  S_red
+xscreensaver.passwd.thermometer.background:  S_base03
+xscreensaver.passwd.thermometer.width:       8
+
+!datestamp format--see the strftime(3) manual page for details
+xscreensaver.dateFormat:    %I:%M%P %a %b %d, %Y
+
+
+! xterm
+
+XTerm*VT100.translations: #override <Btn1Up>: select-end(PRIMARY, CLIPBOARD, CUT_BUFFER0)
+
