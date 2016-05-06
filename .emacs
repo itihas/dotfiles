@@ -58,8 +58,10 @@
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
 (column-number-mode)
 
-(require 'wc-mode)
-(wc-mode t)
+(org-add-hook (lambda ()
+		(setq wc-count-words-function
+		      
+
 
 (set-fontset-font
  t 'symbol
