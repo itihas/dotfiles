@@ -57,7 +57,6 @@
 
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
 (column-number-mode)
-(word-count-mode 1)
 
 (set-fontset-font
  t 'symbol
