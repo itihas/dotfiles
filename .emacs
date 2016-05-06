@@ -162,8 +162,8 @@
 (global-set-key (kbd "C-q") 'kill-buffer) ; close current buffer
 
 
-(global-set-key (kbd "<C-left>") 'previous-buffer) ; go to previous buffer
-(global-set-key (kbd "<C-right>") 'next-buffer) ; go to next buffer
+(global-set-key (kbd "<s-left>") 'previous-buffer) ; go to previous buffer
+(global-set-key (kbd "<s-right>") 'next-buffer) ; go to next buffer
 (global-set-key (kbd "C-x C-b") 'ibuffer) ; open ibuffer instead of emacs buffer list
 
 
