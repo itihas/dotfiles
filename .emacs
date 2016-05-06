@@ -22,11 +22,12 @@
 (setq magit-diff-use-overlays nil)
 (setq message-default-charset (quote iso-8859-1))
 (setq mouse-avoidance-banish-position
-      '((frame-or-window . frame)
+      (quote
+       ((frame-or-window . frame)
 	(side . right)
 	(side-pos . 0)
 	(top-or-bottom . top)
-	(top-or-bottom-pos . 0)))
+	(top-or-bottom-pos . 0))))
 (setq mouse-avoidance-mode (quote banish))
 (setq org-agenda-files '("~/notebook/"))
 
