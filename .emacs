@@ -47,6 +47,9 @@
 
 ;; helm
 (helm-mode 1)
+(setq helm-buffers-fuzzy-matching t
+      helm-recentf-fuzzy-match    t)
+
 (setq helm-M-x-fuzzy-match t) ;; optional fuzzy matching for helm-M-x
 (add-to-list 'helm-sources-using-default-as-input 'helm-source-man-pages)
 (global-set-key (kbd "<f6>") 'helm-google-suggest)
