@@ -33,7 +33,7 @@
 
 (setq org-archive-location "./archives/%s_archive::")
 (setq org-default-notes-file "~/notebook/capture.org")
-(setq org-refile-targets '((org-agenda-files . (:maxlevel . 4))))
+(setq org-refile-targets '((org-agenda-files :maxlevel  4))))
 (setq org-refile-use-outline-path (quote file))
 (setq org-special-ctrl-a/e t)
 
