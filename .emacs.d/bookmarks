@@ -4,17 +4,17 @@
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored-marker"
  (filename . "~/notebook/bucket.org")
- (front-context-string . "**** TODO naviga")
- (rear-context-string . "item categories\n")
- (position . 42561))
+ (front-context-string . "**** TODO set up")
+ (rear-context-string . "s before.\n:END:\n")
+ (position . 47085))
 ("org-capture-last-stored"
  (filename . "~/notebook/capture.org")
- (front-context-string . "* [[http://orgmo")
- (rear-context-string . "5-04 Wed 13:57]\n")
- (position . 2346))
+ (front-context-string . "* [[https://8000")
+ (rear-context-string . " \n\n #+END_QUOTE\n")
+ (position . 6353))
 ("org-refile-last-stored"
- (filename . "~/notebook/bucket.org")
- (front-context-string . "** TODO figure o")
- (rear-context-string . " to its nature.\n")
- (position . 582))
+ (filename . "~/notebook/*.org")
+ (front-context-string . "* IDEA profiles ")
+ (rear-context-string)
+ (position . 1))
 )

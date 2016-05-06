@@ -1,1 +1,0 @@
-(define-package "el-pocket" "20150202.1528" "Read and write to Pocket (getpocket.com) ;;" '((web "0.5.2") (emacs "24")) :url "http://github.com/pterygota/el-pocket" :keywords '("emacs" "pocket" "bookmarks"))
