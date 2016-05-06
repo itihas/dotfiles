@@ -1,5 +1,5 @@
 #!/bin/sh
-# -*- eval: (git-auto-commit-mode 1) -*-
+# -*- eval: (git-auto-commit-mode 1); -*-
 
 
 userresources=$HOME/.Xresources
