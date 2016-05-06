@@ -54,9 +54,9 @@
 (add-to-list 'helm-sources-using-default-as-input 'helm-source-man-pages)
 
 
-;; bibtex
-(setq bibtex-completion-bibliography '("~/notebook/misc.bib"))
-(setq reftex-default-bibliography '("~/notebook/misc.bib"))
+;; citations: bibtex, reftex
+(setq bibtex-completion-bibliography '("~/notebook/bibliobraphy.bib"))
+(setq reftex-default-bibliography '("~/notebook/bibliography.bib"))
 
 ;; appearances
 
