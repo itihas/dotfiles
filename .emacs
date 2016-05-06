@@ -29,7 +29,7 @@
 	(top-or-bottom . top)
 	(top-or-bottom-pos . 0))))
 (setq mouse-avoidance-mode (quote banish))
-(setq org-agenda-files '("~/notebook/*.org"))
+(setq org-agenda-files '("~/notebook/"))
 
 (setq org-archive-location "./archives/%s_archive::")
 (setq org-default-notes-file "~/notebook/capture.org")
