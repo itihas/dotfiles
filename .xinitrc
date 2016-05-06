@@ -1,5 +1,4 @@
 #!/bin/sh
-
 # -*- eval: (git-auto-commit-mode 1) -*-
 
 
