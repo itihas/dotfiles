@@ -172,7 +172,7 @@
 
 (global-set-key (kbd "M-X") 'execute-extended-command) ;for when I want plain old M-x
 
-(global-set-key (kbd "<menu>") 'helm-command-prefix)
+(global-set-key (kbd "<menu>") 'helm-command-prefix) ;helm interface entry
 (global-set-key (kbd "M-x") 'helm-M-x)	;sexy helm M-x
 (global-set-key (kbd "M-y") 'helm-show-kill-ring) ;usable kill ring
 (global-set-key (kbd "C-b") 'helm-multi-files)	  ;helm buffer switching
