@@ -50,7 +50,7 @@
 
 
 ;; citations: bibtex, reftex
-(setq bibtex-completion-bibliography '("~/notebook/bibliobraphy.bib"))
+(setq bibtex-completion-bibliography '("~/notebook/bibliography.bib"))
 (setq reftex-default-bibliography '("~/notebook/bibliography.bib"))
 
 ;; appearances
