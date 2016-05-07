@@ -168,6 +168,7 @@
 ;; keybindings
 
 ;; helm bindings
+
 (global-set-key (kbd "M-X") 'execute-extended-command) ;for when I want plain old M-x
 
 (global-set-key (kbd "<menu>") 'helm-command-prefix) ;helm interface entry
