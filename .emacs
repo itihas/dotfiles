@@ -49,7 +49,7 @@
       helm-recentf-fuzzy-match    t)
 (setq helm-M-x-fuzzy-match t) ;; optional fuzzy matching for helm-M-x
 (add-to-list 'helm-sources-using-default-as-input 'helm-source-man-pages)
-
+(helm-autoresize-mode t)
 
 ;; citations: bibtex, reftex
 (setq bibtex-completion-bibliography '("~/notebook/bibliography.bib"))
