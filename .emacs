@@ -43,7 +43,8 @@
 
 ;; helm
 
-(require 'helm-config)
+(helm-mode 1)
+(require 'hwlm-config)
 (setq helm-buffers-fuzzy-matching t
       helm-recentf-fuzzy-match    t)
 (setq helm-M-x-fuzzy-match t) ;; optional fuzzy matching for helm-M-x
