@@ -176,7 +176,6 @@
 (global-set-key (kbd "M-y") 'helm-show-kill-ring) ;usable kill ring
 (global-set-key (kbd "C-b") 'helm-mini)		  ;buffer switching, recent files
 (global-set-key (kbd "C-f") 'helm-find-files) ; open file
-(global-set-key (kbd "<f6>") 'helm-google-suggest)
 
 ;; easy keys for window management. Key based on ErgoEmacs keybinding
 (global-set-key (kbd "C-1") 'delete-other-windows) ; expand current pane
