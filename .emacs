@@ -169,7 +169,10 @@
 
 ;; helm bindings
 
+
 (global-set-key (kbd "M-X") 'execute-extended-command)
+
+(global-set-key (kbd "<menu>") 'helm-command-prefix)
 (global-set-key (kbd "M-x") 'helm-M-x)
 (global-set-key (kbd "M-y") 'helm-show-kill-ring)
 (global-set-key (kbd "C-b") 'helm-multi-files)
