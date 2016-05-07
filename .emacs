@@ -175,7 +175,7 @@
 (global-set-key (kbd "<menu>") 'helm-command-prefix) ;helm interface entry
 (global-set-key (kbd "M-x") 'helm-M-x)	;sexy helm M-x
 (global-set-key (kbd "M-y") 'helm-show-kill-ring) ;usable kill ring
-(global-set-key (kbd "C-b") 'helm-multi-files)	  ;helm buffer switching
+(global-set-key (kbd "C-b") 'helm-mini)		  ;buffer switching, recent files
 (global-set-key (kbd "C-f") 'helm-find-files) ; open file
 (global-set-key (kbd "<f6>") 'helm-google-suggest)
 
