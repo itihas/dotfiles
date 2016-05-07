@@ -42,7 +42,8 @@
 (semantic-mode 1)
 
 ;; helm
-(helm-mode 1)
+
+(require 'helm-config)
 (setq helm-buffers-fuzzy-matching t
       helm-recentf-fuzzy-match    t)
 (setq helm-M-x-fuzzy-match t) ;; optional fuzzy matching for helm-M-x
@@ -166,6 +167,7 @@
 ;; keybindings
 
 ;; helm bindings
+
 (global-set-key (kbd "M-X") 'execute-extended-command)
 (global-set-key (kbd "M-x") 'helm-M-x)
 (global-set-key (kbd "M-y") 'helm-show-kill-ring)
