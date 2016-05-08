@@ -28,8 +28,9 @@ myLogHook = fadeInactiveLogHook fadeAmount
 	  where fadeAmount = 0.8
 
 myManageHook = composeAll . concat $
-[ [(className =? "Firefox" <&&> resource =? "Dialog") --> doFloat]
- ,[(className =? "emacs-client") --> doFloat]]
+ [[(className =? "Firefox" <&&> resource =? "Dialog") --> doFloat]
+ ,[(className =? "emacs-client") --> doFloat]
+ ]
 
 main = do
   xmproc <- spawnPipe "xmobar /home/sahiti/.xmobarcc"
