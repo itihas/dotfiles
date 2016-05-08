@@ -36,7 +36,6 @@ myManageHook = composeAll . concat $
  
      -- using list comprehensions and partial matches
    , [ className =?  c --> doFloat | c <- myFloatsC ]
-   , [ fmap ( c `isInfixOf`) className --> doFloat | c <- myMatchAnywhereFloatsC ]
    , [ fmap ( c `isInfixOf`) title     --> doFloat | c <- myMatchAnywhereFloatsT ]
    ]
    -- in a composeAll hook, you'd use: fmap ("VLC" `isInfixOf`) title --> doFloat
