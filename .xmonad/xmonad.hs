@@ -30,12 +30,19 @@ myLogHook = fadeInactiveLogHook fadeAmount
 
 myManageHook :: ManageHook
 myManageHook = composeAll . concat $
- [ [(className =? "Firefox" <&&> resource =? "Dialog") --> doFloat]
- , [(className =? "emacs-client") --> doFloat]
- , [ fmap ( c `isInfixOf`) title     --> doFloat | c <- myMatchAnywhereFloatsT ]
- ]
-where myMatchAnywhereFloatsT = ["emacs-capture"]
-
+   [ [ className =? "Firefox-bin" --> doShift "web" ]
+   , [ className =? "Gajim.py"    --> doShift "jabber" ]
+   , [(className =? "Firefox" <&&> resource =? "Dialog") --> doFloat]
+ 
+     -- using list comprehensions and partial matches
+   , [ className =?  c --> doFloat | c <- myFloatsC ]
+   , [ fmap ( c `isInfixOf`) className --> doFloat | c <- myMatchAnywhereFloatsC ]
+   , [ fmap ( c `isInfixOf`) title     --> doFloat | c <- myMatchAnywhereFloatsT ]
+   ]
+   -- in a composeAll hook, you'd use: fmap ("VLC" `isInfixOf`) title --> doFloat
+  where myFloatsC = ["Gajim.py", "Xmessage"]
+        myMatchAnywhereFloatsC = ["Google","Pidgin"]
+        myMatchAnywhereFloatsT = ["VLC"] -- this one is silly for only one string!
 
 main = do
   xmproc <- spawnPipe "xmobar /home/sahiti/.xmobarcc"
