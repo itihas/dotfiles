@@ -109,6 +109,7 @@
 
 ;; appearances
 
+(setq org-startup-truncated t)
 (setq org-tags-column 0)
 (setq org-hide-emphasis-markers t)	;hide font styles markup
 (setq org-pretty-entities t)		;pretty-print symbols, super/subscript, etc.
