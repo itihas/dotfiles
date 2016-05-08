@@ -27,6 +27,7 @@ myLogHook :: X ()
 myLogHook = fadeInactiveLogHook fadeAmount
 	  where fadeAmount = 0.8
 
+myManageHook :: ManageHook
 myManageHook = composeAll . concat $
  [[(className =? "Firefox" <&&> resource =? "Dialog") --> doFloat]
  ,[(className =? "emacs-client") --> doFloat]
@@ -36,7 +37,7 @@ main = do
   xmproc <- spawnPipe "xmobar /home/sahiti/.xmobarcc"
   spawn "pkill dunst ; dunst -config ~/.config/dunst/dunstrc &"
   xmonad $  ewmh
-       $  withUrgencyHook LibNotifyUrgencyHook defaultConfig { manageHook = manageDocks <+> manageHook defaultConfig
+       $  withUrgencyHook LibNotifyUrgencyHook defaultConfig { manageHook = manageDocks <+> myManageHook <+> manageHook defaultConfig
        , handleEventHook = handleEventHook defaultConfig <+> fullscreenEventHook
        , layoutHook =  smartBorders $ avoidStruts $ layoutHook defaultConfig
        , logHook = -- myLogHook <+>
