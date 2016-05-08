@@ -42,7 +42,7 @@ myManageHook = composeAll . concat $
    -- in a composeAll hook, you'd use: fmap ("VLC" `isInfixOf`) title --> doFloat
   where myFloatsC = ["Gajim.py", "Xmessage"]
         myMatchAnywhereFloatsC = ["Google","Pidgin"]
-        myMatchAnywhereFloatsT = ["VLC"] -- this one is silly for only one string!
+        myMatchAnywhereFloatsT = ["emacs-capture"] -- this one is silly for only one string!
 
 main = do
   xmproc <- spawnPipe "xmobar /home/sahiti/.xmobarcc"
