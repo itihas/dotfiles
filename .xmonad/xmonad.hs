@@ -31,9 +31,10 @@ myManageHook :: ManageHook
 myManageHook = composeAll . concat $
  [ [(className =? "Firefox" <&&> resource =? "Dialog") --> doFloat]
  , [(className =? "emacs-client") --> doFloat]
- , [ fmap ( c `isInfixOf`) title     --> doFloat | c <- ["emacs-capture"]]
+ , [ fmap ( c `isInfixOf`) title     --> doFloat | c <- myMatchAnywhereFloatsT ]
  ]
 
+where myMatchAnywhereFloatsT = ["emacs-capture"]
 
 
 main = do
