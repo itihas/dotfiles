@@ -118,6 +118,7 @@
 (setq org-startup-indented t)
 (setq org-indent-indentation-per-level 1)
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+(add-hook 'org-mode-hook (lambda () (visual-line-mode 1)))
 
 ;; org tagging
 (setq org-complete-tags-always-offer-all-agenda-tags t)
