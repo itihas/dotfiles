@@ -52,10 +52,10 @@
 (helm-autoresize-mode t)
 
 ;; citations: bibtex, reftex
+(setq 'org-ref-default-bibliography '("~/notebook/bibliography.bib"))
 (setq bibtex-completion-bibliography '("~/notebook/bibliography.bib"))
 (setq reftex-default-bibliography '("~/notebook/bibliography.bib"))
 
-(setq ebib-preload-bib-files '("~/notebook/bibliography.bib"))
 
 ;; appearances
 
