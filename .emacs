@@ -55,6 +55,8 @@
 (setq bibtex-completion-bibliography '("~/notebook/bibliography.bib"))
 (setq reftex-default-bibliography '("~/notebook/bibliography.bib"))
 
+(setq ebib-preload-bib-files '("~/notebook/bibliography.bib"))
+
 ;; appearances
 
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
