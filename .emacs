@@ -147,7 +147,7 @@
 (setq org-html-checkbox-type 'unicode)
 
 
-;; org-capture behaviours for org-protocol scenarios.
+;; org-capture behaviours for floating window scenarios.
 (defadvice org-capture
     (after make-full-window-frame activate)
   "Advise capture to be the only window when used as a popup"
