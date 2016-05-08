@@ -39,7 +39,7 @@ myManageHook = composeAll . concat $
    , [ fmap ( c `isInfixOf`) title     --> doFloat | c <- myMatchAnywhereFloatsT ]
    ]
    -- in a composeAll hook, you'd use: fmap ("VLC" `isInfixOf`) title --> doFloat
-  where myFloatsC = ["Gajim.py", "Xmessage"]
+  where myFloatsC = ["Xmessage"]
         myMatchAnywhereFloatsC = ["Google","Pidgin"]
         myMatchAnywhereFloatsT = ["emacs-capture"] -- this one is silly for only one string!
 
