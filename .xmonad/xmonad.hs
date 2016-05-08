@@ -47,7 +47,9 @@ main = do
   xmproc <- spawnPipe "xmobar /home/sahiti/.xmobarcc"
   spawn "pkill dunst ; dunst -config ~/.config/dunst/dunstrc &"
   xmonad $  ewmh
-       $  withUrgencyHook LibNotifyUrgencyHook defaultConfig { manageHook = manageDocks <+> myManageHook <+> manageHook defaultConfig
+       $  withUrgencyHook LibNotifyUrgencyHook defaultConfig
+       { workspaces = ["1:web","2:emacs","3:read","4:nav","5","6","7:music","8","9","0","-","="]
+       , manageHook = manageDocks <+> myManageHook <+> manageHook defaultConfig
        , handleEventHook = handleEventHook defaultConfig <+> fullscreenEventHook
        , layoutHook =  smartBorders $ avoidStruts $ layoutHook defaultConfig
        , logHook = -- myLogHook <+>
