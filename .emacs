@@ -268,7 +268,7 @@ Version 2015-12-17"
   (interactive "p")
   ;; uses a property “state”. Value is a integer.
   (let* (
-         (ξvalues (list 'solarized-dark 'solarized-light 'eink 'zenburn 'leuven))
+         (ξvalues (list 'solarized-light 'solarized-dark 'eink 'zenburn 'leuven))
          (ξindex-before
           (if (get 'cycle-themes 'state)
 	      (get 'cycle-themes 'state)
