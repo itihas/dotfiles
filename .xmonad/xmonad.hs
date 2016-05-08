@@ -10,6 +10,7 @@ import XMonad.Hooks.EwmhDesktops
 import XMonad.Util.Run(spawnPipe, safeSpawn)
 import XMonad.Util.EZConfig(additionalKeys)
 import XMonad.Layout.NoBorders
+import Data.List 
 import System.IO
 
 import qualified XMonad.StackSet as W
