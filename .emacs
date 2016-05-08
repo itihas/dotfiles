@@ -56,6 +56,7 @@
 (setq bibtex-completion-bibliography '("~/notebook/bibliography.bib"))
 (setq reftex-default-bibliography '("~/notebook/bibliography.bib"))
 
+(setq bibtex-completion-pdf-field "File")
 
 ;; appearances
 
