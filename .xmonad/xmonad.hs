@@ -34,7 +34,6 @@ myManageHook = composeAll . concat $
  , [(className =? "emacs-client") --> doFloat]
  , [ fmap ( c `isInfixOf`) title     --> doFloat | c <- myMatchAnywhereFloatsT ]
  ]
-
 where myMatchAnywhereFloatsT = ["emacs-capture"]
 
 
