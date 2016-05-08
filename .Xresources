@@ -39,7 +39,7 @@
 #define S_cyan          #2aa198
 #define S_green         #859900
 
-*background:            S_base2
+*background:            S_base3
 *foreground:            S_base0
 *cursorColor:           S_base1
 *pointerColorBackground:S_base01
