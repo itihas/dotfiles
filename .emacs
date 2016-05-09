@@ -111,7 +111,7 @@
 ;; local keymap
 (defun my/org-mode-bindings ()
   (local-set-key (kbd "C-c t") org-todo) ;org-todo easier to reach
-
+)
 
 ;; appearances
 
