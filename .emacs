@@ -215,7 +215,7 @@
 
 
 ;; orgmode shortcuts
-(global-set-key (kbd "C-c t") 'org-todo-list) ; open org todo list
+(global-set-key (kbd "C-c t") 'org-todo) ; set item as org todo
 (global-set-key (kbd "C-c a") 'org-agenda-list) ; open org agenda
 (global-set-key (kbd "C-c s") 'org-store-link) ; store an org link
 (global-set-key (kbd "C-c c")  'org-capture) ; org capture
