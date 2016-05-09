@@ -219,7 +219,6 @@
 (global-set-key (kbd "<f5> a") 'org-agenda-list) ; open org agenda
 (global-set-key (kbd "<f5> s") 'org-store-link) ; store an org link
 (global-set-key (kbd "<f5> c")  'org-capture) ; org capture
-(global-set-key (kbd "<f5> p")  'org-pomodoro) ; timeboxing yay
 
 ;; appearance things
 (global-set-key (kbd "M-o") 'olivetti-mode) ; toggle olivetti mode
