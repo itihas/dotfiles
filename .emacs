@@ -45,13 +45,13 @@
 
 ;; helm
 
-(helm-mode 1)
-(require 'helm-config)
-(setq helm-buffers-fuzzy-matching t
-      helm-recentf-fuzzy-match    t)
-(setq helm-M-x-fuzzy-match t) ;; optional fuzzy matching for helm-M-x
-(add-to-list 'helm-sources-using-default-as-input 'helm-source-man-pages)
-(helm-autoresize-mode t)
+;; (helm-mode 1)
+;; (require 'helm-config)
+;; (setq helm-buffers-fuzzy-matching t
+;;       helm-recentf-fuzzy-match    t)
+;; (setq helm-M-x-fuzzy-match t) ;; optional fuzzy matching for helm-M-x
+;; (add-to-list 'helm-sources-using-default-as-input 'helm-source-man-pages)
+;; (helm-autoresize-mode t)
 
 
 
@@ -188,15 +188,15 @@
 
 ;; keybindings
 
-;; helm bindings
+;; ;; helm bindings
 
-(global-set-key (kbd "M-X") 'execute-extended-command) ;for when I want plain old M-x
+;; (global-set-key (kbd "M-X") 'execute-extended-command) ;for when I want plain old M-x
 
-(global-set-key (kbd "<menu>") 'helm-command-prefix) ;helm interface entry
-(global-set-key (kbd "M-x") 'helm-M-x)	;sexy helm M-x
-(global-set-key (kbd "M-y") 'helm-show-kill-ring) ;usable kill ring
-(global-set-key (kbd "C-b") 'helm-mini)		  ;buffer switching, recent files
-(global-set-key (kbd "C-f") 'helm-find-files) ; open file
+;; (global-set-key (kbd "<menu>") 'helm-command-prefix) ;helm interface entry
+;; (global-set-key (kbd "M-x") 'helm-M-x)	;sexy helm M-x
+;; (global-set-key (kbd "M-y") 'helm-show-kill-ring) ;usable kill ring
+;; (global-set-key (kbd "C-b") 'helm-mini)		  ;buffer switching, recent files
+;; (global-set-key (kbd "C-f") 'helm-find-files) ; open file
 
 ;; easy keys for window management. Key based on ErgoEmacs keybinding
 (global-set-key (kbd "C-1") 'delete-other-windows) ; expand current pane
