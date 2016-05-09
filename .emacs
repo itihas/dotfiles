@@ -173,7 +173,7 @@
       (delete-frame)))
 
 
-;; org publishing
+;; org publishing - publish notebook for easy reading
 
 (require 'ox-publish)
 (setq org-publish-project-alist
