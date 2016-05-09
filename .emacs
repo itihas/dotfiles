@@ -204,7 +204,6 @@
 (global-set-key (kbd "C-3") 'split-window-horizontally) ; split pane top/bottom
 
 
-(global-set-key (kbd "<f12>") 'save-buffer) ; save
 
 (global-set-key (kbd "C-d") 'delete-window) ; close current pane
 (global-set-key (kbd "C-z") 'other-window) ; cursor to other pane
