@@ -128,7 +128,7 @@
 (setq org-default-notes-file (concat org-directory "/notes.org"))
 (setq org-capture-templates
       '(("i" "Inbox" entry (file "~/notebook/capture.org")
-	 "* %? \n:PROPERTIES:\n :CREATED: %U\n :END:\n  %i\n")
+	 "* %^{Title} \n:PROPERTIES:\n :CREATED: %U\n :END:\n %i %?\n")
 	("b" "Bookmark" entry (file "~/notebook/capture.org")
 	 "* %c \n:PROPERTIES:\n :CREATED: %U\n :END:\n\n %? \n #+BEGIN_QUOTE \n%i\n #+END_QUOTE\n")
 	("q" "Quote" entry (file "~/notebook/quotes.org")
