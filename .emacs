@@ -125,7 +125,7 @@
 (setq org-complete-tags-always-offer-all-agenda-tags t)
 
 ;; org capture
-(setq org-default-notes-file (concat org-directory "/notes.org"))
+(setq org-default-notes-file (concat org-directory "/capture.org"))
 (setq org-capture-templates
       '(("i" "Inbox" entry (file "~/notebook/capture.org")
 	 "* %^{Title} \n:PROPERTIES:\n :CREATED: %U\n :END:\n %i %?\n")
