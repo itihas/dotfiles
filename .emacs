@@ -221,7 +221,6 @@
 (global-set-key (kbd "<f5> c")  'org-capture) ; org capture
 (global-set-key (kbd "<f5> x")  'org-toggle-pretty-entities) ; pretty printing in org
 (global-set-key (kbd "<f5> p")  'org-pomodoro) ; timeboxing yay
-(global-set-key (kbd "<f5> x")  'org-toggle-pretty-entities) ; pretty printing in org
 
 ;; appearance things
 (global-set-key (kbd "M-o") 'olivetti-mode) ; toggle olivetti mode
