@@ -222,7 +222,6 @@
 
 ;; appearance things
 (global-set-key (kbd "M-o") 'olivetti-mode) ; toggle olivetti mode
-(global-set-key (kbd "M-v") 'variable-pitch-mode) ; toggle monospace
 (global-set-key (kbd "<f6>") 'cycle-themes) ; switch between themes; see cycle-themes definition below
 
 ;; counts
