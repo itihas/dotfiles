@@ -90,7 +90,8 @@
 	       ("elisp" (mode . emacs-lisp-mode))))))
 
 ;; keylogger for emacs. find out what I ought to bind things to.
-(keyfrq
+(keyfreq-mode t)
+(keyfreq-autosave-mode t)
 
 
 
