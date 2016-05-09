@@ -38,6 +38,8 @@
 (setq org-special-ctrl-a/e t)
 
 
+
+
 ;; semantic mode
 (semantic-mode 1)
 
@@ -227,7 +229,7 @@
 ;; appearance things
 (global-set-key (kbd "M-o") 'olivetti-mode) ; toggle olivetti mode
 (global-set-key (kbd "M-v") 'variable-pitch-mode) ; toggle monospace
-(global-set-key (kbd "<f7>") 'cycle-themes) ; switch between themes; see cycle-themes definition below
+(global-set-key (kbd "<f6>") 'cycle-themes) ; switch between themes; see cycle-themes definition below
 
 ;; counts
 (global-set-key (kbd "<f8>") 'count-words) ; count words
