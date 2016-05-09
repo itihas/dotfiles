@@ -108,6 +108,11 @@
 (setq org-log-into-drawer t)
 (setq org-log-reschedule 'note)
 
+;; local keymap
+(defun my/org-mode-bindings ()
+  (local-set-key (kbd "C-c t") org-todo) ;org-todo easier to reach
+
+
 ;; appearances
 
 
