@@ -246,7 +246,7 @@
 
 
 (global-set-key (kbd "C-d") 'delete-window) ; close current pane
-(global-set-key (kbd "<C-tab>") 'other-window) ; cursor to other pane
+(global-set-key (kbd "C-z") 'other-window) ; cursor to other pane
 (global-set-key (kbd "C-q") 'kill-buffer) ; close current buffer
 
 ;; note the slightly dangerous use of the super key here
