@@ -53,6 +53,9 @@
 ;; (add-to-list 'helm-sources-using-default-as-input 'helm-source-man-pages)
 ;; (helm-autoresize-mode t)
 
+;; ivy-mode
+
+(ivy-mode t)
 
 
 ;; citations: bibtex, reftex
