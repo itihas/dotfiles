@@ -41,7 +41,7 @@
 
 
 ;; semantic mode
-(semantic-mode 1)
+(semantic-mode t)
 
 ;; helm
 
