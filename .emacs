@@ -195,7 +195,7 @@
 	("notebook-static"
 	 :base-directory "~/notebook/"
 	 :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf"
-	 :publishing-directory "~/public_html/"
+	 :publishing-directory "~/jekyll/"
 	 :recursive t
 	 :publishing-function org-publish-attachment
 	 )
