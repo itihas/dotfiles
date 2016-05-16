@@ -185,7 +185,7 @@
 	("notebook-notes"
 	 :base-directory "~/notebook/"
 	 :base-extension "org"
-	 :publishing-directory "~/public_html/"
+	 :publishing-directory "~/jekyll/"
 	 :recursive t
 	 :publishing-function org-html-publish-to-html
 	 :headline-levels 4             ; Just the default for this project.
