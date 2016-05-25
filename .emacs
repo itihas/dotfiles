@@ -104,7 +104,7 @@
 
 ;; basics
 (require 'org-protocol)
-;; (require 'org-drill)
+(require 'org-drill)
 (setq org-directory "~/notebook")
 (setq org-enforce-todo-dependencies t) ;; block parent todos from being marked done until children are done.
 (setq org-agenda-todo-list-sublevels nil) ;don't list child todos in the agenda view
