@@ -10,6 +10,9 @@
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
 (package-initialize) ;; You might already have this line
 
+
+(require 'cl)
+
 ;; general
 
 ;; leaving Custom
