@@ -123,7 +123,8 @@
 
 ;; local keymap
 (defun my/org-mode-bindings ()
-  (local-set-key (kbd "C-c t") 'org-todo) ;make org-todo easier to type
+  (local-set-key (kbd "C-c C-q") 'counsel) ;make org-todo easier to type
+  
 )
 
 ;; appearances
