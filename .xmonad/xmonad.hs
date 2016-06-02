@@ -32,7 +32,7 @@ myLogHook = fadeInactiveLogHook fadeAmount
 myManageHook :: ManageHook
 myManageHook = composeAll . concat $
    [ [ className =? "Firefox-bin" --> doShift   "web" ]
-   , [ className =? "Emacs"       --> doShift "emc" ]
+   -- , [ className =? "Emacs"       --> doShift "emc" ]
    , [(className =? "Firefox" <&&> resource =? "Dialog") --> doFloat]
  
      -- using list comprehensions and partial matches
