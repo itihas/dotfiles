@@ -1,6 +1,6 @@
 --  -*- eval: (git-auto-commit-mode 1) -*-
 import XMonad
-import XMonad.Actions.SpwanOn
+import XMonad.Actions.SpawnOn
 import XMonad.Hooks.DynamicLog
 import XMonad.Hooks.ManageDocks
 import XMonad.Hooks.ManageHelpers
