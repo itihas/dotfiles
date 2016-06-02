@@ -32,7 +32,7 @@ myLogHook = fadeInactiveLogHook fadeAmount
 myManageHook :: ManageHook
 myManageHook = composeAll . concat $
    [ [ className =? "Firefox-bin" --> doShift   "web" ]
-   , [ className =? "Emacs"       --> doShift "emacs" ]
+   , [ className =? "Emacs"       --> doShift "emc" ]
    , [(className =? "Firefox" <&&> resource =? "Dialog") --> doFloat]
  
      -- using list comprehensions and partial matches
@@ -49,7 +49,7 @@ main = do
   spawn "pkill dunst ; dunst -config ~/.config/dunst/dunstrc &"
   xmonad $  ewmh
        $  withUrgencyHook LibNotifyUrgencyHook defaultConfig
-       { workspaces = ["em","web","read","4:nav","5","6","7:music","8","9","0","-","="]
+       { workspaces = ["emc","web","read","4:nav","5","6","7:music","8","9","0","-","="]
        , manageHook = manageDocks <+> myManageHook <+> manageHook defaultConfig
        , handleEventHook = handleEventHook defaultConfig <+> fullscreenEventHook
        , layoutHook =  smartBorders $ avoidStruts $ layoutHook defaultConfig
