@@ -1,13 +1,14 @@
 --  -*- eval: (git-auto-commit-mode 1) -*-
 import XMonad
+import XMonad.Actions.SpwanOn
 import XMonad.Hooks.DynamicLog
 import XMonad.Hooks.ManageDocks
 import XMonad.Hooks.ManageHelpers
 import XMonad.Hooks.UrgencyHook
-import XMonad.Util.NamedWindows
 import XMonad.Hooks.FadeInactive
 import XMonad.Hooks.EwmhDesktops
-import XMonad.Util.Run(spawnPipe, safeSpawn, spawnOn)
+import XMonad.Util.NamedWindows
+import XMonad.Util.Run(spawnPipe, safeSpawn)
 import XMonad.Util.EZConfig(additionalKeys)
 import XMonad.Layout.NoBorders
 import Data.List 
