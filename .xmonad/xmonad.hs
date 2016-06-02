@@ -52,7 +52,8 @@ main = do
        , manageHook = manageDocks <+> myManageHook <+> manageHook defaultConfig
        , handleEventHook = handleEventHook defaultConfig <+> fullscreenEventHook
        , layoutHook =  smartBorders $ avoidStruts $ layoutHook defaultConfig
-       , startupHook = 
+       , startupHook = do
+           spawnOn "web" "firefox"
        , logHook = -- myLogHook <+>
          dynamicLogWithPP xmobarPP { ppOutput = hPutStrLn xmproc
        	 	   	     	 		           , ppCurrent = xmobarColor "#b58900" ""
