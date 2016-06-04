@@ -68,8 +68,8 @@
 ;; ido
 (require 'ido)
 (ido-mode t)
-
-
+(ido-vertical-mode 1)
+(setq ido-vertical-define-keys 'C-n-and-C-p-only)
 
 ;; citations: bibtex, reftex
 ;; (setq org-ref-default-bibliography '("~/notebook/bibliography.bib"))
