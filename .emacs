@@ -57,10 +57,18 @@
 ;; (add-to-list 'helm-sources-using-default-as-input 'helm-source-man-pages)
 ;; (helm-autoresize-mode t)
 
-;; ivy-mode
 
+
+;; completion
+
+;; ivy-mode
 ;; (ivy-mode t)
 ;; (setq magit-completing-read-function 'ivy-completing-read)
+
+;; ido
+(require 'ido)
+(ido-mode t)
+
 
 
 ;; citations: bibtex, reftex
