@@ -59,8 +59,8 @@
 
 ;; ivy-mode
 
-(ivy-mode t)
-(setq magit-completing-read-function 'ivy-completing-read)
+;; (ivy-mode t)
+;; (setq magit-completing-read-function 'ivy-completing-read)
 
 
 ;; citations: bibtex, reftex
