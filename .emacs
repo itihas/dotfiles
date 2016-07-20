@@ -128,6 +128,7 @@
 (setq org-directory "~/notebook")
 (setq org-enforce-todo-dependencies t) ;; block parent todos from being marked done until children are done.
 (setq org-agenda-todo-list-sublevels nil) ;don't list child todos in the agenda view
+
 ;; org todo
 (setq org-todo-keywords
       (quote ((sequence "TODO(t!)" "NEXT(n!)" "|" "DONE(d@!)")
@@ -137,6 +138,9 @@
 (setq org-log-done 'note)
 (setq org-log-into-drawer t)
 (setq org-log-reschedule 'note)
+
+;; org-drill
+(setq org-drill-add-random-noise-to-intervals-p t)
 
 ;; local keymap
 (defun my/org-mode-bindings ()
