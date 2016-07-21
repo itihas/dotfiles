@@ -179,7 +179,7 @@
 	("v" "Vocabulary" entry
                (file+headline (concat org-directory "/vocab.org")
                               "Vocabulary")
-               "* %^{The word} :drill:\n %t\n %^{Extended word (may be empty)} \n** Meaning \n%^{Definition}")))
+               "* %^{The word} :drill:\n** Meaning \n%^{Definition}\n** POS\n ^{POS}** Example\n**Language\n**Word Origin\n")))
 
 (setq org-file-apps
       '((auto-mode . emacs)
