@@ -175,7 +175,7 @@
         ("j" "Journal" entry (file+datetree "~/notebook/journal.org")
 	 "*  \n :PROPERTIES: \n :CREATED: %U\n :END:\n\n %?\n")
 	("p" "Prediction" entry (file "~/notebook/predictions.org")
-	 "* %^{Prediction} \n :PROPERTIES:\n :CREATED: %U\n :END:\n %^{ODDS}p \n DEADLINE:%^t \n ")
+	 "* %^{Prediction} \n :PROPERTIES:\n :CREATED: %U\n :END:\n %^{ODDS} \n DEADLINE:%^t \n ")
 	("v" "Vocabulary" entry
                (file+headline (concat org-directory "/vocab.org")
                               "Vocabulary")
