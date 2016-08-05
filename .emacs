@@ -131,7 +131,7 @@
 
 ;; org todo
 (setq org-todo-keywords
-      (quote ((sequence "TODO(t!)" "NEXT(n!)" "|" "DONE(d@!)")
+      (quote ((sequence "TODO(t!)" "NEXT(n!)" "OVERDUE(o@!)" "|" "DONE(d@!)")
 	      (sequence  "WAIT(w@/!)"  "|"  "PAUSED(p@/!)" "CANCELLED(c@/!)" )
 	      (sequence "IDEA(i!)" "MAYBE(y!)" "WORKING(k!)" "|" "USED(u/@!)")
 	      )))
