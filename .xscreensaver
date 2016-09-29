@@ -1,8 +1,8 @@
 # XScreenSaver Preferences File
-# Written by xscreensaver-demo 5.34 for sahiti on Mon Mar 14 19:53:11 2016.
-# http://www.jwz.org/xscreensaver/
-# -*- eval: (git-auto-commit-mode 1) -*-
-timeout:	0:16:00
+# Written by xscreensaver-demo 5.35 for sahiti on Mon Aug 22 21:07:15 2016.
+# https://www.jwz.org/xscreensaver/
+
+timeout:	1:30:00
 cycle:		0:01:00
 lock:		True
 lockTimeout:	0:16:00
@@ -29,7 +29,7 @@ dpmsQuickOff:	True
 dpmsStandby:	2:00:00
 dpmsSuspend:	2:00:00
 dpmsOff:	4:00:00
-grabDesktopImages:  True
+grabDesktopImages:  False
 grabVideoFrames:    False
 chooseRandomImages: False
 imageDirectory:	/home/sahiti/DC
@@ -259,6 +259,11 @@ programs:								      \
   GL: 				winduprobot -root			    \n\
   GL: 				splitflap -root				    \n\
 				testx11 -root				    \n\
+  GL: 				dymaxionmap -root			    \n\
+  GL: 				energystream -root			    \n\
+  GL: 				hydrostat -root				    \n\
+  GL: 				raverhoop -root				    \n\
+  GL: 				unicrud -root				    \n\
 
 
 pointerPollTime:    0:00:05
