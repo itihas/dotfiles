@@ -15,6 +15,15 @@
 
 ;; general
 
+;; network (proxy)
+
+(setq url-proxy-services
+   '(("no_proxy" . "^\\(localhost\\|10.*\\)")
+     ("http" . "proxy.iiit.ac.in:8080")
+     ("https" . "proxy.iiit.ac.in:8080")))
+
+
+
 ;; leaving Custom
 ;; (at least for everything but theme because Custom themes rock)
 
