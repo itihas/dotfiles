@@ -300,6 +300,8 @@
 (global-set-key (kbd "<f5> s") 'org-store-link) ; store an org link
 (global-set-key (kbd "<f5> c")  'org-capture) ; org capture
 
+(global-set-key (kbd "<f7>")  (lambda () (interactive) (org-timer-set-timer "00:00:30"))) ; start review timer. meant to be used in capture context, primarily.
+
 ;; appearance things
 (global-set-key (kbd "M-o") 'olivetti-mode) ; toggle olivetti mode
 (global-set-key (kbd "<f6>") 'cycle-themes) ; switch between themes; see cycle-themes definition below
