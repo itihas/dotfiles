@@ -229,6 +229,7 @@
 	 :publishing-function org-html-publish-to-html
 	 :headline-levels 4             ; Just the default for this project.
 	 :html-extension "html"
+	 :auto-sitemap t
 	 )
 	("notebook-static"
 	 :base-directory "~/notebook/"
