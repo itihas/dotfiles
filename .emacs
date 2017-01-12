@@ -15,6 +15,8 @@
 
 ;; general
 
+;; encryption
+(epa-file-enable)
 ;; network (proxy)
 
 (setq url-proxy-services
@@ -181,7 +183,7 @@
 	 "* %c \n:PROPERTIES:\n :CREATED: %U\n :END:\n \n #+BEGIN_QUOTE \n%i\n #+END_QUOTE\n %? ")
 	("q" "Quote" entry (file "~/notebook/quotes.org")
 	 "*  \n:PROPERTIES:\n :CREATED: %U\n :END:\n#+BEGIN_QUOTE %i\n%?\n #+END_QUOTE\n \nEntered on %U\n")
-        ("j" "Journal" entry (file+datetree "~/notebook/journal.org")
+        ("j" "Journal" entry (file+datetree "~/notebook/journal.gpg")
 	 "*  \n :PROPERTIES: \n :CREATED: %U\n :END:\n\n %?\n")
 	("p" "Prediction" entry (file "~/notebook/predictions.org")
 	 "* %^{Prediction} \n :PROPERTIES:\n :CREATED: %U\n :END:\n | %U | %^{ODDS} | \n DEADLINE:%^t \n ")
