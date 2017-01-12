@@ -61,6 +61,6 @@ xbindkeys
 
 
 # Set background image with feh
-feh --bg-fill /home/sahiti/background.png &
+feh --bg-fill /home/sahiti/background.jpg &
 
 exec xmonad
