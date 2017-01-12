@@ -493,7 +493,7 @@ Version 2015-12-17"
   (when (display-graphic-p)  ;; this is only for graphical emacs
     ;; the serif font familiy and height, save the default attributes
     (let ((serif-fam "Droid Serif")
-          (serif-height 120)
+          (serif-height 110)
           (default-fam (face-attribute 'default :family))
           (default-height (face-attribute 'default :height)))
       (if (not (bound-and-true-p default-cookie))
