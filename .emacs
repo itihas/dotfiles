@@ -303,11 +303,12 @@
 (global-set-key (kbd "<f5> s") 'org-store-link) ; store an org link
 (global-set-key (kbd "<f5> c")  'org-capture) ; org capture
 
-(global-set-key (kbd "<f7>")  (lambda () (interactive) (org-timer-set-timer "00:00:30"))) ; start review timer. meant to be used in capture context, primarily.
+(global-set-key (kbd "<f9>")  (lambda () (interactive) (org-timer-set-timer "00:00:30"))) ; start review timer. meant to be used in capture context, primarily.
 
 ;; appearance things
 (global-set-key (kbd "M-o") 'olivetti-mode) ; toggle olivetti mode
 (global-set-key (kbd "<f6>") 'cycle-themes) ; switch between themes; see cycle-themes definition below
+(global-set-key (kbd "<f7>") 'toggle-serif) ; switch between themes; see cycle-themes definition below
 
 ;; counts
 (global-set-key (kbd "<f8>") 'count-words) ; count words
@@ -516,3 +517,4 @@ Version 2015-12-17"
                (setq default-cookie nil)
                (setq preserve-default-cookies-list nil)
                (message "Restored default fonts."))))))
+
