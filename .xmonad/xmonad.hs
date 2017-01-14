@@ -49,7 +49,7 @@ main = do
   spawn "pkill dunst ; dunst -config ~/.config/dunst/dunstrc &"
   xmonad $  ewmh
        $  withUrgencyHook LibNotifyUrgencyHook defaultConfig
-       { workspaces = ["emc","web","read","4","5","6","7","8","9","0","-","="]
+       { workspaces = ["1","2","3","4","5","6","7","8","9","0","-","="]
        , manageHook = manageDocks <+> myManageHook <+> manageHook defaultConfig
        , handleEventHook = handleEventHook defaultConfig <+> fullscreenEventHook
        , layoutHook =  smartBorders $ avoidStruts $ layoutHook defaultConfig
