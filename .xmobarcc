@@ -2,7 +2,7 @@
 
 
 Config { font = "xft: Liberation Mono: size=8:bold:antialias=true"
-       , bgColor = "#002b36"
+       , bgColor = "#00151a"
        , fgColor = "#657b83"
        , position = BottomSize L 100 4
        , lowerOnStart = True
