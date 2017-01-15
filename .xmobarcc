@@ -1,7 +1,7 @@
 --  -*- eval: (git-auto-commit-mode 1) -*-
 
 
-Config { font = "xft: Liberation Mono: size=7:bold:antialias=true"
+Config { font = "xft: Liberation Mono: size=8:bold:antialias=true"
        , bgColor = "#002b36"
        , fgColor = "#657b83"
        , position = BottomSize L 100 4
@@ -22,5 +22,5 @@ Config { font = "xft: Liberation Mono: size=7:bold:antialias=true"
                     ]
        , sepChar = "%"
        , alignSep = "}{"
-       , template = "%StdinReader% }{ %dynnetwork% | %cpu% | %memory% | %battery% | <fc=#2aa198>%mpd% </fc>|%locks%| <fc=#b58900>%date% </fc>"
+       , template = "%StdinReader% }{ %dynnetwork% | %cpu% | %memory% | %battery% | <fc=#2aa198>%mpd% </fc>|%locks%| <fc=#b58900>%date%</fc>"
        }
