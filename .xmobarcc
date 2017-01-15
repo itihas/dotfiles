@@ -1,7 +1,7 @@
 --  -*- eval: (git-auto-commit-mode 1) -*-
 
 
-Config { font = "xft: Liberation Mono: size=7:bold:antialias=true"
+Config { font = "xft: Liberation Mono: size=7.5:bold:antialias=true"
        , bgColor = "#00161a"
        , fgColor = "#657b83"
        , position = BottomSize L 100 4
