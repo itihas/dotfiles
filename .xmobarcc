@@ -3,7 +3,7 @@
 
 Config {  bgColor = "#002b36"
        , fgColor = "#657b83"
-       , position = BottomSize L 100 6
+       , position = BottomSize L 100 12
        , lowerOnStart = True
        , commands = [ Run DynNetwork     [ "--template" , "<dev>: down <rx>kB/s| up <tx>kB/s"] 10
        	 	    , Run MPD ["-t", "<statei> <artist> - <title> (<album>)", "--", "-P", ">>", "-Z", "|", "-S", "><"] 10
