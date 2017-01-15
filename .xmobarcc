@@ -1,7 +1,8 @@
 --  -*- eval: (git-auto-commit-mode 1) -*-
 
 
-Config { bgColor = "#002b36"
+Config { font = "xft: Bitsream Vera Sans Mono: size=9:bold:antialias=true"
+       , bgColor = "#002b36"
        , fgColor = "#657b83"
        , position = BottomSize L 100 4
        , lowerOnStart = True
