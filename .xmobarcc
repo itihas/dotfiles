@@ -7,7 +7,7 @@ Config { font = "xft: Bitsream Vera Sans Mono: size=8:bold:antialias=true"
        , position = BottomSize L 100 4
        , lowerOnStart = True
        , commands = [ Run DynNetwork     [ "--template" , "<dev>: down <rx>kB/s| up <tx>kB/s"] 10
-       	 	    , Run MPD ["-t", "<statei> <artist> - <title> (<album>)", "--", "-P", ">>", "-Z", "|", "-S", "><"] 10
+       	 	    , Run MPD ["-t", "<statei> <title>", "--", "-P", ">>", "-Z", "|", "-S", "><"] 10
        	 	    , Run Cpu ["-L","3","-H","50","--high","#dc322f"] 10
                     , Run Memory ["-t","Mem: <usedratio>%"] 10
                     , Run Date "%a %b %_d %k:%M" "date" 10
