@@ -81,7 +81,6 @@
 
 ;; ido
 (ido-mode t)
-(ido-everywhere 1)
 (ido-vertical-mode 1)
 (ido-ubiquitous-mode 1)
 (setq ido-vertical-define-keys 'C-n-and-C-p-only)
