@@ -293,7 +293,7 @@
 (global-set-key (kbd "C-z") 'other-window) ; cursor to other pane
 (global-set-key (kbd "C-q") 'kill-buffer) ; close current buffer
 
-(global-set-key (kbd "C-=") 'expand-region) ; expand selection by semantic unit
+(global-set-key (kbd "C-=") 'er/expand-region) ; expand selection by semantic unit
 
 ;; note the slightly dangerous use of the super key here
 (global-set-key (kbd "<s-left>") 'previous-buffer) ; go to previous buffer
