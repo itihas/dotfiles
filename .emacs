@@ -298,7 +298,12 @@
 ;; note the slightly dangerous use of the super key here
 (global-set-key (kbd "<s-left>") 'previous-buffer) ; go to previous buffer
 (global-set-key (kbd "<s-right>") 'next-buffer) ; go to next buffer
+
+
 (global-set-key (kbd "C-x C-b") 'ibuffer) ; open ibuffer instead of emacs buffer list
+
+(global-set-key (kbd "C-s") 'ido-occur) ; open ido-occur instead of find-forward
+
 
 
 ;; orgmode shortcuts
