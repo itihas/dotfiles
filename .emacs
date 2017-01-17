@@ -109,7 +109,8 @@
 
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
 (column-number-mode)
-		      
+
+(electric-pair-mode)
 
 (set-fontset-font
  t 'symbol
