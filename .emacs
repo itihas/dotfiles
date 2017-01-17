@@ -29,6 +29,11 @@
 ;; Open .v files with Proof General's Coq mode
 (load "~/.emacs.d/lisp/PG/generic/proof-site")
 
+;; geiser is usually for scheme atm, find a nicer way to do this
+
+(setq geiser-default-implementation 'scheme)
+
+
 ;; leaving Custom
 ;; (at least for everything but theme because Custom themes rock)
 
