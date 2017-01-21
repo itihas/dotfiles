@@ -308,7 +308,7 @@
 
 (global-set-key (kbd "C-x C-b") 'ibuffer) ; open ibuffer instead of emacs buffer list
 
-(global-set-key (kbd "C-s") 'ido-occur) ; open ido-occur instead of find-forward
+(global-set-key (kbd "C-S") 'ido-occur) ; open ido-occur instead of find-forward
 
 
 
