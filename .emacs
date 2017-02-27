@@ -39,7 +39,7 @@
 (require 'haskell-interactive-mode)
 (require 'haskell-process)
 (add-hook 'haskell-mode-hook 'interactive-haskell-mode)
-
+(setq haskell-process-log t)
 ;; leaving Custom
 ;; (at least for everything but theme because Custom themes rock)
 
