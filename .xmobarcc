@@ -17,10 +17,11 @@ Config { font = "xft: Liberation Mono: size=7.5:bold:antialias=true"
                   		      , "-l", "#cb4b16"
                   		      , "--", "-O", "Charging: <left>%", "-o", "Battery: <left>%"
                   		      ] 10
+		    , Run Volume "default" "Master" [] 10
                     , Run Locks
                     , Run StdinReader
                     ]
        , sepChar = "%"
        , alignSep = "}{"
-       , template = "%StdinReader% }{ %dynnetwork% | %cpu% | %memory% | %battery% | <fc=#2aa198>%mpd% </fc>|%locks%| <fc=#b58900>%date%</fc>"
+       , template = "%StdinReader% }{ %dynnetwork% | %cpu% | %memory% | %battery% | %default:Master% | <fc=#2aa198>%mpd% </fc>|%locks%| <fc=#b58900>%date%</fc>"
        }
