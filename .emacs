@@ -179,7 +179,7 @@
 (setq org-hide-emphasis-markers t)	;hide font styles markup
 (setq org-pretty-entities t)		;pretty-print symbols, super/subscript, etc.
 (require 'org-bullets)			;pretty bullets in orgmode
-(setq org-bullets-bullet-list '("○" "॰" "•" "჻"))
+(setq org-bullets-bullet-list '("○" "॰" "•" "‣" "⁃"))
 (setq org-startup-indented t)
 (setq org-indent-indentation-per-level 1)
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
