@@ -75,8 +75,8 @@ main = do
        	 			  	     		      , ((mod4Mask , xK_p), shellPrompt myXPConfig)
                                                               , ((mod4Mask,  xK_F5), spawn "exec ~/emacs_capture -e \'(org-capture nil \"i\")\'")
 							      , ((controlMask, xK_Print), spawn "sleep 0.2; scrot -s ~/Screenshots/%Y-%m-%d-%T-screenshot.png")
-                                                              , ((mod4Mask, xK_s), S.promptSearch myXPConfig google)
-                                                              , ((mod4Mask .|. shiftMask, xK_s), S.selectSearch google)
+                                                              , ((mod4Mask, xK_s), S.promptSearch myXPConfig S.google)
+                                                              , ((mod4Mask .|. shiftMask, xK_s), S.selectSearch S.google)
 
 							      , ((0, xK_Print), spawn "scrot")
                                                               , ((0, xF86XK_MonBrightnessUp), spawn "xbacklight -inc 5")
