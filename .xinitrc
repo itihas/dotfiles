@@ -57,7 +57,7 @@ xss-lock -- xscreensaver-command -lock &
 syndaemon -t -k -i 1 &
 
 # keybindings
-xbindkeys
+# xbindkeys
 
 
 # Set background image with feh
