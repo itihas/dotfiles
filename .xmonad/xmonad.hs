@@ -26,6 +26,7 @@ instance UrgencyHook LibNotifyUrgencyHook where
 
         safeSpawn "notify-send" [show name, "workspace " ++ idx]
 
+
 myLogHook :: X ()
 myLogHook = fadeInactiveLogHook fadeAmount
 	  where fadeAmount = 0.8
@@ -63,7 +64,7 @@ main = do
        , normalBorderColor	= "#002b36"
        , focusedBorderColor	= "#586e75"} `additionalKeys` [ ((mod4Mask .|. shiftMask, xK_z), spawn "xscreensaver-command -lock")
        	 			  	     		      , ((mod4Mask , xK_f), spawn "firefox")
-       	 			  	     		      , ((mod4Mask , xK_s), shellPrompt myXPConfig)
+       	 			  	     		      , ((mod4Mask , xK_s), shellPrompt)
                                                               , ((mod4Mask,  xK_F5), spawn "exec ~/emacs_capture -e \'(org-capture nil \"i\")\'")
 							      , ((controlMask, xK_Print), spawn "sleep 0.2; scrot -s ~/Screenshots/%Y-%m-%d-%T-screenshot.png")
 							      , ((0, xK_Print), spawn "scrot")
