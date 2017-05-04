@@ -14,7 +14,7 @@ import XMonad.Layout.NoBorders
 import Data.List 
 import System.IO
 import Graphics.X11.ExtraTypes.XF86
-import qualified XMonad.Prompt
+import  XMonad.Prompt
 import qualified XMonad.Actions.Submap as SM
 import qualified XMonad.Actions.Search as S
 import XMonad.Prompt.Shell
