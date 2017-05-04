@@ -32,7 +32,6 @@ myLogHook = fadeInactiveLogHook fadeAmount
 myManageHook :: ManageHook
 myManageHook = composeAll . concat $
    [ [(className =? "Firefox" <&&> resource =? "Dialog") --> doFloat]
- 
      -- using list comprehensions and partial matches
    , [ className =?  c --> doFloat | c <- myFloatsC ]
    , [ fmap ( c `isInfixOf`) title     --> doFloat | c <- myMatchAnywhereFloatsT ]
