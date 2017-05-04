@@ -56,6 +56,9 @@ xss-lock -- xscreensaver-command -lock &
 # palm detection
 syndaemon -t -k -i 1 &
 
+# keybindings
+xbindkeys
+
 
 # Set background image with feh
 feh --bg-fill /home/sahiti/background.jpg &
