@@ -78,7 +78,7 @@ main = do
        	 			  	     		      , ((mod4Mask , xK_p), shellPrompt myXPConfig)
                                                               , ((mod4Mask,  xK_F5), spawn "exec ~/emacs_capture -e \'(org-capture nil \"i\")\'")
 							      , ((controlMask, xK_Print), spawn "sleep 0.2; scrot -s ~/Screenshots/%Y-%m-%d-%T-screenshot.png")
-                                                              , ((mod4Mask, xK_s), SM.submap $ searchEngineMap $ S.promptSearch P.def)
+                                                              , ((mod4Mask, xK_s), SM.submap $ searchEngineMap $ S.promptSearch def)
                                                               , ((mod4Mask .|. shiftMask, xK_s), SM.submap $ searchEngineMap $ S.selectSearch)
 
 							      , ((0, xK_Print), spawn "scrot")
