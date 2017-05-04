@@ -34,10 +34,6 @@ instance UrgencyHook LibNotifyUrgencyHook where
 myXPConfig :: XPConfig
 myXPConfig = def {font = "xft: Liberation Mono: size=7.5:bold:antialias=true", fgColor = "#fdf6e3", bgColor = "black", promptBorderWidth = 0, position = Top}
 
-searchEngineMap method = M.fromList $
-      [ ((0, xK_g), method S.google)
-      , ((0, xK_w), method S.wikipedia)
-      ]
 
 myLogHook :: X ()
 myLogHook = fadeInactiveLogHook fadeAmount
@@ -79,8 +75,8 @@ main = do
        	 			  	     		      , ((mod4Mask , xK_p), shellPrompt myXPConfig)
                                                               , ((mod4Mask,  xK_F5), spawn "exec ~/emacs_capture -e \'(org-capture nil \"i\")\'")
 							      , ((controlMask, xK_Print), spawn "sleep 0.2; scrot -s ~/Screenshots/%Y-%m-%d-%T-screenshot.png")
-                                                              , ((mod4Mask, xK_s), SM.submap $ searchEngineMap $ S.promptSearch myXPConfig)
-                                                              , ((mod4Mask .|. shiftMask, xK_s), SM.submap $ searchEngineMap $ S.selectSearch)
+                                                              , ((mod4Mask, xK_s), S.promptSearch myXPConfig google)
+                                                              , ((mod4Mask .|. shiftMask, xK_s), S.selectSearch google)
 
 							      , ((0, xK_Print), spawn "scrot")
                                                               , ((0, xF86XK_MonBrightnessUp), spawn "xbacklight -inc 5")
