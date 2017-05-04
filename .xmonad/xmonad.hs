@@ -51,7 +51,7 @@ main = do
        $  withUrgencyHook LibNotifyUrgencyHook defaultConfig
        { workspaces = ["1","2","3","4","5","6","7","8","9","0","-","="]
        , manageHook = manageDocks <+> myManageHook <+> manageHook defaultConfig
-       , handleEventHook = handleEventHook defaultConfig <+> fullscreenEventHook
+       , handleEventHook = handleEventHook defaultConfig <+> fullscreenEventHook <+> docksEventHook
        , layoutHook =  smartBorders $ avoidStruts $ layoutHook defaultConfig
        , startupHook = do
            spawnOn "2" "firefox"
