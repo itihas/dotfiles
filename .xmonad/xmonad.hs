@@ -15,6 +15,7 @@ import XMonad.Util.EZConfig(additionalKeys)
 import XMonad.Layout.NoBorders
 import Data.List 
 import System.IO
+import Graphics.X11.ExtraTypes.XF86
 
 import qualified XMonad.StackSet as W
 
