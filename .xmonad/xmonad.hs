@@ -34,7 +34,7 @@ instance UrgencyHook LibNotifyUrgencyHook where
 myXPConfig :: XPConfig
 myXPConfig = def {font = "xft: Liberation Mono: size=7.5:bold:antialias=true", fgColor = "#fdf6e3", bgColor = "black", promptBorderWidth = 0, position = Top}
 
-searchEngineMap method = fromList $
+searchEngineMap method = M.fromList $
       [ ((0, xK_g), method S.google)
       , ((0, xK_w), method S.wikipedia)
       ]
