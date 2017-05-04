@@ -28,7 +28,7 @@ instance UrgencyHook LibNotifyUrgencyHook where
         safeSpawn "notify-send" [show name, "workspace " ++ idx]
 
 myXPConfig :: XPConfig
-myXPConfig = def {fgColor = "#002b36", bgColor = "black"}
+myXPConfig = def {fgColor = "#fdf6e3", bgColor = "black", promptBorderWidth = 0}
 
 myLogHook :: X ()
 myLogHook = fadeInactiveLogHook fadeAmount
