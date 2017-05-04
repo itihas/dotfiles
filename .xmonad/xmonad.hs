@@ -7,7 +7,6 @@ import XMonad.Hooks.ManageHelpers
 import XMonad.Hooks.UrgencyHook
 import XMonad.Hooks.FadeInactive
 import XMonad.Hooks.EwmhDesktops
-import XMonad.Prompt.Shell
 import XMonad.Util.NamedWindows
 import XMonad.Util.Run(spawnPipe, safeSpawn)
 import XMonad.Util.EZConfig(additionalKeys)
@@ -18,6 +17,7 @@ import Graphics.X11.ExtraTypes.XF86
 import qualified XMonad.Prompt         as P
 import qualified XMonad.Actions.Submap as SM
 import qualified XMonad.Actions.Search as S
+import XMonad.Prompt.Shell
 
 import qualified XMonad.StackSet as W
 
