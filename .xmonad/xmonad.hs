@@ -30,7 +30,7 @@ instance UrgencyHook LibNotifyUrgencyHook where
 
         safeSpawn "notify-send" [show name, "workspace " ++ idx]
 
-myXPConfig :: P.XPConfig
+myXPConfig :: XPConfig
 myXPConfig = def {font = "xft: Liberation Mono: size=7.5:bold:antialias=true", fgColor = "#fdf6e3", bgColor = "black", promptBorderWidth = 0, position = Top}
 
 searchEngineMap method = M.fromList $
