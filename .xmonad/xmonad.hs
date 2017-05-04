@@ -71,5 +71,5 @@ main = do
                                                               , ((mod4Mask,  xK_F5), spawn "exec ~/emacs_capture -e \'(org-capture nil \"i\")\'")
 							      , ((controlMask, xK_Print), spawn "sleep 0.2; scrot -s ~/Screenshots/%Y-%m-%d-%T-screenshot.png")
 							      , ((0, xK_Print), spawn "scrot")
-                                                              , ((0, xK_XF86MonBrightnessUp), spawn "xbacklight -inc 40")
+                                                              , ((0, xF86MonBrightnessUp), spawn "xbacklight -inc 40")
 							      ]
