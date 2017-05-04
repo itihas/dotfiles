@@ -7,7 +7,6 @@ import XMonad.Hooks.ManageHelpers
 import XMonad.Hooks.UrgencyHook
 import XMonad.Hooks.FadeInactive
 import XMonad.Hooks.EwmhDesktops
-import XMonad.Prompt
 import XMonad.Prompt.Shell
 import XMonad.Util.NamedWindows
 import XMonad.Util.Run(spawnPipe, safeSpawn)
@@ -16,6 +15,9 @@ import XMonad.Layout.NoBorders
 import Data.List 
 import System.IO
 import Graphics.X11.ExtraTypes.XF86
+import qualified XMonad.Prompt         as P
+import qualified XMonad.Actions.Submap as SM
+import qualified XMonad.Actions.Search as S
 
 import qualified XMonad.StackSet as W
 
@@ -76,6 +78,9 @@ main = do
        	 			  	     		      , ((mod4Mask , xK_p), shellPrompt myXPConfig)
                                                               , ((mod4Mask,  xK_F5), spawn "exec ~/emacs_capture -e \'(org-capture nil \"i\")\'")
 							      , ((controlMask, xK_Print), spawn "sleep 0.2; scrot -s ~/Screenshots/%Y-%m-%d-%T-screenshot.png")
+                                                              , ((mod4Mask, xK_s), SM.submap $ searchEngineMap $ S.promptSearch P.def)
+                                                              , ((mod4Mask .|. shiftMask, xK_s), SM.submap $ searchEngineMap $ S.selectSearch)
+
 							      , ((0, xK_Print), spawn "scrot")
                                                               , ((0, xF86XK_MonBrightnessUp), spawn "xbacklight -inc 5")
                                                               , ((0, xF86XK_MonBrightnessDown), spawn "xbacklight -dec 5")
