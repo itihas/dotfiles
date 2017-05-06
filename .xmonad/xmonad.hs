@@ -57,7 +57,7 @@ main = do
        $  withUrgencyHook LibNotifyUrgencyHook defaultConfig
        { workspaces = ["1","2","3","4","5","6","7","8","9","0","-","="]
        , manageHook = manageDocks <+> myManageHook <+> manageSpawn <+> manageHook defaultConfig
-       , handleEventHook = handleEventHook defaultConfig <+> fullscreenEventHook <+> docksEventHook
+       , handleEventHook = handleEventHook defaultConfig <+> fullscreenEventHook
        , layoutHook =  smartBorders $ avoidStruts $ layoutHook defaultConfig
        , logHook = -- myLogHook <+>
          dynamicLogWithPP xmobarPP { ppOutput = hPutStrLn xmproc
