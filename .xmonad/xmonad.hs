@@ -51,7 +51,7 @@ myManageHook = composeAll . concat $
         myMatchAnywhereFloatsT = ["emacs-capture"] -- this one is silly for only one string!
 
 main = do
-  xmproc <- spawnPipe "xmobar -d /home/sahiti/.xmobarcc"
+  xmproc <- spawnPipe "xmobar /home/sahiti/.xmobarcc"
   spawn "pkill dunst ; dunst -config ~/.config/dunst/dunstrc &"
   xmonad $  ewmh
        $  withUrgencyHook LibNotifyUrgencyHook defaultConfig
