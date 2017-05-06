@@ -70,6 +70,7 @@ main = do
        , terminal		= "xterm"
        , normalBorderColor	= "#002b36"
        , focusedBorderColor	= "#586e75"} `additionalKeys` [ ((mod4Mask .|. shiftMask, xK_z), spawn "xscreensaver-command -lock")
+                                                              , ((mod4Mask , xK_b), sendMessage ToggleStruts)
        	 			  	     		      , ((mod4Mask , xK_f), spawn "firefox")
        	 			  	     		      , ((mod4Mask , xK_p), shellPrompt myXPConfig)
                                                               , ((mod4Mask,  xK_F5), spawn "exec ~/emacs_capture -e \'(org-capture nil \"i\")\'")
