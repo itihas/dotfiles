@@ -72,7 +72,7 @@ main = do
        , focusedBorderColor	= "#586e75"} `additionalKeys` [ ((mod4Mask .|. shiftMask, xK_z), spawn "xscreensaver-command -lock")
                                                               , ((mod4Mask , xK_b), sendMessage ToggleStruts)
        	 			  	     		      , ((mod4Mask , xK_f), spawn "firefox")
-       	 			  	     		      , ((mod4Mask , xK_p), spawn "dmenu_run")
+       	 			  	     		      , ((mod4Mask , xK_p), spawn "dmenu_run") -- replace with promptShell eventually?
                                                               , ((mod4Mask,  xK_F5), spawn "exec ~/emacs_capture -e \'(org-capture nil \"i\")\'")
 							      , ((controlMask, xK_Print), spawn "sleep 0.2; scrot -s ~/Screenshots/%Y-%m-%d-%T-screenshot.png")
                                                               , ((mod4Mask, xK_s), S.promptSearch myXPConfig S.multi)
