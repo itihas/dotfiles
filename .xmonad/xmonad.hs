@@ -82,6 +82,6 @@ main = do
                                                               , ((0, xF86XK_MonBrightnessUp), spawn "xbacklight -inc 5")
                                                               , ((0, xF86XK_MonBrightnessDown), spawn "xbacklight -dec 5")
                                                               , ((0 , xF86XK_AudioRaiseVolume), spawn "pactl set-sink-volume 0 +1.5%")
-                                                              , ((0 , xF86XK_AudioLowerVolume), spawn "pactl set-sink-volume 0 -- -1.5%")
+                                                              , ((0 , xF86XK_AudioLowerVolume), spawn "pactl set-sink-volume 0 -1.5%")
                                                               , ((0 , xF86XK_AudioMute), spawn "pactl set-sink-mute 0 toggle")
                                                               ]
