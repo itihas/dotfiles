@@ -322,6 +322,7 @@
 (global-set-key (kbd "<f5> a") 'org-agenda-list) ; open org agenda
 (global-set-key (kbd "<f5> s") 'org-store-link) ; store an org link
 (global-set-key (kbd "<f5> c")  'org-capture) ; org capture
+(global-set-key (kbd "<f5> w")  'org-copy-subtree) ; org copy subtree at point
 
 (global-set-key (kbd "<f9>")  (lambda () (interactive) (org-timer-set-timer "00:00:30"))) ; start review timer. meant to be used in capture context, primarily.
 
