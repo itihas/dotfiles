@@ -193,7 +193,7 @@
       '(("i" "Inbox" entry (file "~/notebook/capture.org")
 	 "* %? \n:PROPERTIES:\n :CREATED: %U\n :END:\n %i\n")
 	("b" "Bookmark" entry (file "~/notebook/bookmarks.org")
-	 "* %c \n:PROPERTIES:\n :CREATED: %U\n :END:\n \n #+BEGIN_QUOTE \n%i\n #+END_QUOTE\n %? ")
+	 "* %c \n:PROPERTIES:\n :CREATED: %U\n :END:\n \n #+BEGIN_EXPORT html \n%i\n #+END_EXPORT\n %? ")
 	("q" "Quote" entry (file "~/notebook/quotes.org")
 	 "*  \n:PROPERTIES:\n :CREATED: %U\n :END:\n#+BEGIN_QUOTE %i\n%?\n #+END_QUOTE\n \nEntered on %U\n")
         ("j" "Journal" entry (file+datetree "~/notebook/journal.gpg")
