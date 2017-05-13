@@ -190,20 +190,19 @@
 ;; org capture
 (setq org-default-notes-file (concat org-directory "/capture.org"))
 (setq org-capture-templates
-      '(("i" "Inbox" entry (file "~/notebook/capture.org")
+      '(("i" "Inbox" entry
+	 (file "~/notebook/capture.org")
 	 "* %? \n:PROPERTIES:\n :CREATED: %U\n :END:\n %i\n")
-	("b" "Bookmark" entry (file "~/notebook/bookmarks.org")
+	("b" "Bookmark" entry
+	 (file "~/notebook/bookmarks.org")
 	 "* %c \n:PROPERTIES:\n :CREATED: %U\n :END:\n \n #+BEGIN_EXPORT html \n%i\n #+END_EXPORT\n %? ")
-	("q" "Quote" entry (file "~/notebook/quotes.org")
+	("q" "Quote" entry
+	 (file "~/notebook/quotes.org")
 	 "*  \n:PROPERTIES:\n :CREATED: %U\n :END:\n#+BEGIN_QUOTE %i\n%?\n #+END_QUOTE\n \nEntered on %U\n")
-        ("j" "Journal" entry (file+datetree "~/notebook/journal.gpg")
+        ("j" "Journal" entry
+	 (file+datetree "~/notebook/journal.gpg")
 	 "*  \n :PROPERTIES: \n :CREATED: %U\n :END:\n\n %?\n")
-	("p" "Prediction" entry (file "~/notebook/predictions.org")
-	 "* %^{Prediction} \n :PROPERTIES:\n :CREATED: %U\n :END:\n | %U | %^{ODDS} | \n DEADLINE:%^t \n ")
-	("v" "Vocabulary" entry
-               (file+headline (concat org-directory "/vocab.org")
-                              "Vocabulary")
-               "* %^{The word} :drill:\n** Meaning \n%^{Definition}\n** POS\n ^{POS}\n** Pronunciation\n^{Pronunciation}\n** Example\n^{Example}\n** Language\n^{Language}\n** Word Origin\n^{Origin}\n")))
+	))
 
 (setq org-file-apps
       '((auto-mode . emacs)
