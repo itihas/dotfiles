@@ -50,6 +50,7 @@ myManageHook = composeAll . concat $
         myMatchAnywhereFloatsC = ["Google","Pidgin"]
         myMatchAnywhereFloatsT = ["emacs-capture"] -- this one is silly for only one string!
 
+
 main = do
   xmproc <- spawnPipe "xmobar /home/sahiti/.xmobarcc"
   spawn "pkill dunst ; dunst -config ~/.config/dunst/dunstrc &"
@@ -73,7 +74,7 @@ main = do
                                                               , ((mod4Mask , xK_b), sendMessage ToggleStruts)
        	 			  	     		      , ((mod4Mask , xK_f), spawn "firefox")
        	 			  	     		      , ((mod4Mask , xK_p), spawn "dmenu_run") -- replace with promptShell eventually?
-                                                              , ((mod4Mask,  xK_F5), spawn "exec ~/emacs_capture -e \'(org-capture nil \"i\")\'")
+                                                              , ((mod4Mask,  xK_F5), spawn "exec ~/emacs_capture -e org-protocol:/capture:/i/\"\"/\"\"/\"`xclip -o`\"")
 							      , ((controlMask, xK_Print), spawn "sleep 0.2; scrot -s ~/Screenshots/%Y-%m-%d-%T-screenshot.png")
                                                               , ((mod4Mask, xK_s), S.promptSearch myXPConfig S.multi)
                                                               , ((mod4Mask .|. shiftMask, xK_s), S.selectSearch S.multi)
