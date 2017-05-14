@@ -155,9 +155,9 @@
 
 ;; org todo
 (setq org-todo-keywords
-      (quote ((sequence "todo(t!)" "next(n!)" "|" "done(d@!)")
+      (quote ((sequence "todo(t!)" "next(n!)" "working(w!)" "|" "done(d@!)")
 	      (sequence  "wait(w@/!)"  "|"  "paused(p@/!)" "cancelled(c@/!)" )
-	      (sequence "try(q!)" "trying(w!)" "|" "tried(e@/!)" "nah(r@/!)")
+	      (sequence "try(r!)" "trying(i!)" "|" "tried(e@/!)" "nah(h@/!)")
 	      )))
 (setq org-log-done 'note)
 (setq org-log-into-drawer t)
