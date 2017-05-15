@@ -193,9 +193,9 @@
       '(("i" "Inbox" entry
 	 (file "~/notebook/capture.org")
 	 "* %? \n:PROPERTIES:\n :CREATED: %U\n :END:\n")
-	("p" "Paste" entry
+	("p" "Protocol" entry
 	 (file "~/notebook/capture.org")
-	 "* %? \n:PROPERTIES:\n :CREATED: %U\n :END:\n\n#+BEGIN_EXAMPLE\n%x\n#+END_EXAMPLE\n")
+	 "* %a \n:PROPERTIES:\n :CREATED: %U\n :END:\n\n#+BEGIN_EXAMPLE\n%x\n#+END_EXAMPLE\n%?\n")
 	("L" "Paste" entry
 	 (file "~/notebook/capture.org")
 	 "* %? \n:PROPERTIES:\n :CREATED: %U\n :END:\n\n#+BEGIN_EXAMPLE\n%x\n#+END_EXAMPLE\n")
