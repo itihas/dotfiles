@@ -193,10 +193,10 @@
       '(("i" "Inbox" entry
 	 (file "~/notebook/capture.org")
 	 "* %? \n:PROPERTIES:\n :CREATED: %U\n :END:\n")
-	("p" "Protocol" entry
+	("L" "Link Protocol" entry
 	 (file "~/notebook/bookmarks.org")
 	 "* %a \n:PROPERTIES:\n :CREATED: %U\n :END:\n%?\n")
-	("L" "Link Protocol" entry
+	("p" "Protocol" entry
 	 (file "~/notebook/bookmarks.org")
 	 "* %a \n:PROPERTIES:\n :CREATED: %U\n :END:\n\n#+BEGIN_EXAMPLE\n%i\n#+END_EXAMPLE\n%?\n")
 	("b" "Bookmark" entry
