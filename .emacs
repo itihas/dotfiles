@@ -198,7 +198,7 @@
 	 "* %a \n:PROPERTIES:\n :CREATED: %U\n :END:\n\n#+BEGIN_EXAMPLE\n%x\n#+END_EXAMPLE\n%?\n")
 	("L" "Paste" entry
 	 (file "~/notebook/capture.org")
-	 "* %? \n:PROPERTIES:\n :CREATED: %U\n :END:\n\n#+BEGIN_EXAMPLE\n%x\n#+END_EXAMPLE\n")
+	 "* %a \n:PROPERTIES:\n :CREATED: %U\n :END:\n\n#+BEGIN_EXAMPLE\n%x\n#+END_EXAMPLE\n%?\n")
 	("b" "Bookmark" entry
 	 (file "~/notebook/bookmarks.org")
 	 "* %a \n:PROPERTIES:\n :CREATED: %U\n :END:\n \n #+BEGIN_EXPORT html \n%i\n #+END_EXPORT\n %? ")
