@@ -72,12 +72,12 @@ main = do
        , normalBorderColor	= "#002b36"
        , focusedBorderColor	= "#586e75"} `additionalKeys` [ ((mod4Mask .|. shiftMask, xK_z), spawn "xscreensaver-command -lock")
                                                               , ((mod4Mask , xK_b), sendMessage ToggleStruts)
-       	 			  	     		      , ((mod4Mask , xK_o), spawn "opera")
+       	 			  	     		      , ((mod4Mask , xK_i), spawn "chromium")
        	 			  	     		      , ((mod4Mask , xK_p), spawn "dmenu_run") -- replace with promptShell eventually?
                                                               , ((mod4Mask,  xK_F5), spawn "~/emacs_capture \"org-protocol:/capture:/i/~\"")
                                                               , ((mod4Mask .|. shiftMask,  xK_F5), spawn "~/emacs_capture \"org-protocol:/capture:/p/~\"")
 							      , ((controlMask, xK_Print), spawn "sleep 0.2; scrot -s ~/Screenshots/%Y-%m-%d-%T-screenshot.png")
-                                                              , ((mod4Mask, xK_s), S.promptSearchBrowser myXPConfig "/usr/bin/opera" S.multi)
+                                                              , ((mod4Mask, xK_s), S.promptSearchBrowser myXPConfig "/usr/bin/chromium" S.multi)
                                                               , ((mod4Mask .|. shiftMask, xK_s), S.selectSearch S.multi)
 
 							      , ((0, xK_Print), spawn "scrot")
