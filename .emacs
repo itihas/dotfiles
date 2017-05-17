@@ -192,22 +192,22 @@
 (setq org-capture-templates
       '(("i" "Inbox" entry
 	 (file "~/notebook/capture.org")
-	 "* %? \n:PROPERTIES:\n :CREATED: %U\n :END:\n")
+	 "* %? \n:PROPERTIES:\n :CREATED: %U\n :END:\n\n")
 	("L" "Link Protocol" entry
 	 (file "~/notebook/bookmarks.org")
-	 "* %a \n:PROPERTIES:\n :CREATED: %U\n :END:\n%?\n")
+	 "* %a \n:PROPERTIES:\n :CREATED: %U\n :END:\n%?\n\n")
 	("p" "Protocol" entry
 	 (file "~/notebook/bookmarks.org")
-	 "* %a \n:PROPERTIES:\n :CREATED: %U\n :END:\n\n#+BEGIN_EXAMPLE\n%i\n#+END_EXAMPLE\n%?\n")
+	 "* %a \n:PROPERTIES:\n :CREATED: %U\n :END:\n\n#+BEGIN_EXAMPLE\n%i\n#+END_EXAMPLE\n%?\n\n")
 	("b" "Bookmark" entry
 	 (file "~/notebook/bookmarks.org")
-	 "* %a \n:PROPERTIES:\n :CREATED: %U\n :END:\n \n #+BEGIN_EXPORT html \n%i\n #+END_EXPORT\n %? ")
+	 "* %a \n:PROPERTIES:\n :CREATED: %U\n :END:\n \n #+BEGIN_EXPORT html \n%i\n #+END_EXPORT\n %?\n\n")
 	("q" "Quote" entry
 	 (file "~/notebook/quotes.org")
-	 "*  \n:PROPERTIES:\n :CREATED: %U\n :END:\n#+BEGIN_QUOTE %i\n%?\n #+END_QUOTE\n \nEntered on %U\n")
+	 "*  \n:PROPERTIES:\n :CREATED: %U\n :END:\n#+BEGIN_QUOTE %i\n%?\n #+END_QUOTE\n \nEntered on %U\n\n")
         ("j" "Journal" entry
 	 (file+datetree "~/notebook/journal.gpg")
-	 "*  \n :PROPERTIES: \n :CREATED: %U\n :END:\n\n %?\n")
+	 "*  \n :PROPERTIES: \n :CREATED: %U\n :END:\n\n %?\n\n")
 	))
 
 (setq org-file-apps
