@@ -78,7 +78,7 @@ main = do
                                                               , ((mod4Mask .|. shiftMask,  xK_F5), spawn "~/emacs_capture \"org-protocol:/capture:/p/~\"")
 							      , ((controlMask, xK_Print), spawn "sleep 0.2; scrot -s ~/Screenshots/%Y-%m-%d-%T-screenshot.png")
                                                               , ((mod4Mask, xK_s), S.promptSearchBrowser myXPConfig "/usr/bin/chromium" S.multi)
-                                                              , ((mod4Mask .|. shiftMask, xK_s), S.selectSearch S.multi)
+                                                              , ((mod4Mask .|. shiftMask, xK_s), S.selectSearchBrowser "/usr/bin/chromium" S.multi)
 
 							      , ((0, xK_Print), spawn "scrot")
                                                               , ((0, xF86XK_MonBrightnessUp), spawn "xbacklight -inc 5")
