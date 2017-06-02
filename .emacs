@@ -66,7 +66,10 @@
 (setq org-special-ctrl-a/e t)
 
 
+;; imenu/speedbar
 
+(setq org-imenu-depth 10)
+(setq imenu-auto-rescan t)
 
 ;; semantic mode
 (semantic-mode t)
