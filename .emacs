@@ -12,7 +12,7 @@
 
 
 (require 'cl)
-
+(require 'sr-speedbar)
 ;; general
 
 ;; encryption
