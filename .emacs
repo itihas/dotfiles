@@ -42,7 +42,7 @@
 ;; leaving Custom
 ;; (at least for everything but theme because Custom themes rock)
 
-(setq gac-ask-for-summary-p nil)
+(setq gac-ask-for-summary-p t)
 (setq magit-diff-use-overlays nil)
 (setq message-default-charset (quote iso-8859-1))
 (setq mouse-avoidance-banish-position
