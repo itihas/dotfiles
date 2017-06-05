@@ -1,4 +1,4 @@
---  -*- eval: (git-auto-commit-mode 1) -*-
+--  -*- eval: (git-auto-commit-mode nil) -*-
 
 import DBus
 import Data.Text
