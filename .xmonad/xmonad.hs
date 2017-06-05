@@ -52,7 +52,7 @@ myManageHook = composeAll . concat $
 
 
 main = do
-  xmproc <- spawnPipe "xmobar --flags=\"with_mpris\" ""/home/sahiti/.xmobarcc"
+  xmproc <- spawnPipe "xmobar --flags=\"with_mpris\" /home/sahiti/.xmobarcc"
   spawn "pkill dunst ; dunst -config ~/.config/dunst/dunstrc &"
   xmonad $  ewmh
        $  withUrgencyHook LibNotifyUrgencyHook defaultConfig
