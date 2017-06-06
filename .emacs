@@ -14,6 +14,7 @@
 (require 'cl)
 (require 'sr-speedbar)
 ;; general
+(setq browse-url-browser-function 'browse-url-chromium)
 
 ;; encryption
 (epa-file-enable)
