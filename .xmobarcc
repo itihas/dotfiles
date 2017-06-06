@@ -1,7 +1,4 @@
---  -*- eval: (git-auto-commit-mode nil) -*-
 
-import DBus
-import Data.Text
 
 Config { font = "xft: Liberation Mono: size=7.5:bold:antialias=true"
        , bgColor = "#00161a"
@@ -18,7 +15,7 @@ Config { font = "xft: Liberation Mono: size=7.5:bold:antialias=true"
                   		      , "-l", "#cb4b16"
                   		      , "--", "-O", "Charging: <left>%", "-o", "Battery: <left>%"
                   		      ] 10
-		    , Run Mpris2 "spotify" ["-t", "<artist> - [<composer>] <title>"] 10
+                    , Run Mpris2 "spotify" ["-t", "<artist><:title>"] 10
                     , Run Locks
                     , Run StdinReader
                     ]
