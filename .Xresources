@@ -116,8 +116,3 @@ xscreensaver.dateFormat:    %I:%M%P %a %b %d, %Y
 
 XTerm*VT100.translations: #override <Btn1Up>: select-end(PRIMARY, CLIPBOARD, CUT_BUFFER0)
 
-! dzen2
-
-dzen2.font:       -*-fixed-*-*-*-*-*-*-*-*-*-*-*-*
-dzen2.foreground: S_base3
-dzen2.background: S_base03
