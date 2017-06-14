@@ -73,6 +73,7 @@ main = do
        , focusedBorderColor	= "#586e75"} `additionalKeys` [ ((mod4Mask .|. shiftMask, xK_z), spawn "xscreensaver-command -lock")
                                                               , ((mod4Mask , xK_b), sendMessage ToggleStruts)
        	 			  	     		      , ((mod4Mask , xK_i), spawn "chromium")
+       	 			  	     		      , ((mod4Mask , xK_e), spawn "emc")
        	 			  	     		      , ((mod4Mask , xK_v), spawn "pavucontrol")
        	 			  	     		      , ((mod4Mask , xK_p), spawn "dmenu_run") -- replace with promptShell eventually?
                                                               , ((mod4Mask,  xK_F5), spawn "~/emacs_capture \"org-protocol:/capture:/i/~\"")
