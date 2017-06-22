@@ -122,3 +122,4 @@ XTerm*utf8: 1
 ! XTerm.vt100.scrollbar.background: S_base03
 ! XTerm.vt100.scrollbar.foreground: S_base01
 XTerm.vt100.scrollTtyOutput: false
+XTerm.vt100.saveLines: 4096
