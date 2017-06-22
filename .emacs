@@ -66,7 +66,9 @@
 
 (setq org-special-ctrl-a/e t)
 
+;; org cdlatex mode
 
+(add-hook 'org-mode-hook 'turn-on-org-cdlatex)
 ;; imenu/speedbar
 
 (setq org-imenu-depth 10)
