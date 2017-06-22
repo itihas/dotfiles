@@ -117,8 +117,8 @@ xscreensaver.dateFormat:    %I:%M%P %a %b %d, %Y
 XTerm.termName: xterm-256color
 XTerm*VT100.translations: #override <Btn1Up>: select-end(PRIMARY, CLIPBOARD, CUT_BUFFER0)
 XTerm*utf8: 1
-XTerm.vt100.scrollBar: true
-XTerm.vt100.scrollbar.width: 6
-XTerm.vt100.scrollbar.background: S_base03
-XTerm.vt100.scrollbar.foreground: S_base01
+! XTerm.vt100.scrollBar: true
+! XTerm.vt100.scrollbar.width: 6
+! XTerm.vt100.scrollbar.background: S_base03
+! XTerm.vt100.scrollbar.foreground: S_base01
 XTerm.vt100.scrollTtyOutput: false
