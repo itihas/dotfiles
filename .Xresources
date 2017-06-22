@@ -118,3 +118,4 @@ XTerm*VT100.translations: #override <Btn1Up>: select-end(PRIMARY, CLIPBOARD, CUT
 
 XTerm.vt100.scrollBar: true
 XTerm.vt100.scrollbar.width: 8
+XTerm.vt100.scrollbar.foreground: S_base02
