@@ -173,7 +173,7 @@
 
 ;; org-drill
 (setq org-drill-add-random-noise-to-intervals-p t)
-
+(setq org-drill-scope 'agenda)
 ;; local keymap
 (defun my/org-mode-bindings ()
   (local-set-key (kbd "C-c C-q") 'counsel-org-tag) ;org-tag completion
