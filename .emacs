@@ -183,8 +183,6 @@
 
 (setq org-support-shift-select t)
 (setq org-tags-column 0)
-(setq org-hide-emphasis-markers t)	;hide font styles markup
-(setq org-pretty-entities t)		;pretty-print symbols, super/subscript, etc.
 (require 'org-bullets)			;pretty bullets in orgmode
 (setq org-bullets-bullet-list '("○" "॰" "•" "‣" "⁃"))
 (setq org-startup-indented t)
