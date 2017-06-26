@@ -14,6 +14,8 @@
 (require 'cl)
 ;; general
 (setq browse-url-browser-function 'browse-url-chromium)
+(global-subword-mode)
+
 
 ;; encryption
 (epa-file-enable)
