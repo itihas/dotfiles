@@ -241,7 +241,6 @@
   "Advise capture-finalize to close the frame"
   (if (equal "emacs-capture" (frame-parameter nil 'name))
       (progn
-	(org-publish-current-file)
 	(delete-frame))))
 
 
