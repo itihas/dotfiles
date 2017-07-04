@@ -13,7 +13,7 @@
 
 (require 'cl)
 ;; general
-(setq browse-url-browser-function 'browse-url-chromium)
+(setq browse-url-browser-function 'browse-url-firefox)
 (global-subword-mode)
 
 
