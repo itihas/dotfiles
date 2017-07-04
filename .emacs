@@ -240,7 +240,9 @@
     (after delete-capture-frame activate)
   "Advise capture-finalize to close the frame"
   (if (equal "emacs-capture" (frame-parameter nil 'name))
-      (delete-frame)))
+      (progn
+	(org-publish-current-file)
+	(delete-frame))))
 
 
 ;; org publishing - publish notebook for easy reading
