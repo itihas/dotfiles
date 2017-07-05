@@ -79,7 +79,7 @@ main = do
                                                               , ((mod4Mask,  xK_F5), spawn "~/emacs_capture \"org-protocol:/capture:/i/~\"")
                                                               , ((mod4Mask .|. shiftMask,  xK_F5), spawn "~/emacs_capture \"org-protocol:/capture:/p/~\"")
 							      , ((controlMask, xK_Print), spawn "sleep 0.2; scrot -s ~/Screenshots/%Y-%m-%d-%T-screenshot.png")
-                                                              , ((mod4Mask, xK_s), S.promptSearch S.multi)
+                                                              , ((mod4Mask, xK_s), S.promptSearch myXPConfig S.multi)
                                                               , ((mod4Mask .|. shiftMask, xK_s), S.selectSearch S.multi)
 
 							      , ((0, xK_Print), spawn "scrot")
