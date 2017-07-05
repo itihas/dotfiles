@@ -63,4 +63,6 @@ syndaemon -t -k -i 1 &
 # Set background image with feh
 feh --bg-fill /home/sahiti/background.jpg &
 
+redshift &> /dev/null || redshift &> /dev/null
+
 exec xmonad
