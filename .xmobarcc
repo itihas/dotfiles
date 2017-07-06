@@ -15,11 +15,10 @@ Config { font = "xft: Liberation Mono: size=7.5:bold:antialias=true"
                   		      , "-l", "#cb4b16"
                   		      , "--", "-O", "Charging: <left>%", "-o", "Battery: <left>%"
                   		      ] 10
-                    , Run Mpris2 "spotify" ["-t", "<artist><:title>"] 10
                     , Run Locks
                     , Run StdinReader
                     ]
        , sepChar = "%"
        , alignSep = "}{"
-       , template = "%StdinReader% }{ %dynnetwork% | %cpu% | %memory% | %battery% | %mpris% | %locks% | <fc=#b58900>%date%</fc>"
+       , template = "%StdinReader% }{ %dynnetwork% | %cpu% | %memory% | %battery% | %locks% | <fc=#b58900>%date%</fc>"
        }
