@@ -119,6 +119,8 @@
 
 (setq bibtex-completion-pdf-field "File")
 
+(setq org-latex-pdf-process '("texi2dvi -p -b -V %f"))
+
 ;; appearances
 
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
