@@ -224,7 +224,7 @@
       '((auto-mode . emacs)
 	("\\.mm\\'" . default)
 	("\\.x?html?\\'" . default)
-	("pdf" . "llpp %s")))
+	("pdf" . "evince %s")))
 
 
 ;; org export
