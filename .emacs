@@ -128,7 +128,7 @@
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
 (column-number-mode)
 
-
+(smartparens-global-mode)
 (set-fontset-font
  t 'symbol
  (font-spec :family "Symbola") nil 'prepend)
