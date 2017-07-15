@@ -41,6 +41,10 @@
 (require 'haskell-process)
 (add-hook 'haskell-mode-hook 'interactive-haskell-mode)
 (setq haskell-process-log t)
+
+(require 'ox-bibtex)
+
+
 ;; leaving Custom
 ;; (at least for everything but theme because Custom themes rock)
 
@@ -119,8 +123,11 @@
 
 (setq bibtex-completion-pdf-field "File")
 
-(setq org-latex-pdf-process '("texi2dvi -p -b -V %f"))
-
+(setq org-latex-pdf-process
+      '("pdflatex -interaction nonstopmode -output-directory %o %f"
+        "bibtex %b"
+        "pdflatex -interaction nonstopmode -output-directory %o %f"
+        "pdflatex -interaction nonstopmode -output-directory %o %f"))
 ;; appearances
 
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
@@ -362,8 +369,6 @@
 (defalias 'tp 'transpose-paragraphs)
 
 
-
-
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -562,4 +567,3 @@ Version 2015-12-17"
                (setq preserve-default-cookies-list nil)
                (message "Restored default fonts."))))))
 ;; at the end because apparently org-plus-contrib is only included by Custom.
-(require 'ox-bibtex)
