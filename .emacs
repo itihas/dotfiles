@@ -42,7 +42,6 @@
 (add-hook 'haskell-mode-hook 'interactive-haskell-mode)
 (setq haskell-process-log t)
 
-(require 'ox-bibtex)
 
 
 ;; leaving Custom
@@ -567,3 +566,4 @@ Version 2015-12-17"
                (setq preserve-default-cookies-list nil)
                (message "Restored default fonts."))))))
 ;; at the end because apparently org-plus-contrib is only included by Custom.
+(require 'ox-bibtex)
