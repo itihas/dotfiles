@@ -101,7 +101,6 @@
 ;; ido
 (ido-mode t)
 (ido-vertical-mode 1)
-(ido-ubiquitous-mode 1)
 (setq ido-vertical-define-keys 'C-n-and-C-p-only)
 
 ;; smex
