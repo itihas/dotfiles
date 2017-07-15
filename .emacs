@@ -113,7 +113,6 @@
 
 ;; citations: bibtex, reftex
 ;; (setq org-ref-default-bibliography '("~/notebook/bibliography.bib"))
-(require 'ox-bibtex)
 
 (setq bibtex-completion-bibliography '("~/notebook/bibliography.bib"))
 (setq reftex-default-bibliography '("~/notebook/bibliography.bib"))
@@ -562,4 +561,5 @@ Version 2015-12-17"
                (setq default-cookie nil)
                (setq preserve-default-cookies-list nil)
                (message "Restored default fonts."))))))
-
+;; at the end because apparently org-plus-contrib is only included by Custom.
+(require 'ox-bibtex)
