@@ -23,6 +23,7 @@ import qualified XMonad.StackSet as W
 
 data LibNotifyUrgencyHook = LibNotifyUrgencyHook deriving (Read, Show)
 
+-- Notifications using libnotify
 instance UrgencyHook LibNotifyUrgencyHook where
     urgencyHook LibNotifyUrgencyHook w = do
         name     <- getName w
@@ -30,13 +31,16 @@ instance UrgencyHook LibNotifyUrgencyHook where
 
         safeSpawn "notify-send" [show name, "workspace " ++ idx]
 
+-- XPConfig for Prompt
 myXPConfig :: XPConfig
 myXPConfig = def {font = "xft: Liberation Mono: size=7.5:bold:antialias=true", fgColor = "#fdf6e3", bgColor = "black", promptBorderWidth = 0, position = Top}
 
 
+-- When compton or another window compositor is active, renders inactive frames transparent.
 myLogHook :: X ()
 myLogHook = fadeInactiveLogHook fadeAmount
 	  where fadeAmount = 0.8
+
 
 myManageHook :: ManageHook
 myManageHook = composeAll . concat $
@@ -52,8 +56,8 @@ myManageHook = composeAll . concat $
 
 
 main = do
-  xmproc <- spawnPipe "xmobar /home/sahiti/.xmobarcc"
-  spawn "pkill dunst ; dunst -config ~/.config/dunst/dunstrc &"
+  xmproc <- spawnPipe "xmobar /home/sahiti/.xmobarcc" -- xmobar with config file
+  spawn "pkill dunst ; dunst -config ~/.config/dunst/dunstrc &" -- multimedia key shortcuts
   xmonad $  ewmh
        $  withUrgencyHook LibNotifyUrgencyHook defaultConfig
        { workspaces = ["1","2","3","4","5","6","7","8","9","0","-","="]
@@ -70,19 +74,19 @@ main = do
        , modMask			= mod4Mask
        , terminal		= "xterm"
        , normalBorderColor	= "#002b36"
-       , focusedBorderColor	= "#586e75"} `additionalKeys` [ ((mod4Mask .|. shiftMask, xK_z), spawn "xscreensaver-command -lock")
-                                                              , ((mod4Mask , xK_b), sendMessage ToggleStruts)
-       	 			  	     		      , ((mod4Mask , xK_i), spawn "firefox")
-       	 			  	     		      , ((mod4Mask , xK_e), spawn "emc")
-       	 			  	     		      , ((mod4Mask , xK_v), spawn "pavucontrol")
+       , focusedBorderColor	= "#586e75"} `additionalKeys` [ ((mod4Mask .|. shiftMask, xK_z), spawn "xscreensaver-command -lock") -- lockscreen
+                                                              , ((mod4Mask , xK_b), sendMessage ToggleStruts) -- make xmobar invisible as needed
+       	 			  	     		      , ((mod4Mask , xK_i), spawn "firefox") -- launch browser
+       	 			  	     		      , ((mod4Mask , xK_e), spawn "emc") -- launch editor
+       	 			  	     		      , ((mod4Mask , xK_v), spawn "pavucontrol") -- open volume control
        	 			  	     		      , ((mod4Mask , xK_p), spawn "dmenu_run") -- replace with promptShell eventually?
-                                                              , ((mod4Mask,  xK_F5), spawn "~/emacs_capture \"org-protocol:/capture:/i/~\"")
-                                                              , ((mod4Mask .|. shiftMask,  xK_F5), spawn "~/emacs_capture \"org-protocol:/capture:/p/~\"")
-							      , ((controlMask, xK_Print), spawn "sleep 0.2; scrot -s ~/Screenshots/%Y-%m-%d-%T-screenshot.png")
-                                                              , ((mod4Mask, xK_s), S.promptSearch myXPConfig S.multi)
-                                                              , ((mod4Mask .|. shiftMask, xK_s), S.selectSearch S.multi)
+                                                              , ((mod4Mask,  xK_F5), spawn "~/emacs_capture \"org-protocol:/capture:/i/~\"") -- note capture
+                                                              , ((mod4Mask .|. shiftMask,  xK_F5), spawn "~/emacs_capture \"org-protocol:/capture:/P/~\"") -- note capture selection
+							      , ((controlMask, xK_Print), spawn "sleep 0.2; scrot -s ~/Screenshots/%Y-%m-%d-%T-screenshot.png") -- print screen after delay
+                                                              , ((mod4Mask, xK_s), S.promptSearch myXPConfig S.multi) -- open search prompt
+                                                              , ((mod4Mask .|. shiftMask, xK_s), S.selectSearch S.multi) -- search selection
 
-							      , ((0, xK_Print), spawn "scrot")
+							      , ((0, xK_Print), spawn "scrot") -- print screen
                                                               , ((0, xF86XK_MonBrightnessUp), spawn "xbacklight -inc 5")
                                                               , ((0, xF86XK_MonBrightnessDown), spawn "xbacklight -dec 5")
                                                               , ((0 , xF86XK_AudioRaiseVolume), spawn "pactl set-sink-volume 0 +1%")
