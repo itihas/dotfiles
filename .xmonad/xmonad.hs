@@ -57,7 +57,7 @@ myManageHook = composeAll . concat $
 
 main = do
   xmproc <- spawnPipe "xmobar /home/sahiti/.xmobarcc" -- xmobar with config file
-  spawn "pkill dunst ; dunst -config ~/.config/dunst/dunstrc &" -- multimedia key shortcuts
+  spawn "pkill dunst ; dunst -config ~/.config/dunst/dunstrc &" -- notification display
   xmonad $  ewmh
        $  withUrgencyHook LibNotifyUrgencyHook defaultConfig
        { workspaces = ["1","2","3","4","5","6","7","8","9","0","-","="]
