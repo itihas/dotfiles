@@ -209,7 +209,7 @@
 	 "* %? \n:PROPERTIES:\n :CREATED: %U\n :END:\n\n")
 	("P" "Paste" entry
 	 (file "~/notebook/capture.org")
-	 "* %? \n:PROPERTIES:\n :CREATED: %U\n :END:\n\n#+BEGIN_EXAMPLE\n%i\n#+END_EXAMPLE\n%?\n\n")
+	 "* %a \n:PROPERTIES:\n :CREATED: %U\n :END:\n\n#+BEGIN_EXAMPLE\n%c\n#+END_EXAMPLE\n%?\n\n")
 	("L" "Link Protocol" entry
 	 (file "~/notebook/bookmarks.org")
 	 "* %a \n:PROPERTIES:\n :CREATED: %U\n :END:\n%?\n\n")
