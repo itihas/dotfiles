@@ -428,6 +428,10 @@
  '(org-agenda-files
    (quote
     ("~/notebook/rulechanging/jul2017submission.org" "/home/sahiti/notebook/modal.org" "/home/sahiti/notebook/bookmarks.org" "/home/sahiti/notebook/bucket.org" "/home/sahiti/notebook/capture.org" "/home/sahiti/notebook/confluence2016.org" "/home/sahiti/notebook/debug.org" "/home/sahiti/notebook/emacs-goals.org" "/home/sahiti/notebook/ev-nextquarter-4-17.org" "/home/sahiti/notebook/export-0.org" "/home/sahiti/notebook/export-1.org" "/home/sahiti/notebook/health.org" "/home/sahiti/notebook/predictions.org" "/home/sahiti/notebook/progressreport_oct_25_2016.org" "/home/sahiti/notebook/quotes.org" "/home/sahiti/notebook/reading.org" "/home/sahiti/notebook/research_interests.org" "/home/sahiti/notebook/sitemap.org" "/home/sahiti/notebook/system.org" "/home/sahiti/notebook/thesis.org")))
+ '(org-format-latex-options
+   (quote
+    (:foreground default :background default :scale 1.0 :html-foreground "Black" :html-background "Transparent" :html-scale 3.0 :matchers
+		 ("begin" "$1" "$" "$$" "\\(" "\\["))))
  '(package-selected-packages
    (quote
     (multiple-cursors org-plus-contrib latex-preview-pane smartparens latex-math-preview zotxt syntax-subword shakespeare-mode ido-at-point icicles auctex cdlatex elm-mode ecb imenu-anywhere intero auto-indent-mode outshine outorg swoop ido-occur flex-isearch flx-ido expand-region company-coq monokai-theme jedi scion typing zenburn-theme windata web-mode tuareg tree-mode tabbar solarized-theme smex request-deferred relative-line-numbers rainbow-mode rainbow-delimiters rainbow-blocks racket-mode quack python-mode parsebib paredit-menu org-wc org-pomodoro org-if org-bullets openwith olivetti nyan-mode nlinum mingus magit linum-relative keyfreq ido-vertical-mode ibuffer-vc ht haskell-mode gnuplot-mode gnuplot git-timemachine git-auto-commit-mode geiser eink-theme direx dired-subtree dash-functional counsel biblio anaconda-mode)))
