@@ -430,7 +430,7 @@
     ("~/notebook/rulechanging/jul2017submission.org" "/home/sahiti/notebook/modal.org" "/home/sahiti/notebook/bookmarks.org" "/home/sahiti/notebook/bucket.org" "/home/sahiti/notebook/capture.org" "/home/sahiti/notebook/confluence2016.org" "/home/sahiti/notebook/debug.org" "/home/sahiti/notebook/emacs-goals.org" "/home/sahiti/notebook/ev-nextquarter-4-17.org" "/home/sahiti/notebook/export-0.org" "/home/sahiti/notebook/export-1.org" "/home/sahiti/notebook/health.org" "/home/sahiti/notebook/predictions.org" "/home/sahiti/notebook/progressreport_oct_25_2016.org" "/home/sahiti/notebook/quotes.org" "/home/sahiti/notebook/reading.org" "/home/sahiti/notebook/research_interests.org" "/home/sahiti/notebook/sitemap.org" "/home/sahiti/notebook/system.org" "/home/sahiti/notebook/thesis.org")))
  '(org-format-latex-options
    (quote
-    (:foreground auto :background auto :scale 1.5 :html-foreground "Black" :html-background "Transparent" :html-scale 1.0 :matchers
+    (:foreground default :background default :scale 1.5 :html-foreground "Black" :html-background "Transparent" :html-scale 1.0 :matchers
 		 ("begin" "$1" "$" "$$" "\\(" "\\["))))
  '(package-selected-packages
    (quote
