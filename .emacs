@@ -359,7 +359,8 @@
 ;; counts
 (global-set-key (kbd "<f8>") 'count-words) ; count words
 
-
+;; multiple cursor mode
+(global-set-key (kbd "C-S-SPC") 'mc/mark-pop) ;add cursor at point and move to previous mark in kill ring
 
 
 
