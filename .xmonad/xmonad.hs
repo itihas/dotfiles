@@ -91,5 +91,5 @@ main = do
                                                               , ((0, xF86XK_MonBrightnessDown), spawn "xbacklight -dec 5")
                                                               , ((0 , xF86XK_AudioRaiseVolume), spawn "pulseaudio-ctl up")
                                                               , ((0 , xF86XK_AudioLowerVolume), spawn "pulseaudio-ctl down")
-                                                              , ((0 , xF86XK_AudioMute), spawn "pactl set-sink-mute 0 toggle")
+                                                              , ((0 , xF86XK_AudioMute), spawn "pulseaudio-ctl mute")
                                                               ]
