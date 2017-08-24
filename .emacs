@@ -23,10 +23,10 @@
 (epa-file-enable)
 ;; network (proxy)
 
-;; (setq url-proxy-services
-;;    '(("no_proxy" . "^\\(localhost\\|10.*\\)")
-;;      ("http" . "proxy.iiit.ac.in:8080")
-;;      ("https" . "proxy.iiit.ac.in:8080")))
+(setq url-proxy-services
+   '(("no_proxy" . "^\\(localhost\\|10.*\\)")
+     ("http" . "proxy.iiit.ac.in:8080")
+     ("https" . "proxy.iiit.ac.in:8080")))
 
 
 ;; Open .v files with Proof General's Coq mode
