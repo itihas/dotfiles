@@ -291,7 +291,7 @@
 ;; openwith - defaults applications for some file types
 (require 'openwith)
 (openwith-mode t)
-(setq openwith-associations '(("\\.pdf\\'" "llpp" (file))))
+(setq openwith-associations '(("\\.pdf\\'" "evince" (file))))
 
 ;; jedi setup.
 (add-hook 'python-mode-hook 'jedi:setup)
