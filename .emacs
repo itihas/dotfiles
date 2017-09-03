@@ -293,9 +293,6 @@
 (openwith-mode t)
 (setq openwith-associations '(("\\.pdf\\'" "evince" (file))))
 
-;; jedi setup.
-(add-hook 'python-mode-hook 'jedi:setup)
-(setq jedi:complete-on-dot t)                 ; optional
 
 ;; default behaviours
 (setq blink-cursor-mode nil)
