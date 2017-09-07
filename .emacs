@@ -28,6 +28,10 @@
      ("http" . "proxy.iiit.ac.in:8080")
      ("https" . "proxy.iiit.ac.in:8080")))
 
+;; (setq url-proxy-services
+;;       '(("no_proxy" . "^\\(localhost\\|10.*\\)")
+;; 	("http" . "")
+;; 	("https" . "")))
 
 ;; Open .v files with Proof General's Coq mode
 (load "~/.emacs.d/lisp/PG/generic/proof-site")
