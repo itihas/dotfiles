@@ -434,6 +434,7 @@
    (quote
     (:foreground default :background default :scale 1.5 :html-foreground "Black" :html-background "Transparent" :html-scale 1.0 :matchers
 		 ("begin" "$1" "$" "$$" "\\(" "\\["))))
+ '(org-highlight-latex-and-related nil)
  '(package-selected-packages
    (quote
     (multiple-cursors org-plus-contrib latex-preview-pane smartparens latex-math-preview zotxt syntax-subword shakespeare-mode ido-at-point icicles auctex cdlatex elm-mode ecb imenu-anywhere intero auto-indent-mode outshine outorg swoop ido-occur flex-isearch flx-ido expand-region company-coq monokai-theme jedi scion typing zenburn-theme windata web-mode tuareg tree-mode tabbar solarized-theme smex request-deferred relative-line-numbers rainbow-mode rainbow-delimiters rainbow-blocks racket-mode quack python-mode parsebib paredit-menu org-wc org-pomodoro org-if org-bullets openwith olivetti nyan-mode nlinum mingus magit linum-relative keyfreq ido-vertical-mode ibuffer-vc ht haskell-mode gnuplot-mode gnuplot git-timemachine git-auto-commit-mode geiser eink-theme direx dired-subtree dash-functional counsel biblio anaconda-mode)))
