@@ -203,6 +203,9 @@
 (setq org-indent-indentation-per-level 1)
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 (add-hook 'org-mode-hook (lambda () (visual-line-mode 1)))
+(eval-after-load 'org
+  '(setf org-highlight-latex-and-related '(latex)))
+
 
 ;; org tagging
 (setq org-complete-tags-always-offer-all-agenda-tags t)
