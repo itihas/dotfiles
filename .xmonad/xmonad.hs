@@ -59,11 +59,11 @@ main = do
   xmproc <- spawnPipe "xmobar /home/sahiti/.xmobarcc" -- xmobar with config file
   spawn "pkill dunst ; dunst -config ~/.config/dunst/dunstrc &" -- notification display
   xmonad $  ewmh
-       $  withUrgencyHook LibNotifyUrgencyHook defaultConfig
+       $  withUrgencyHook LibNotifyUrgencyHook def
        { workspaces = ["1","2","3","4","5","6","7","8","9","0","-","="]
-       , manageHook = manageDocks <+> myManageHook <+> manageSpawn <+> manageHook defaultConfig
-       , handleEventHook = handleEventHook defaultConfig <+> fullscreenEventHook <+> docksEventHook
-       , layoutHook =  smartBorders $ avoidStruts $ layoutHook defaultConfig
+       , manageHook = manageDocks <+> myManageHook <+> manageSpawn <+> manageHook def
+       , handleEventHook = handleEventHook def <+> fullscreenEventHook <+> docksEventHook
+       , layoutHook =  smartBorders $ avoidStruts $ layoutHook def
        , logHook = -- myLogHook <+>
          dynamicLogWithPP xmobarPP { ppOutput = hPutStrLn xmproc
        	 	                   , ppCurrent = xmobarColor "#b58900" ""
