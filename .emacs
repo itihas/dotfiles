@@ -10,6 +10,9 @@
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
 (package-initialize) ;; You might already have this line
 
+(setq TeX-auto-save t)
+(setq TeX-parse-self t)
+
 
 (require 'cl)
 ;; multiple cursor mode is hilarious and awesome
