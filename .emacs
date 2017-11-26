@@ -13,6 +13,12 @@
 (setq TeX-auto-save t)
 (setq TeX-parse-self t)
 
+(add-hook 'LaTeX-mode-hook 
+          (lambda()
+             (add-to-list 'TeX-command-list '("XeLaTeX" "%`xelatex%(mode)%' %t" TeX-run-TeX nil t))
+             (setq TeX-command-default "XeLaTeX")
+             (setq TeX-save-query nil)
+             (setq TeX-show-compilation t)))
 
 (require 'cl)
 ;; multiple cursor mode is hilarious and awesome
