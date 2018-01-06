@@ -1,66 +1,66 @@
 #!/bin/sh
 # -*- eval: (git-auto-commit-mode 1); -*-
 
-userresources=$HOME/.Xresources
-usermodmap=$HOME/.Xmodmap
-sysresources=/etc/X11/xinit/.Xresources
-sysmodmap=/etc/X11/xinit/.Xmodmap
+# userresources=$HOME/.Xresources
+# usermodmap=$HOME/.Xmodmap
+# sysresources=/etc/X11/xinit/.Xresources
+# sysmodmap=/etc/X11/xinit/.Xmodmap
 
 # merge in defaults and keymaps
 
-if [ -f $sysresources ]; then
+# if [ -f $sysresources ]; then
 
 
-    xrdb -merge $sysresources
+#     xrdb -merge $sysresources
 
-fi
+# fi
 
-if [ -f $sysmodmap ]; then
-    xmodmap $sysmodmap
-fi
+# if [ -f $sysmodmap ]; then
+#     xmodmap $sysmodmap
+# fi
 
-if [ -f "$userresources" ]; then
+# if [ -f "$userresources" ]; then
 
 
 
-    xrdb -merge "$userresources"
+#     xrdb -merge "$userresources"
 
     
-fi
+# fi
 
-if [ -f "$usermodmap" ]; then
-    xmodmap "$usermodmap"
-fi
+# if [ -f "$usermodmap" ]; then
+#     xmodmap "$usermodmap"
+# fi
 
-# start some nice programs
+# # start some nice programs
 
-if [ -d /etc/X11/xinit/xinitrc.d ] ; then
- for f in /etc/X11/xinit/xinitrc.d/?*.sh ; do
-  [ -x "$f" ] && . "$f"
- done
- unset f
-fi
+# if [ -d /etc/X11/xinit/xinitrc.d ] ; then
+#  for f in /etc/X11/xinit/xinitrc.d/?*.sh ; do
+#   [ -x "$f" ] && . "$f"
+#  done
+#  unset f
+# fi
 
 
 
-# compositing
-# compton -CGb
+# # compositing
+# # compton -CGb
 
 # systray
 stalonetray &
 
-# lock screen
-xscreensaver -no-splash &
-xss-lock -- xscreensaver-command -lock &
+# automount disks
+udiskie &
 
-# palm detection
-syndaemon -t -k -i 1 &
+# colour temperature adjuster
+redshift-gtk &
 
-# keybindings
-# xbindkeys
-
+# Dropbox
+dropbox &
 
 # Set background image with feh
-feh --bg-fill /home/sahiti/background.jpg &
+feh --bg-fill /home/sahiti/background.png &
 
 exec xmonad
+
+

@@ -1,4 +1,3 @@
---  -*- eval: (git-auto-commit-mode nil) -*-
 import XMonad
 import XMonad.Actions.SpawnOn
 import XMonad.Hooks.DynamicLog
@@ -77,7 +76,7 @@ main = do
        , focusedBorderColor	= "#586e75"} `additionalKeys` [ ((mod4Mask .|. shiftMask, xK_z), spawn "xscreensaver-command -lock") -- lockscreen
                                                               , ((mod4Mask , xK_b), sendMessage ToggleStruts) -- make xmobar invisible as needed
        	 			  	     		      , ((mod4Mask , xK_i), spawn "firefox") -- launch browser
-       	 			  	     		      , ((mod4Mask , xK_e), spawn "emc") -- launch editor
+       	 			  	     		      , ((mod4Mask , xK_e), spawn "emacsclient -nc") -- launch editor
        	 			  	     		      , ((mod4Mask , xK_v), spawn "pavucontrol") -- open volume control
        	 			  	     		      , ((mod4Mask , xK_p), spawn "dmenu_run") -- replace with promptShell eventually?
                                                               , ((mod4Mask,  xK_F5), spawn "~/emacs_capture \"org-protocol:/capture:/i/~\"") -- note capture

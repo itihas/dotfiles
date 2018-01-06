@@ -1,11 +1,11 @@
 # XScreenSaver Preferences File
-# Written by xscreensaver-demo 5.35 for sahiti on Mon Aug 22 21:07:15 2016.
+# Written by xscreensaver-demo 5.37 for sahiti on Fri Jan  5 13:09:21 2018.
 # https://www.jwz.org/xscreensaver/
 
-timeout:	1:30:00
+timeout:	0:05:00
 cycle:		0:01:00
 lock:		True
-lockTimeout:	0:16:00
+lockTimeout:	0:05:00
 passwdTimeout:	0:00:30
 visualID:	default
 installColormap:    True
@@ -264,6 +264,12 @@ programs:								      \
   GL: 				hydrostat -root				    \n\
   GL: 				raverhoop -root				    \n\
   GL: 				unicrud -root				    \n\
+  GL: 				cubestack -root				    \n\
+  GL: 				cubetwist -root				    \n\
+  GL: 				discoball -root				    \n\
+  GL: 				hexstrut -root				    \n\
+  GL: 				splodesic -root				    \n\
+  GL: 				vigilance -root				    \n\
 
 
 pointerPollTime:    0:00:05
