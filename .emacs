@@ -32,15 +32,11 @@
 (epa-file-enable)
 ;; network (proxy)
 
-(setq url-proxy-services
-   '(("no_proxy" . "^\\(localhost\\|10.*\\)")
-     ("http" . "proxy.iiit.ac.in:8080")
-     ("https" . "proxy.iiit.ac.in:8080")))
-
 ;; (setq url-proxy-services
-;;       '(("no_proxy" . "^\\(localhost\\|10.*\\)")
-;; 	("http" . "")
-;; 	("https" . "")))
+;;    '(("no_proxy" . "^\\(localhost\\|10.*\\)")
+;;      ("http" . "proxy.iiit.ac.in:8080")
+;;      ("https" . "proxy.iiit.ac.in:8080")))
+
 
 ;; Open .v files with Proof General's Coq mode
 (load "~/.emacs.d/lisp/PG/generic/proof-site")
@@ -392,6 +388,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(default ((t (:inherit nil :stipple nil :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 100 :width normal :foundry "GOOG" :family "Noto Mono"))))
  '(org-tag ((((class color) (min-colors 89)) (:weight bold)))))
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -402,6 +399,8 @@
    [default default default italic underline success warning error])
  '(ansi-color-names-vector
    ["#eee8d5" "#dc322f" "#859900" "#b58900" "#268bd2" "#d33682" "#2aa198" "#839496"])
+ '(company-quickhelp-color-background "#4F4F4F")
+ '(company-quickhelp-color-foreground "#DCDCCC")
  '(compilation-message-face (quote default))
  '(cua-global-mark-cursor-color "#2aa198")
  '(cua-normal-cursor-color "#657b83")
@@ -409,7 +408,7 @@
  '(cua-read-only-cursor-color "#859900")
  '(custom-safe-themes
    (quote
-    ("dbc36265f8078e5b36e907b7753cd5b538f702f9f1be398d17ff9c5b442fe8cf" "31992d4488dba5b28ddb0c16914bf5726dc41588c2b1c1a2fd16516ea92c1d8e" "a49760e39bd7d7876c94ee4bf483760e064002830a63e24c2842a536c6a52756" "67e998c3c23fe24ed0fb92b9de75011b92f35d3e89344157ae0d544d50a63a72" "f78de13274781fbb6b01afd43327a4535438ebaeec91d93ebdbba1e3fba34d3c" "a0dc0c1805398db495ecda1994c744ad1a91a9455f2a17b59b716f72d3585dde" "9d91458c4ad7c74cf946bd97ad085c0f6a40c370ac0a1cbeb2e3879f15b40553" "32ffeb13f3c152300d14757b431967e63da005f54712dad6a2f8b8b33fb94bac" "c7a9a68bd07e38620a5508fef62ec079d274475c8f92d75ed0c33c45fbe306bc" "4e753673a37c71b07e3026be75dc6af3efbac5ce335f3707b7d6a110ecb636a3" "7dbb593ad0fb90230b196ffbd6a503c3e9086925cc68f212e625a017b8c824a7" "0e219d63550634bc5b0c214aced55eb9528640377daf486e13fb18a32bf39856" "9492d427a99f6e99c66d31a804e38a6ff995dec7c5940e5dd37f242d39fd41f0" "62408b3adcd05f887b6357e5bd9221652984a389e9b015f87bbc596aba62ba48" "40f6a7af0dfad67c0d4df2a1dd86175436d79fc69ea61614d668a635c2cd94ab" "9f3dd1d7b46e99b94bb53506c44b651c811b3552100898842bdd22ce63ab8b55" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default)))
+    ("9a155066ec746201156bb39f7518c1828a73d67742e11271e4f24b7b178c4710" "d3a406c5905923546d8a3ad0164a266deaf451856eca5f21b36594ffcb08413a" "599f1561d84229e02807c952919cd9b0fbaa97ace123851df84806b067666332" "dbc36265f8078e5b36e907b7753cd5b538f702f9f1be398d17ff9c5b442fe8cf" "31992d4488dba5b28ddb0c16914bf5726dc41588c2b1c1a2fd16516ea92c1d8e" "a49760e39bd7d7876c94ee4bf483760e064002830a63e24c2842a536c6a52756" "67e998c3c23fe24ed0fb92b9de75011b92f35d3e89344157ae0d544d50a63a72" "f78de13274781fbb6b01afd43327a4535438ebaeec91d93ebdbba1e3fba34d3c" "a0dc0c1805398db495ecda1994c744ad1a91a9455f2a17b59b716f72d3585dde" "9d91458c4ad7c74cf946bd97ad085c0f6a40c370ac0a1cbeb2e3879f15b40553" "32ffeb13f3c152300d14757b431967e63da005f54712dad6a2f8b8b33fb94bac" "c7a9a68bd07e38620a5508fef62ec079d274475c8f92d75ed0c33c45fbe306bc" "4e753673a37c71b07e3026be75dc6af3efbac5ce335f3707b7d6a110ecb636a3" "7dbb593ad0fb90230b196ffbd6a503c3e9086925cc68f212e625a017b8c824a7" "0e219d63550634bc5b0c214aced55eb9528640377daf486e13fb18a32bf39856" "9492d427a99f6e99c66d31a804e38a6ff995dec7c5940e5dd37f242d39fd41f0" "62408b3adcd05f887b6357e5bd9221652984a389e9b015f87bbc596aba62ba48" "40f6a7af0dfad67c0d4df2a1dd86175436d79fc69ea61614d668a635c2cd94ab" "9f3dd1d7b46e99b94bb53506c44b651c811b3552100898842bdd22ce63ab8b55" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default)))
  '(fci-rule-color "#eee8d5")
  '(highlight-changes-colors (quote ("#d33682" "#6c71c4")))
  '(highlight-symbol-colors
@@ -507,7 +506,7 @@ Version 2015-12-17"
   (interactive "p")
   ;; uses a property “state”. Value is a integer.
   (let* (
-         (ξvalues (list 'zenburn 'solarized-dark 'solarized-light 'eink 'monokai))
+         (ξvalues (list 'zenburn 'solarized-dark 'solarized-light 'eink 'monokai 'leuven))
          (ξindex-before
           (if (get 'cycle-themes 'state)
 	      (get 'cycle-themes 'state)
