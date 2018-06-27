@@ -40,7 +40,7 @@
 *.matcher.button: 1
 
 *.scrollBar: false
-URxvt.font: xft:DejaVu Sans Mono for Powerline:pixelsize=10
+URxvt.font: xft:DejaVu Sans Mono for Powerline:pixelsize=14
 
 ! URxvt.perl-ext-common: default, matcher
 URxvt.url-launcher:        /usr/bin/xdg-open
